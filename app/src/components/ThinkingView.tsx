@@ -83,7 +83,7 @@ export default function ThinkingView() {
             {strategicBrief?.tags && (
               <motion.div variants={itemVariants} className="flex flex-wrap gap-2 px-1">
                 {strategicBrief.tags.map((tag) => (
-                  <span key={tag.label} className={`strategic-tag ${tag.type} px-3 py-1 text-[10px] font-bold uppercase tracking-wider rounded-full border ${tag.type === 'positive' ? 'bg-[var(--accent-green)]/10 text-[var(--accent-green)] border-[var(--accent-green)]/30' : tag.type === 'negative' ? 'bg-red-500/10 text-red-400 border-red-500/30' : 'bg-[var(--accent-cyan)]/10 text-[var(--accent-cyan)] border-[var(--accent-cyan)]/30'}`}>
+                  <span key={tag.label} className={`strategic-tag ${tag.type} px-3 py-1 text-[10px] font-bold uppercase tracking-wider rounded-full border ${(tag.type === 'buyer' || tag.type === 'opportunity') ? 'bg-[var(--accent-green)]/10 text-[var(--accent-green)] border-[var(--accent-green)]/30' : tag.type === 'risk' ? 'bg-red-500/10 text-red-400 border-red-500/30' : 'bg-[var(--accent-cyan)]/10 text-[var(--accent-cyan)] border-[var(--accent-cyan)]/30'}`}>
                     {tag.label}
                   </span>
                 ))}
