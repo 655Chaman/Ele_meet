@@ -1,6 +1,8 @@
 'use client';
 
 import { type ViewMode } from '@/app/page';
+import { motion } from 'framer-motion';
+import { Zap, BrainCircuit, Activity } from 'lucide-react';
 
 interface TopNavProps {
   viewMode: ViewMode;
@@ -14,8 +16,10 @@ export default function TopNav({ viewMode, onTabChange, isLive, isJoining }: Top
     <nav className="top-nav" role="navigation" aria-label="Main navigation">
       {/* Logo */}
       <div className="nav-logo">
-        <img src="/logo.png" alt="Ele Meet" className="logo-image" style={{ height: '28px', width: 'auto', objectFit: 'contain' }} />
-        <span>Ele Meet</span>
+        <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-white/10 border border-white/20 shadow-lg mr-2">
+           <Zap className="text-white" size={16} />
+        </div>
+        <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-white/50 tracking-[0.15em]">Ele Meet</span>
       </div>
 
       {/* View Toggle */}
@@ -24,19 +28,35 @@ export default function TopNav({ viewMode, onTabChange, isLive, isJoining }: Top
           id="tab-copilot"
           role="tab"
           aria-selected={viewMode === 'copilot'}
-          className={`nav-tab ${viewMode === 'copilot' ? 'active' : ''}`}
+          className={`nav-tab relative z-10 flex items-center gap-2 ${viewMode === 'copilot' ? 'text-white' : 'text-white/60'}`}
           onClick={() => onTabChange('copilot')}
         >
-          ⚡ Copilot
+          {viewMode === 'copilot' && (
+            <motion.div
+              layoutId="navTabIndicator"
+              className="absolute inset-0 bg-white/10 rounded-md border border-white/20 shadow-[0_0_15px_rgba(0,240,255,0.15)] z-[-1]"
+              transition={{ type: 'spring', bounce: 0.2, duration: 0.6 }}
+            />
+          )}
+          <Zap size={14} className={viewMode === 'copilot' ? 'text-[var(--accent-cyan)]' : ''} />
+          Copilot
         </button>
         <button
           id="tab-thinking"
           role="tab"
           aria-selected={viewMode === 'thinking'}
-          className={`nav-tab ${viewMode === 'thinking' ? 'active' : ''}`}
+          className={`nav-tab relative z-10 flex items-center gap-2 ${viewMode === 'thinking' ? 'text-white' : 'text-white/60'}`}
           onClick={() => onTabChange('thinking')}
         >
-          🧠 Thinking
+          {viewMode === 'thinking' && (
+            <motion.div
+              layoutId="navTabIndicator"
+              className="absolute inset-0 bg-white/10 rounded-md border border-white/20 shadow-[0_0_15px_rgba(178,0,255,0.15)] z-[-1]"
+              transition={{ type: 'spring', bounce: 0.2, duration: 0.6 }}
+            />
+          )}
+          <BrainCircuit size={14} className={viewMode === 'thinking' ? 'text-[var(--accent-purple)]' : ''} />
+          Thinking
         </button>
       </div>
 
@@ -47,7 +67,7 @@ export default function TopNav({ viewMode, onTabChange, isLive, isJoining }: Top
           aria-label={isLive ? 'Live — call active' : isJoining ? 'Connecting…' : 'Standby'}
           title={isLive ? 'Connected to live call' : isJoining ? 'Bots joining the call…' : 'No active call'}
         >
-          <span className="status-dot" aria-hidden="true" />
+          {isLive ? <Activity size={12} className="text-[var(--accent-green)] animate-pulse" /> : <span className="status-dot" aria-hidden="true" />}
           <span>{isLive ? 'Live' : isJoining ? 'Connecting…' : 'Standby'}</span>
         </div>
       </div>
