@@ -13,31 +13,19 @@
   background-color: #000000;
 }
 
-/* Subtle vignette edges — no color, pure black depth */
-.wrapper::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse at center, transparent 40%, rgba(0, 0, 0, 0.7) 100%);
-  pointer-events: none;
-  z-index: 0;
-}
-
-/* The Glass Card */
+/* The Glass Card — visible but minimal */
 .glassCard {
   position: relative;
   z-index: 10;
   width: 100%;
   max-width: 440px;
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(40px) saturate(150%);
-  -webkit-backdrop-filter: blur(40px) saturate(150%);
-  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: #111111;
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 20px;
   padding: 32px;
   box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.04),
-    0 32px 64px rgba(0, 0, 0, 0.9);
+    0 0 0 1px rgba(255, 255, 255, 0.05),
+    0 40px 80px rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -49,26 +37,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .logoBadge {
   width: 48px;
   height: 48px;
   border-radius: 14px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #1a1a1a;
+  border: 1px solid rgba(255, 255, 255, 0.15);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 4px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
 }
 
 .logoBadge svg {
   width: 22px;
   height: 22px;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .header h2 {
@@ -81,7 +68,7 @@
 
 .header p {
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.45);
   line-height: 1.5;
   font-weight: 400;
   margin: 0;
@@ -109,21 +96,21 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.4);
   transition: color 250ms ease;
 }
 
 .labelIcon {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.3);
   transition: color 250ms ease;
 }
 
 .inputGroup.focused label {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .inputGroup.focused .labelIcon {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .inputGroup label .optional {
@@ -140,10 +127,10 @@
 
 .input {
   width: 100%;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: #1a1a1a;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  padding: 12px 14px;
+  padding: 13px 14px;
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
@@ -159,30 +146,30 @@
 }
 
 .input::placeholder {
-  color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.2);
 }
 
 .input:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.12);
+  background: #1f1f1f;
+  border-color: rgba(255, 255, 255, 0.18);
 }
 
 .input:focus {
-  border-color: rgba(255, 255, 255, 0.25);
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.35);
+  background: #1f1f1f;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.05);
 }
 
-/* Hide the inputBorderGlow — no more colored glow */
+/* Hide the inputBorderGlow */
 .inputBorderGlow {
   display: none;
 }
 
-/* Join Button — pure white/black */
+/* Join Button */
 .joinBtn {
   margin-top: 6px;
   width: 100%;
-  padding: 14px;
+  padding: 15px;
   border-radius: 12px;
   background: #ffffff;
   border: none;
@@ -194,19 +181,21 @@
   position: relative;
   z-index: 2;
   overflow: hidden;
-  transition: background 200ms ease, transform 150ms ease, box-shadow 200ms ease;
-  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.08);
+  transition: background 200ms ease, box-shadow 200ms ease, transform 150ms ease;
 }
 
 .joinBtn:hover:not(:disabled) {
-  background: rgba(255, 255, 255, 0.88);
-  box-shadow: 0 8px 32px rgba(255, 255, 255, 0.15);
+  background: #e8e8e8;
+  box-shadow: 0 8px 24px rgba(255, 255, 255, 0.1);
+}
+
+.joinBtn:active:not(:disabled) {
+  transform: scale(0.99);
 }
 
 .joinBtn:disabled {
-  background: rgba(255, 255, 255, 0.08);
+  background: #222222;
   color: rgba(255, 255, 255, 0.2);
-  box-shadow: none;
   cursor: not-allowed;
 }
 
