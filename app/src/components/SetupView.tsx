@@ -46,26 +46,6 @@ export default function SetupView() {
 
   return (
     <div className={styles.wrapper}>
-      {/* Background glowing orbs */}
-      <motion.div 
-        className={`${styles.glowOrb} ${styles.orb1}`}
-        animate={{ 
-          scale: [1, 1.2, 1], 
-          x: [0, 50, 0], 
-          y: [0, 30, 0] 
-        }}
-        transition={{ duration: 15, repeat: Infinity, repeatType: 'reverse' }}
-      />
-      <motion.div 
-        className={`${styles.glowOrb} ${styles.orb2}`}
-        animate={{ 
-          scale: [1, 1.1, 1], 
-          x: [0, -40, 0], 
-          y: [0, -40, 0] 
-        }}
-        transition={{ duration: 18, repeat: Infinity, repeatType: 'reverse' }}
-      />
-      
       <motion.div 
         className={styles.glassCard}
         variants={containerVariants}

@@ -52,8 +52,8 @@ export default function Home() {
             left: 0,
             right: 0,
             zIndex: 20,
-            background: 'var(--accent-red-dim)',
-            borderBottom: '1px solid var(--accent-red)',
+            background: 'rgba(255,51,102,0.08)',
+            borderBottom: '1px solid rgba(255,51,102,0.2)',
             padding: '6px 16px',
             fontSize: '11px',
             color: 'var(--accent-red)',
@@ -75,16 +75,19 @@ export default function Home() {
         ) : (
           <ThinkingView />
         )}
-      </main>
 
-      <ActionBar
-        isLive={isLive}
-        isJoining={isJoining}
-        meetingUrl={meetingUrl}
-        onMeetingUrlChange={setMeetingUrl}
-        onStart={startMeeting}
-        onStop={stopMeeting}
-      />
+        {/* Floating action dock - only when live */}
+        {(isLive || isJoining) && (
+          <ActionBar
+            isLive={isLive}
+            isJoining={isJoining}
+            meetingUrl={meetingUrl}
+            onMeetingUrlChange={setMeetingUrl}
+            onStart={startMeeting}
+            onStop={stopMeeting}
+          />
+        )}
+      </main>
     </div>
   );
 }
