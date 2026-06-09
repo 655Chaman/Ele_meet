@@ -80,7 +80,7 @@ export default function SetupView() {
           <p>Provide context to activate the tactical AI copilot.</p>
         </motion.div>
         
-        <div className={styles.form}>
+        <form className={styles.form} onSubmit={(e) => { e.preventDefault(); if (meetingUrl.trim() && !isJoining) startMeeting(); }}>
           <motion.div variants={itemVariants} className={`${styles.inputGroup} ${focusedField === 'name' ? styles.focused : ''}`}>
             <label htmlFor="setup-name"><User size={14} className={styles.labelIcon}/> Prospect Name <span className={styles.optional}>(Optional)</span></label>
             <div className={styles.inputWrapper}>
@@ -163,11 +163,11 @@ export default function SetupView() {
           </motion.div>
 
           <motion.button
+            type="submit"
             variants={itemVariants}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className={styles.joinBtn}
-            onClick={startMeeting}
             disabled={!meetingUrl.trim() || isJoining}
           >
             <AnimatePresence mode="wait">
@@ -197,7 +197,7 @@ export default function SetupView() {
             </AnimatePresence>
             <div className={styles.btnGlow}></div>
           </motion.button>
-        </div>
+        </form>
       </motion.div>
     </div>
   );
