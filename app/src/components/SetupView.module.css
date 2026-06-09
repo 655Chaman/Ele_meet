@@ -2,12 +2,22 @@
   grid-column: 1 / -1;
   width: 100%;
   min-height: 100vh;
+  margin: 0;
+  padding: 16px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
   background-color: var(--bg-void);
+}
+
+@media (min-width: 640px) {
+  .wrapper {
+    padding: 32px;
+  }
 }
 
 /* Stunning ambient background glows */
