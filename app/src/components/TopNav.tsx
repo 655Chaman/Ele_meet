@@ -28,34 +28,34 @@ export default function TopNav({ viewMode, onTabChange, isLive, isJoining }: Top
           id="tab-copilot"
           role="tab"
           aria-selected={viewMode === 'copilot'}
-          className={`nav-tab relative z-10 flex items-center gap-2 ${viewMode === 'copilot' ? 'text-white' : 'text-white/60'}`}
+          className={`nav-tab relative z-10 flex items-center gap-2 ${viewMode === 'copilot' ? 'text-white' : 'text-white/40'}`}
           onClick={() => onTabChange('copilot')}
         >
           {viewMode === 'copilot' && (
             <motion.div
               layoutId="navTabIndicator"
-              className="absolute inset-0 bg-white/10 rounded-md border border-white/20 shadow-[0_0_15px_rgba(0,240,255,0.15)] z-[-1]"
+              className="absolute inset-0 bg-white/5 rounded-md border border-white/10 z-[-1]"
               transition={{ type: 'spring', bounce: 0.2, duration: 0.6 }}
             />
           )}
-          <Zap size={14} className={viewMode === 'copilot' ? 'text-[var(--accent-cyan)]' : ''} />
+          <Zap size={14} className={viewMode === 'copilot' ? 'text-white' : ''} />
           Copilot
         </button>
         <button
           id="tab-thinking"
           role="tab"
           aria-selected={viewMode === 'thinking'}
-          className={`nav-tab relative z-10 flex items-center gap-2 ${viewMode === 'thinking' ? 'text-white' : 'text-white/60'}`}
+          className={`nav-tab relative z-10 flex items-center gap-2 ${viewMode === 'thinking' ? 'text-white' : 'text-white/40'}`}
           onClick={() => onTabChange('thinking')}
         >
           {viewMode === 'thinking' && (
             <motion.div
               layoutId="navTabIndicator"
-              className="absolute inset-0 bg-white/10 rounded-md border border-white/20 shadow-[0_0_15px_rgba(178,0,255,0.15)] z-[-1]"
+              className="absolute inset-0 bg-white/5 rounded-md border border-white/10 z-[-1]"
               transition={{ type: 'spring', bounce: 0.2, duration: 0.6 }}
             />
           )}
-          <BrainCircuit size={14} className={viewMode === 'thinking' ? 'text-[var(--accent-purple)]' : ''} />
+          <BrainCircuit size={14} className={viewMode === 'thinking' ? 'text-white' : ''} />
           Thinking
         </button>
       </div>

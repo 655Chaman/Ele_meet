@@ -107,13 +107,9 @@ html, body {
   align-items: center;
   justify-content: space-between;
   padding: 0 24px;
-  background: rgba(5, 5, 5, 0.4);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--border-subtle);
+  background: transparent;
   position: relative;
   z-index: 50;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.2);
 }
 
 .nav-logo {
@@ -137,8 +133,8 @@ html, body {
   display: flex;
   align-items: center;
   gap: 4px;
-  background: var(--bg-surface);
-  border: 1px solid var(--border-subtle);
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.04);
   border-radius: var(--radius-lg);
   padding: 4px;
   backdrop-filter: blur(12px);
