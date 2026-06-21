@@ -1,0 +1,9 @@
+{
+  "actorSpecification": 1,
+  "name": "hipaa_breach-scraper",
+  "title": "hipaa_breach Scraper",
+  "version": "1.0",
+  "buildTag": "latest",
+  "environmentVariables": {},
+  "dockerfile": "./Dockerfile"
+}

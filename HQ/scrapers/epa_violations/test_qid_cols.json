@@ -1,0 +1,7510 @@
+{
+"Results":{
+"Message":"Working",
+"QueryRows":"31745",
+"QueryID":"849",
+"PageNo":"1",
+"Facilities":[
+{
+"CWPName":"#22A-OAKHURST FACILITY",
+"SourceID":"CA0083577",
+"CWPStreet":"HWY 41/OAKHURST",
+"CWPCity":"OAKHURST",
+"CWPState":"CA",
+"CWPZip":"93644",
+"RegistryID":"110037255109",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.4180183",
+"CWPDateLastInspection":"06/16/2004",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"(OLD JACOBS DAIRY)",
+"SourceID":"CAU000543",
+"CWPStreet":"DAIRY RD",
+"CWPCity":"ELK GROVE",
+"CWPState":"CA",
+"CWPZip":"95624",
+"RegistryID":"110013742165",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.42019",
+"CWPDateLastInspection":"12/09/2002",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"(UNKNOWN)",
+"SourceID":"CAV166491",
+"CWPStreet":"101SLEEPY HOLLOW",
+"CWPCity":"SAN ANSELMO",
+"CWPState":"CA",
+"CWPZip":"94960",
+"RegistryID":"110070084493",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.9970232",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"-",
+"SourceID":"CAW567076",
+"CWPStreet":"EAST OF NUEVO RD AND MONTGOMERY AVE",
+"CWPCity":"NUEVO",
+"CWPState":"CA",
+"CWPZip":"92567",
+"RegistryID":"110071897283",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.826142",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"0120T4 04 SF 80 YBITS 2 SAN FRANCISCO BAY BRIDGE DISMANTLING",
+"SourceID":"CAZ440099",
+"CWPStreet":"ROUTE 80 NEAR THE EAST END OF THE YERBA",
+"CWPCity":"OAKLAND",
+"CWPState":"CA",
+"CWPZip":"94607",
+"RegistryID":"110070092811",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.82134",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"02 378904 ANTLERS BRIDGE REPLACEMENT PROJECT",
+"SourceID":"CAZ438445",
+"CWPStreet":"SHASTA COUNTY INTERSTATE 5 PM 39 TO 41",
+"CWPCity":"LAKEHEAD",
+"CWPState":"CA",
+"CWPZip":"96051",
+"RegistryID":"110070092560",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"40.880981",
+"CWPDateLastInspection":"04/26/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"0221 CUBESMART",
+"SourceID":"CAZ518390",
+"CWPStreet":"900 ORLANDO AVENUE",
+"CWPCity":"ROSEVILLE",
+"CWPState":"CA",
+"CWPZip":"95661",
+"RegistryID":"110070708193",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.72858",
+"CWPDateLastInspection":"09/03/2020",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"06 442544TEMPORARY CRUSHER PLANT",
+"SourceID":"CAZ511409",
+"CWPStreet":"NB 5 FREEWAY AT WB HIGHWAY 46",
+"CWPCity":"LOST HILLS",
+"CWPState":"CA",
+"CWPZip":"91342",
+"RegistryID":"110070626528",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"35.616879",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"06342534 TEMPORARY BATCH PLANT",
+"SourceID":"CAZ503878",
+"CWPStreet":"E HWY 180",
+"CWPCity":"CENTERVILLE",
+"CWPState":"CA",
+"CWPZip":"93657",
+"RegistryID":"110070506355",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.732679",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"0702 TRABUCO CANYON DODGE RESIDENCE",
+"SourceID":"CAZ338328",
+"CWPStreet":"19342 LIVE OAK CANYON RD",
+"CWPCity":"TRABUCO CANYON",
+"CWPState":"CA",
+"CWPZip":"92679",
+"RegistryID":"110070090556",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.6766",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"08 0J0801 TEMPORARY BATCH PLANT",
+"SourceID":"CAZ498027",
+"CWPStreet":"HIDDEN VALLEY OFF RAMP NB I15",
+"CWPCity":"NORCO",
+"CWPState":"CA",
+"CWPZip":"92860",
+"RegistryID":"110070238311",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.898363",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"08 1F1414 TEMPORARY BATCH PLANT & CRUSHER PLANT",
+"SourceID":"CAZ522003",
+"CWPStreet":"RAINBOW VALLEY ON RAMP NORTHBOUND I 15",
+"CWPCity":"FALLBROOK",
+"CWPState":"CA",
+"CWPZip":"92028",
+"RegistryID":"110070817127",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.43053",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"0A5344 D04 SOL I 80 I 680 SR 12 INTERCHANGE PROJECT",
+"SourceID":"CAZ447139",
+"CWPStreet":"INTERCHANGES BETWEEN INTERSTATE 80 INTERSTATE 680",
+"CWPCity":"FAIRFIELD",
+"CWPState":"CA",
+"CWPZip":"94534",
+"RegistryID":"110070093747",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.21242",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"0B0904 HUNTER AND PANTHER BRIDGE REPLACEMENTS",
+"SourceID":"CAR10I01V",
+"CWPStreet":"DN 101 PM 8.2 TO 8.7",
+"CWPCity":"KLAMATH",
+"CWPState":"CA",
+"CWPZip":"95548",
+"RegistryID":"110070868276",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"41.5573",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"0F2404 EHLERS LEFT TURN POCKET",
+"SourceID":"CAR10I02N",
+"CWPStreet":"ROUTE 101 FROM 0.2 MILE SOUTH",
+"CWPCity":"KLAMATH",
+"CWPState":"CA",
+"CWPZip":"95548",
+"RegistryID":"110071237075",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"41.5313",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"0F96E4 OR 5 CONST HOV LANE",
+"SourceID":"CAZ445746",
+"CWPStreet":"CAMINO DE ESTRELLA TO SAN JUAN CREEK ROAD",
+"CWPCity":"SAN CLEMENTE",
+"CWPState":"CA",
+"CWPZip":"92673",
+"RegistryID":"110070093551",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.46703",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"0G8004 ROADWAY REHABILITATION",
+"SourceID":"CAZ445490",
+"CWPStreet":"SAN JOAQUIN COUNTY NEAR TERMINOUS FROM MOKELUMNE R",
+"CWPCity":"LODI",
+"CWPState":"CA",
+"CWPZip":"95242",
+"RegistryID":"110070093511",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.11327",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"0S01104   SJ4 EXTEND FREEWAY",
+"SourceID":"CAZ444369",
+"CWPStreet":"BETWEEN GARFIELD ST OH AND NAVY DR AND",
+"CWPCity":"STOCKTON",
+"CWPState":"CA",
+"CWPZip":"95205",
+"RegistryID":"110070093334",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.9375",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1 AND 2MG WATER TANK",
+"SourceID":"CAW444992",
+"CWPStreet":"PAUMA VALLEY",
+"CWPCity":"PAUMA VALLEY",
+"CWPState":"CA",
+"CWPZip":"92061",
+"RegistryID":"110070086026",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.3003523",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1 CHANNEL ISLAND",
+"SourceID":"CAZ428588",
+"CWPStreet":"SEC OF PUEBLA ST AND SAXONY ROAD",
+"CWPCity":"ENCINITAS",
+"CWPState":"CA",
+"CWPZip":"92024",
+"RegistryID":"110070091943",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.06012",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1 DIVING SYSTEMS",
+"SourceID":"CAW487687",
+"CWPStreet":"1652 WEST ORANGE GROVE AVENUE",
+"CWPCity":"POMONA",
+"CWPState":"CA",
+"CWPZip":"91767",
+"RegistryID":"110070087084",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0830858",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1 STOP AUTO WRECKERS",
+"SourceID":"CAZ481540",
+"CWPStreet":"811 ENERGY WAY",
+"CWPCity":"CHULA VISTA",
+"CWPState":"CA",
+"CWPZip":"91911",
+"RegistryID":"110070097217",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.596824",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"10 CENT COLOR COPIES COM",
+"SourceID":"CAW536794",
+"CWPStreet":"2211 E WINSTON RD",
+"CWPCity":"ANAHEIM",
+"CWPState":"CA",
+"CWPZip":"92806",
+"RegistryID":"110071067582",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.8379605",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"100 & 200 CARIBBEAN DRIVE",
+"SourceID":"CAC439606",
+"CWPStreet":"100 CARIBBEAN",
+"CWPCity":"SUNNYVALE",
+"CWPState":"CA",
+"CWPZip":"94089",
+"RegistryID":"110070829380",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.41879",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"100 FIRST STREET",
+"SourceID":"CAZ431359",
+"CWPStreet":"100 FIRST STREET",
+"CWPCity":"LOS ALTOS",
+"CWPState":"CA",
+"CWPZip":"94022",
+"RegistryID":"110070092080",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.225",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"100 MOFFETT BOULEVARD",
+"SourceID":"CAZ443790",
+"CWPStreet":"100 MOFFETT BOULEVARD",
+"CWPCity":"MOUNTAIN VIEW",
+"CWPState":"CA",
+"CWPZip":"94043",
+"RegistryID":"110070093241",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.39611",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"100 N. CRESCENT (DEWATERING)",
+"SourceID":"CAC193396",
+"CWPStreet":"100 NORTH CRESCENT",
+"CWPCity":"BEVERLY HILLS",
+"CWPState":"CA",
+"CWPZip":"90210",
+"RegistryID":"110065549552",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06767",
+"CWPDateLastInspection":"04/15/2025",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1000 COUNTRY CLUB DRIVE",
+"SourceID":"CAZ410352",
+"CWPStreet":"1000 COUNTRY CLUB DRIVE",
+"CWPCity":"MILPITAS",
+"CWPState":"CA",
+"CWPZip":"95035",
+"RegistryID":"110070091349",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.4547",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1000 FREMONT",
+"SourceID":"CAZ444482",
+"CWPStreet":"1000 FREMONT AVENUE",
+"CWPCity":"ALHAMBRA",
+"CWPState":"CA",
+"CWPZip":"91803",
+"RegistryID":"110070093355",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08147",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"101 FWY/SEAWARD CONSTRUCTION",
+"SourceID":"CAV165640",
+"CWPStreet":"800SEAWARD",
+"CWPCity":"VENTURA",
+"CWPState":"CA",
+"CWPZip":"00000",
+"RegistryID":"110070084486",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.2869059032857",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"101 VERTICAL FABRICATION INC",
+"SourceID":"CAZ288880",
+"CWPStreet":"10255 BEECH AVE",
+"CWPCity":"FONTANA",
+"CWPState":"CA",
+"CWPZip":"92335",
+"RegistryID":"110065680052",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06773",
+"CWPDateLastInspection":"03/06/2024",
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"10101 RIVERFORD RD",
+"SourceID":"CAZ215966",
+"CWPStreet":"10101 RIVERFORD DRIVE",
+"CWPCity":"LAKESIDE",
+"CWPState":"CA",
+"CWPZip":"92040",
+"RegistryID":"110070089600",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.860012",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1013 1037 WEST FIGUEROA TERRACE",
+"SourceID":"CAW474741",
+"CWPStreet":"1013 1037 WEST FIGUEROA TERRACE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90012",
+"RegistryID":"110070086442",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0659747",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"10153 RIVERSIDE DRIVE",
+"SourceID":"CAV444389",
+"CWPStreet":"10153RIVERSIDE",
+"CWPCity":"TRUCKEE",
+"CWPState":"CA",
+"CWPZip":"96161",
+"RegistryID":"110071075736",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"39.3477145",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1027 WILSHIRE",
+"SourceID":"CAZ428780",
+"CWPStreet":"1027 WILSHIRE BLVD",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90017",
+"RegistryID":"110070091951",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.052402",
+"CWPDateLastInspection":"02/10/2023",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1031 A MEADOWBROOK ROAD",
+"SourceID":"CAZ426142",
+"CWPStreet":"1031 MEADOWBROOK ROAD",
+"CWPCity":"CREST PARK",
+"CWPState":"CA",
+"CWPZip":"92326",
+"RegistryID":"110070091833",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.23428",
+"CWPDateLastInspection":"09/16/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"10350 SANTA MONICA",
+"SourceID":"CAC315847",
+"CWPStreet":"10350 SANTA MONICA",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90025",
+"RegistryID":"110065809049",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.05782",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1040 GREENWAY DRIVE",
+"SourceID":"CAW491986",
+"CWPStreet":"1040 GREENWAY DRIVE",
+"CWPCity":"BIG BEAR CITY",
+"CWPState":"CA",
+"CWPZip":"92314",
+"RegistryID":"110070134548",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.2541177",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"10520 WILSHIRE BLVD",
+"SourceID":"CA0060810",
+"CWPStreet":"UNKNOWN",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"00000",
+"RegistryID":"110037253183",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.063626",
+"CWPDateLastInspection":"09/03/2003",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"10550 BELLAGIO",
+"SourceID":"CAZ429708",
+"CWPStreet":"10550 BELLAGIO DRIVE",
+"CWPCity":"BEL AIR",
+"CWPState":"CA",
+"CWPZip":"90077",
+"RegistryID":"110070092010",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0817",
+"CWPDateLastInspection":"08/16/2023",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1077 EAST ARQUES AVENUE",
+"SourceID":"CAC397962",
+"CWPStreet":"1077 EAST ARQUES",
+"CWPCity":"SUNNYVALE",
+"CWPState":"CA",
+"CWPZip":"94085",
+"RegistryID":"110070111840",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.3886171",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1085 THOMPSON AVENUE",
+"SourceID":"CAW412028",
+"CWPStreet":"1085 THOMPSON AVENUE",
+"CWPCity":"NAPA",
+"CWPState":"CA",
+"CWPZip":"94558",
+"RegistryID":"110070084973",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.3891354",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1091 INDUSTRIAL ROAD",
+"SourceID":"CAC439602",
+"CWPStreet":"1091 INDUSTRIAL",
+"CWPCity":"SAN CARLOS",
+"CWPState":"CA",
+"CWPZip":"94070",
+"RegistryID":"110070829940",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.50467",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"10TH AND 11TH STREETS",
+"SourceID":"CAW403933",
+"CWPStreet":"10TH AND 11TH STREETS",
+"CWPCity":"BEAUMONT",
+"CWPState":"CA",
+"CWPZip":"00000",
+"RegistryID":"110070084783",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.8630834",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"10TH AVENUE MARINE TERMINAL",
+"SourceID":"CAZ218370",
+"CWPStreet":"CROSBY ST",
+"CWPCity":"SAN DIEGO",
+"CWPState":"CA",
+"CWPZip":"92113",
+"RegistryID":"110070089685",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.69655",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"10TH STREET INDUSTRIAL PROJECT",
+"SourceID":"CAZ448630",
+"CWPStreet":"1001 NORTH TODD AVENUE",
+"CWPCity":"AZUSA",
+"CWPState":"CA",
+"CWPZip":"91702",
+"RegistryID":"110070093940",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.13998",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"11418514 ROUTE 8 PROJECT BATCH PLANT",
+"SourceID":"CAZ490082",
+"CWPStreet":"ROUTE 8 AT BROWKER ROAD OFF RAMP EB WB",
+"CWPCity":"EL CENTRO",
+"CWPState":"CA",
+"CWPZip":"91342",
+"RegistryID":"110070102739",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.772826",
+"CWPDateLastInspection":"01/15/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1170U4  I 10 HOV LANE AND BRIDGE WIDENING",
+"SourceID":"CAZ445799",
+"CWPStreet":"PUENTE AVENUE AND CITRUS STREET",
+"CWPCity":"BALDWIN PARK",
+"CWPState":"CA",
+"CWPZip":"91706",
+"RegistryID":"110070093558",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06093",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1173 - VANGUARD PLANT",
+"SourceID":"CAZ477266",
+"CWPStreet":"737 FT NORTHEAST OF 1972 HOBSON AVE AT HWY 101",
+"CWPCity":"GREENFIELD",
+"CWPState":"CA",
+"CWPZip":"93927",
+"RegistryID":"110070096844",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.163292",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"11925 WILSHIRE BLVD",
+"SourceID":"CAC193440",
+"CWPStreet":"11925 WILSHIRE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90025",
+"RegistryID":"110070083789",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.046462",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1200 NEWBURY LLC",
+"SourceID":"CAZ437341",
+"CWPStreet":"1200 NEWBURY RD",
+"CWPCity":"THOUSAND OAKS",
+"CWPState":"CA",
+"CWPZip":"91320",
+"RegistryID":"110070092473",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.18296",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1200 S GRAND AVENUE DEVELOPMENT LP",
+"SourceID":"CAZ442204",
+"CWPStreet":"1200 SOUTH GRAND AVENUE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90015",
+"RegistryID":"110070093053",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.04011",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1201 TODD AV CONSTRUCTION SITE",
+"SourceID":"CAW402237",
+"CWPStreet":"1201 TODD AVE",
+"CWPCity":"AZUSA",
+"CWPState":"CA",
+"CWPZip":"91702",
+"RegistryID":"110070084693",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.2815249",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1203 E ELMWOOD",
+"SourceID":"CAZ423229",
+"CWPStreet":"1203 E ELMWOOD AV",
+"CWPCity":"BURBANK",
+"CWPState":"CA",
+"CWPZip":"91501",
+"RegistryID":"110070091719",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.19039",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1211 BALFOUR HWY 4",
+"SourceID":"CAZ496560",
+"CWPStreet":"HWY 4",
+"CWPCity":"BRENTWOOD",
+"CWPState":"CA",
+"CWPZip":"94513",
+"RegistryID":"110070231458",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.919861",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1211 S OLIVE STREET DEVELOPMENT LP",
+"SourceID":"CAZ442207",
+"CWPStreet":"1211 SOUTH OLIVE STREET",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90015",
+"RegistryID":"110070093054",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.03914",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"121844 LA 5 HOV RETAINING WALLS",
+"SourceID":"CAZ438000",
+"CWPStreet":"ROUTE 5 AND134 SEPARATION TO MAGNOLIA",
+"CWPCity":"BURBANK",
+"CWPState":"CA",
+"CWPZip":"91505",
+"RegistryID":"110070092511",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.167287",
+"CWPDateLastInspection":"01/23/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1218W4 LA 5 REALIGNMENT AND RECONFIGURE ON & OFF RAMPS",
+"SourceID":"CAZ438139",
+"CWPStreet":"BUENA VISTA ST AND ROUTE 5",
+"CWPCity":"BURBANK",
+"CWPState":"CA",
+"CWPZip":"91501",
+"RegistryID":"110070092522",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.18142",
+"CWPDateLastInspection":"03/01/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1254 INDUSTRIES LLC",
+"SourceID":"CAZ483541",
+"CWPStreet":"1444 ALPINE PL",
+"CWPCity":"SAN MARCOS",
+"CWPState":"CA",
+"CWPZip":"92078",
+"RegistryID":"110070097374",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.1376",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1270 COLUMBIA ST AT A ST",
+"SourceID":"CAC453015",
+"CWPStreet":"1270 COLUMBIA",
+"CWPCity":"SAN DIEGO",
+"CWPState":"CA",
+"CWPZip":"92101",
+"RegistryID":"110071444102",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.71842",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"12TH ST IMPROVEMENTS",
+"SourceID":"CAW415668",
+"CWPStreet":"12TH AND LAKESHORE AVE",
+"CWPCity":"OAKLAND",
+"CWPState":"CA",
+"CWPZip":"94607",
+"RegistryID":"110070085236",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.8088415",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1310 3RD AVE",
+"SourceID":"CAZ349001",
+"CWPStreet":"1310 3RD AVE",
+"CWPCity":"CHULA VISTA",
+"CWPState":"CA",
+"CWPZip":"00000",
+"RegistryID":"110070090685",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.60617",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1315- LODI PORTABLE BATCH PLANT",
+"SourceID":"CAZ499265",
+"CWPStreet":"5100 WEST HIGHWAY 12",
+"CWPCity":"LODI",
+"CWPState":"CA",
+"CWPZip":"95242",
+"RegistryID":"110070257389",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.111636",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1325 OLD COUNTY ROAD",
+"SourceID":"CAC435590",
+"CWPStreet":"1325 OLD COUNTY",
+"CWPCity":"BELMONT",
+"CWPState":"CA",
+"CWPZip":"94002",
+"RegistryID":"110070669103",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.51733",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"13250 JEFFERSON BLVD",
+"SourceID":"CAZ186999",
+"CWPStreet":"13250 JEFFERSON",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90094",
+"RegistryID":"110070087855",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.97643",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"135 BELL CANYON",
+"SourceID":"CAV436077",
+"CWPStreet":"UNKNOWN",
+"CWPCity":"CALABASAS",
+"CWPState":"CA",
+"CWPZip":"00000",
+"RegistryID":"110070674033",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.1338083",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1355 IMPERIAL",
+"SourceID":"CAZ510854",
+"CWPStreet":"1355 W IMPERIAL HIGHWAY",
+"CWPCity":"BREA",
+"CWPState":"CA",
+"CWPZip":"92821",
+"RegistryID":"110070620495",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.91786",
+"CWPDateLastInspection":"05/03/2023",
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"138204 LA 47 REPLACE BRIDGE",
+"SourceID":"CAZ438030",
+"CWPStreet":"ROUTE 47 FROM PM 4 TO PM 5",
+"CWPCity":"LONG BEACH",
+"CWPState":"CA",
+"CWPZip":"90802",
+"RegistryID":"110070092512",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.7645",
+"CWPDateLastInspection":"10/26/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"13TH ST SPORTS COMPLEX",
+"SourceID":"CAZ351420",
+"CWPStreet":"13TH ST BTWN YUCAIPA BLVD CHAMPAN HEIGHTS RD",
+"CWPCity":"YUCAIPA",
+"CWPState":"CA",
+"CWPZip":"92399",
+"RegistryID":"110070090730",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.03467",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1412- MORGAN HILL PLANT",
+"SourceID":"CAZ512685",
+"CWPStreet":"SAN MARTIN AVE",
+"CWPCity":"MORGAN HILL",
+"CWPState":"CA",
+"CWPZip":"94550",
+"RegistryID":"110070617701",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.131697",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"144 BARODA DR",
+"SourceID":"CAW555431",
+"CWPStreet":"144 BARODA DR",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90077",
+"RegistryID":"110071357371",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.081487",
+"CWPDateLastInspection":"05/02/2024",
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"144 BARODA DR",
+"SourceID":"CAW555425",
+"CWPStreet":"144 BARODA DR",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90077",
+"RegistryID":"110071357371",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.081487",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"144TH FW FRESNO CA",
+"SourceID":"CAZ425452",
+"CWPStreet":"5323 E MCKINLEY",
+"CWPCity":"FRESNO",
+"CWPState":"CA",
+"CWPZip":"93727",
+"RegistryID":"110070091809",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.76731",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1450 RINCON STREET",
+"SourceID":"CAW413508",
+"CWPStreet":"UNKNOWN",
+"CWPCity":"CORONA",
+"CWPState":"CA",
+"CWPZip":"92880",
+"RegistryID":"110070085157",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.9253898",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"150 EL CAMINO DRIVE OFFICE BUILDING",
+"SourceID":"CAC320379",
+"CWPStreet":"150 EL CAMINO",
+"CWPCity":"BEVERLY HILLS",
+"CWPState":"CA",
+"CWPZip":"90212",
+"RegistryID":"110066111656",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06536",
+"CWPDateLastInspection":"02/28/2023",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1500 N CALIFORNIA BLVD MIXED USE DEVELOPMENT",
+"SourceID":"CAZ443066",
+"CWPStreet":"1500 N CALIFORNIA BLVD",
+"CWPCity":"WALNUT CREEK",
+"CWPState":"CA",
+"CWPZip":"94596",
+"RegistryID":"110070093150",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.899722",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1501 PAGE MILL RD, HP B1-6",
+"SourceID":"CAC397944",
+"CWPStreet":"1501 PAGE MILL",
+"CWPCity":"PALO ALTO",
+"CWPState":"CA",
+"CWPZip":"94304",
+"RegistryID":"110065316367",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.41188",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1503 VENICE BLVD APARTMENTS",
+"SourceID":"CAC434946",
+"CWPStreet":"1503 VENICE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90291",
+"RegistryID":"110070882408",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.99671",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"151 TARA ROAD",
+"SourceID":"CAZ415104",
+"CWPStreet":"151 TARA ROAD",
+"CWPCity":"EAST PALO ALTO",
+"CWPState":"CA",
+"CWPZip":"94503",
+"RegistryID":"110070091459",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.474336",
+"CWPDateLastInspection":"02/02/2024",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1510 ACQUISITION",
+"SourceID":"CAZ494196",
+"CWPStreet":"1510 DIAMOND MOUNTAIN RD",
+"CWPCity":"CALISTOGA",
+"CWPState":"CA",
+"CWPZip":"94515",
+"RegistryID":"110070203435",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.567209",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1520 ACQUISITION",
+"SourceID":"CAZ494193",
+"CWPStreet":"1520 DIAMOND MOUNTAIN RD",
+"CWPCity":"CALISTOGA",
+"CWPState":"CA",
+"CWPZip":"94515",
+"RegistryID":"110070201823",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.567219",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1525 ABBOT KINNEY BLVD. BUILDING",
+"SourceID":"CAC440524",
+"CWPStreet":"1525 ABBOT KINNEY",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90291",
+"RegistryID":"110070868705",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.99033",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"153 W ROSECRANS AVENUE STORAGE LLC",
+"SourceID":"CAZ493408",
+"CWPStreet":"153 W ROSECRANS AVE",
+"CWPCity":"ROSEWOOD",
+"CWPState":"CA",
+"CWPZip":"90248",
+"RegistryID":"110070152443",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.90262",
+"CWPDateLastInspection":"08/09/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1544 BUENA VISTA DRIVE UNAUTH FILL SITE",
+"SourceID":"CAV459338",
+"CWPStreet":"1544BUENA VISTA",
+"CWPCity":"WATSONVILLE",
+"CWPState":"CA",
+"CWPZip":"95076",
+"RegistryID":"110071898665",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.9457806",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1600 WILSHIRE",
+"SourceID":"CAC440083",
+"CWPStreet":"1600 WILSHIRE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90017",
+"RegistryID":"110070877110",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.05527",
+"CWPDateLastInspection":"09/10/2020",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1614-1618 HILTS AVE.",
+"SourceID":"CAC432885",
+"CWPStreet":"1614 HILTS",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90024",
+"RegistryID":"110070463444",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.05559",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1620 ELECTRIC AVE. JOINT VENTURE",
+"SourceID":"CAC411630",
+"CWPStreet":"1620 ELECTRIC",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90291",
+"RegistryID":"110070084304",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.9906",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1637U  SF 101 PHASE 2 PRESIDIO PARKWAY PROJECT",
+"SourceID":"CAZ429449",
+"CWPStreet":"RT 101 FROM 1 MILE SOUTH TO HALF MILE NORTH OF ROU",
+"CWPCity":"SAN FRANCISCO",
+"CWPState":"CA",
+"CWPZip":"94129",
+"RegistryID":"110070091987",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.80217",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"165 WOODRIDGE ROAD",
+"SourceID":"CAZ437448",
+"CWPStreet":"165 WOODRIDGE ROAD",
+"CWPCity":"HILLSBOROUGH",
+"CWPState":"CA",
+"CWPZip":"94010",
+"RegistryID":"110070092477",
+"Statute":"CWA",
+"CWPNAICSCodes":"111998",
+"FacLat":"37.54691",
+"CWPDateLastInspection":"01/15/2020",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"16501 VENTURA",
+"SourceID":"CAC193589",
+"CWPStreet":"16501 VENTURA",
+"CWPCity":"ENCINO",
+"CWPState":"CA",
+"CWPZip":"91436",
+"RegistryID":"110066696784",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.15794",
+"CWPDateLastInspection":"06/16/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"17 CREST ROAD",
+"SourceID":"CAZ426308",
+"CWPStreet":"17 CREST ROAD",
+"CWPCity":"ROLLING HILLS",
+"CWPState":"CA",
+"CWPZip":"90274",
+"RegistryID":"110070091838",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.75187",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1720 VILLA STREET",
+"SourceID":"CAC435967",
+"CWPStreet":"1720 VILLA",
+"CWPCity":"MOUNTAIN VIEW",
+"CWPState":"CA",
+"CWPZip":"94040",
+"RegistryID":"110070673143",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.398945",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"17433 TRAMONTO DRIVE",
+"SourceID":"CAZ413300",
+"CWPStreet":"17433 TRAMONTO DRIVE",
+"CWPCity":"PACIFIC PALISADES",
+"CWPState":"CA",
+"CWPZip":"90272",
+"RegistryID":"110070091413",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.042694",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1811 OAK AVE LOTS",
+"SourceID":"CAZ445605",
+"CWPStreet":"1811 OAK AVE",
+"CWPCity":"CARLSBAD",
+"CWPState":"CA",
+"CWPZip":"92008",
+"RegistryID":"110070093533",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.16682",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"185 ROBERTA DRIVE",
+"SourceID":"CAZ438834",
+"CWPStreet":"185 ROBERTA DRIVE",
+"CWPCity":"WOODSIDE",
+"CWPState":"CA",
+"CWPZip":"94062",
+"RegistryID":"110070092637",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.41676",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"18770 FLYING TIGER DR",
+"SourceID":"CAF001261",
+"CWPStreet":"18770 FLYING TIGER DR",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90013",
+"RegistryID":"110064630243",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.408034",
+"CWPDateLastInspection":"12/02/2009",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"19 UNIT APARTMENT",
+"SourceID":"CAC410233",
+"CWPStreet":"1064-1070 SOUTH BEDFORD",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90035",
+"RegistryID":"110070084297",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.05741",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1900 BROADWAY",
+"SourceID":"CAC436343",
+"CWPStreet":"1900 BROADWAY",
+"CWPCity":"OAKLAND",
+"CWPState":"CA",
+"CWPZip":"94612",
+"RegistryID":"110070687930",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.80916",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1942 THE STRAND",
+"SourceID":"CAC427986",
+"CWPStreet":"1942 THE STRAND",
+"CWPCity":"HERMOSA BEACH",
+"CWPState":"CA",
+"CWPZip":"90254",
+"RegistryID":"110070531235",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.86757",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"195 205 TAMAL VISTA BOULEVARD",
+"SourceID":"CAZ427425",
+"CWPStreet":"195 TAMLA VISTA",
+"CWPCity":"CORTE MADERA",
+"CWPState":"CA",
+"CWPZip":"94925",
+"RegistryID":"110070091892",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.93597",
+"CWPDateLastInspection":"01/16/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1959",
+"SourceID":"CAZ479912",
+"CWPStreet":"14946 SHOEMAKER AVE SUITE I",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90670",
+"RegistryID":"110070097067",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.89559",
+"CWPDateLastInspection":"09/27/2024",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"19606 SHELYN DR",
+"SourceID":"CAZ265395",
+"CWPStreet":"19606 SHELYN DR",
+"CWPCity":"ROWLAND HEIGHTS",
+"CWPState":"CA",
+"CWPZip":"91748",
+"RegistryID":"110070089797",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.98021",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1962",
+"SourceID":"CAZ489262",
+"CWPStreet":"10649 SIERRA RD",
+"CWPCity":"OAKDALE",
+"CWPState":"CA",
+"CWPZip":"95361",
+"RegistryID":"110057065125",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.76385",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1999 STONE LLC",
+"SourceID":"CAZ514455",
+"CWPStreet":"1999 STONE AVENUE",
+"CWPCity":"SAN JOSE",
+"CWPState":"CA",
+"CWPZip":"95125",
+"RegistryID":"110065817726",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.30141",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"19TH AVE",
+"SourceID":"CAW418420",
+"CWPStreet":"19TH",
+"CWPCity":"SAN FRANCISCO",
+"CWPState":"CA",
+"CWPZip":"00000",
+"RegistryID":"110010469661",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.71647",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"19TH ST & CAMPUS AVE",
+"SourceID":"CAZ211957",
+"CWPStreet":"19 19TH ST AND CAMPUS AVE",
+"CWPCity":"UPLAND",
+"CWPState":"CA",
+"CWPZip":"91786",
+"RegistryID":"110070089427",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.13036",
+"CWPDateLastInspection":"11/08/2023",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1G9401 CC 4 HIGHWAY 4 DELTA WIDENING",
+"SourceID":"CAZ428152",
+"CWPStreet":"2625 CROW COURT",
+"CWPCity":"ANTIOCH",
+"CWPState":"CA",
+"CWPZip":"94509",
+"RegistryID":"110070091916",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.998",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1ST SOURCE APPAREL",
+"SourceID":"CAW496975",
+"CWPStreet":"6001 MAYWOOD AVENUE #A",
+"CWPCity":"HUNTINGTON PARK",
+"CWPState":"CA",
+"CWPZip":"90255",
+"RegistryID":"110070227983",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.98681",
+"CWPDateLastInspection":"06/13/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"1ST SOURCE APPAREL I C SCREEN PRINTING",
+"SourceID":"CAZ499753",
+"CWPStreet":"6001 MAYWOOD AVE UNIT A",
+"CWPCity":"HUNTINGTON PARK",
+"CWPState":"CA",
+"CWPZip":"90255",
+"RegistryID":"110070227983",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.98681",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2 MUNICIPAL PRODUCTION WELLS",
+"SourceID":"CAV171110",
+"CWPStreet":"630GARDEN",
+"CWPCity":"SANTA BARBARA",
+"CWPState":"CA",
+"CWPZip":"93102",
+"RegistryID":"110070084538",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.398899",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2 SPEC MANUFACTURING",
+"SourceID":"CAZ506487",
+"CWPStreet":"2885 AIELLO DRIVE #A",
+"CWPCity":"SAN JOSE",
+"CWPState":"CA",
+"CWPZip":"95111",
+"RegistryID":"110070530431",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.29252",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2 STORY MODULAR BUILDING ADDITION",
+"SourceID":"CAZ431342",
+"CWPStreet":"215 W 94TH STREET",
+"CWPCity":"INGLEWOOD",
+"CWPState":"CA",
+"CWPZip":"90057",
+"RegistryID":"110070092076",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.951589",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2 T'S MINI STORAGE",
+"SourceID":"CAW418464",
+"CWPStreet":"SW RD 415/ HWY 41",
+"CWPCity":"COARSEGOLD",
+"CWPState":"CA",
+"CWPZip":"00000",
+"RegistryID":"110070085341",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.2526338",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2-13 INFRASTRUCTURE IMPROVEMENT PROJECT",
+"SourceID":"CAZ355425",
+"CWPStreet":"WEST OF 4TH STREET, SOUTH OF CHANNEL STREET",
+"CWPCity":"SAN FRANCISCO",
+"CWPState":"CA",
+"CWPZip":"94158",
+"RegistryID":"110070090792",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.77211",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"20 OAK RD",
+"SourceID":"CAW451985",
+"CWPStreet":"20 OAK RD",
+"CWPCity":"BENICIA",
+"CWPState":"CA",
+"CWPZip":"00000",
+"RegistryID":"110070086166",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.0688",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"20 OLD RANCH ROAD BUREK RESIDENCE",
+"SourceID":"CAZ443741",
+"CWPStreet":"20 OLD RANCH ROAD",
+"CWPCity":"IRVINE",
+"CWPState":"CA",
+"CWPZip":"92677",
+"RegistryID":"110070093234",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.4974",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"200 PARK AVENUE",
+"SourceID":"CAC435725",
+"CWPStreet":"200 PARK",
+"CWPCity":"SAN JOSE",
+"CWPState":"CA",
+"CWPZip":"95113",
+"RegistryID":"110070669806",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.329895",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"200-256 LONG BEACH BLVD.",
+"SourceID":"CAC435799",
+"CWPStreet":"200 LONG BEACH",
+"CWPCity":"LONG BEACH",
+"CWPState":"CA",
+"CWPZip":"90802",
+"RegistryID":"110070695862",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.76961",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2000 PRECISION SHEETMETAL, INC",
+"SourceID":"CAW506488",
+"CWPStreet":"1668  MABURY RD.",
+"CWPCity":"SAN JOSE",
+"CWPState":"CA",
+"CWPZip":"95133",
+"RegistryID":"110070530142",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.3717229",
+"CWPDateLastInspection":"04/05/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2004 INDUSTRIAL PARK IMPROVEME",
+"SourceID":"CAW418494",
+"CWPStreet":"SW CORNER MANNING AND MENDOCIN",
+"CWPCity":"PARLIER",
+"CWPState":"CA",
+"CWPZip":"93648",
+"RegistryID":"110070085349",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.620623",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2009-2010LOCAL PAVEMENT REHABILITATION",
+"SourceID":"CAW404635",
+"CWPStreet":"VARIES LOCATION THROUGHOUT CITY OF CORONA",
+"CWPCity":"CORONA",
+"CWPState":"CA",
+"CWPZip":"00000",
+"RegistryID":"110070084806",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.862352",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2015 ZORADA LLC",
+"SourceID":"CAW581423",
+"CWPStreet":"2630 ALGODON CT",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90046",
+"RegistryID":"110071114451",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.119435",
+"CWPDateLastInspection":"06/20/2025",
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2020 ZORADA LLC",
+"SourceID":"CAW581424",
+"CWPStreet":"2686 ZORADA DR",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90046",
+"RegistryID":"110071896126",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.1078099",
+"CWPDateLastInspection":"06/20/2025",
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2021 SOUTH LAKE TAHOE VSP PROJECT",
+"SourceID":"CAZ535620",
+"CWPStreet":"JULIA LANE",
+"CWPCity":"SOUTH LAKE TAHOE",
+"CWPState":"CA",
+"CWPZip":"96150",
+"RegistryID":"110070946552",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.90765",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"202114 LA 710 LONG LIFE PAVEMENT AND WIDEN ROADWAY AND BRIDGES",
+"SourceID":"CAZ438336",
+"CWPStreet":"LOS ANGELES RIVER BRIDGE TO RAMONA BLVD UC",
+"CWPCity":"BELL GARDENS",
+"CWPState":"CA",
+"CWPZip":"90201",
+"RegistryID":"110070092542",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.9986",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2050 S. BUNDY DRIVE",
+"SourceID":"CAC452422",
+"CWPStreet":"2050 SOUTH BUNDY",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90025",
+"RegistryID":"110071435859",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.03328",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2056 JARDINE",
+"SourceID":"CAZ437654",
+"CWPStreet":"910 NACIMENTO LAKE DRIVE",
+"CWPCity":"PASO ROBLES",
+"CWPState":"CA",
+"CWPZip":"93446",
+"RegistryID":"110070092489",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"35.648793",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2059 SHERZ",
+"SourceID":"CAZ437660",
+"CWPStreet":"7575 ODONOVAN ROAD",
+"CWPCity":"CRESTON",
+"CWPState":"CA",
+"CWPZip":"93432",
+"RegistryID":"110070092490",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"35.478215",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"207 SEASIDE WAY CONSTRUCTION PROJECT",
+"SourceID":"CAC404875",
+"CWPStreet":"207 EAST SEASIDE",
+"CWPCity":"LONG BEACH",
+"CWPState":"CA",
+"CWPZip":"90802",
+"RegistryID":"110070084146",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.76532",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2075 BROADWAY",
+"SourceID":"CAC416257",
+"CWPStreet":"2075 BROADWAY",
+"CWPCity":"REDWOOD CITY",
+"CWPState":"CA",
+"CWPZip":"94063",
+"RegistryID":"110070113365",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.493306",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2081 TERZIAN",
+"SourceID":"CAZ438850",
+"CWPStreet":"4735 ENGLEHART AVENUE",
+"CWPCity":"REEDLEY",
+"CWPState":"CA",
+"CWPZip":"93654",
+"RegistryID":"110070092638",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.663247",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"210 FREEWAY HOV EXPANSION",
+"SourceID":"CAW442399",
+"CWPStreet":"ALONG 210 FREEWAY BETWEEN I15 AND DAY CREEK BLVD",
+"CWPCity":"RANCHO CUCAMONGA",
+"CWPState":"CA",
+"CWPZip":"91739",
+"RegistryID":"110070085980",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.1563864",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2102 CHRISTENSEN",
+"SourceID":"CAZ436928",
+"CWPStreet":"5652 SOUTH BETHEL AVENUE",
+"CWPCity":"DEL REY",
+"CWPState":"CA",
+"CWPZip":"93616",
+"RegistryID":"110070092448",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.3912",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2103 HILL",
+"SourceID":"CAZ437650",
+"CWPStreet":"5475 JACK CREEK ROAD",
+"CWPCity":"TEMPLETON",
+"CWPState":"CA",
+"CWPZip":"93465",
+"RegistryID":"110070092488",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"35.551868",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"215934 LA 5 WIDEN AND REALIGN FREEWAY",
+"SourceID":"CAZ438074",
+"CWPStreet":"N OF CARMENITA ROAD TO N OF SILVERBOW AVENUE PO",
+"CWPCity":"NORWALK",
+"CWPState":"CA",
+"CWPZip":"90650",
+"RegistryID":"110070092517",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.901",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"215944 LA 5 WIDENING",
+"SourceID":"CAZ437262",
+"CWPStreet":"IMPERIAL HIGHWAY AND ROUTE 5",
+"CWPCity":"NORWALK",
+"CWPState":"CA",
+"CWPZip":"90650",
+"RegistryID":"110070092466",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.91714",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"215954 LA 5 WIDENING",
+"SourceID":"CAZ446890",
+"CWPStreet":"FROM ORANGE COUNTY TO LOS ANGELES COUNTY LIMIT LIN",
+"CWPCity":"SANTA FE SPRINGS",
+"CWPState":"CA",
+"CWPZip":"90670",
+"RegistryID":"110070093713",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.93931",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2193 ANCHOR COURT",
+"SourceID":"CAZ507356",
+"CWPStreet":"2193 ANCHOR COURT",
+"CWPCity":"THOUSAND OAKS",
+"CWPState":"CA",
+"CWPZip":"91320",
+"RegistryID":"110070547856",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.19548",
+"CWPDateLastInspection":"10/27/2023",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"220 LABORATORIES INC",
+"SourceID":"CAZ210852",
+"CWPStreet":"2375 3RD STREET",
+"CWPCity":"RIVERSIDE",
+"CWPState":"CA",
+"CWPZip":"92507",
+"RegistryID":"110002942451",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.98292",
+"CWPDateLastInspection":"02/11/2020",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"22ND DISTRICT AGRICULTURAL ASSOCIATION - FIREWORKS EVENT LOCATION",
+"SourceID":"CAC449539",
+"CWPStreet":"2260 JIMMY DURANTE",
+"CWPCity":"DEL MAR",
+"CWPState":"CA",
+"CWPZip":"92014",
+"RegistryID":"110066510742",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.97233",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"22ND DISTRICT AGRICULTURAL ASSOCIATION - FIREWORKS EVENT LOCATIONS",
+"SourceID":"CAC379729",
+"CWPStreet":"2260 JIMMY DURANTE",
+"CWPCity":"DEL MAR",
+"CWPState":"CA",
+"CWPZip":"92014",
+"RegistryID":"110066510742",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.97233",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"23401 23421 MULHOLLAND CALABASAS",
+"SourceID":"CAZ438062",
+"CWPStreet":"23401 MULHOLLAND HIGHWAY",
+"CWPCity":"CALABASAS",
+"CWPState":"CA",
+"CWPZip":"91302",
+"RegistryID":"110070092516",
+"Statute":"CWA",
+"CWPNAICSCodes":"111998",
+"FacLat":"34.13877",
+"CWPDateLastInspection":"11/30/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"238 AND 580",
+"SourceID":"CAZ491212",
+"CWPStreet":"NORTHWEST GORE AREA OF ROUTE 238 AND 580",
+"CWPCity":"HAYWARD",
+"CWPState":"CA",
+"CWPZip":"94541",
+"RegistryID":"110070111907",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.690604",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"24 AUTO SALVAGE AND PARTS INC",
+"SourceID":"CAZ472543",
+"CWPStreet":"1807 EAST M STREET",
+"CWPCity":"WILMINGTON",
+"CWPState":"CA",
+"CWPZip":"90744",
+"RegistryID":"110070096505",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.78986",
+"CWPDateLastInspection":"09/29/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"24 HOUR SOLUTIONS PALLETS INC",
+"SourceID":"CAW442473",
+"CWPStreet":"13983 SLOVER AVENUE",
+"CWPCity":"FONTANA",
+"CWPState":"CA",
+"CWPZip":"92337",
+"RegistryID":"110066417728",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06185",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"24 HR SOLUTIONS PALLETS INC",
+"SourceID":"CAZ500982",
+"CWPStreet":"13983 SLOVER AVE",
+"CWPCity":"FONTANA",
+"CWPState":"CA",
+"CWPZip":"92336",
+"RegistryID":"110066417728",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06185",
+"CWPDateLastInspection":"06/22/2023",
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"247 W. 3RD ST",
+"SourceID":"CAW404574",
+"CWPStreet":"247 W. 3RD ST",
+"CWPCity":"SAN BERNARDINO",
+"CWPState":"CA",
+"CWPZip":"92401",
+"RegistryID":"110070084798",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.1059063",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2555 PARK BOULEVARD",
+"SourceID":"CAC410811",
+"CWPStreet":"2555 PARK",
+"CWPCity":"PALO ALTO",
+"CWPState":"CA",
+"CWPZip":"94306",
+"RegistryID":"110070109324",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.4162001",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2555 SOUTH MANSFIELD AVENUE PROJECT",
+"SourceID":"CAC442178",
+"CWPStreet":"2555 SOUTH MANSFIELD",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90016",
+"RegistryID":"110070926475",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.03286",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2580 CALIFORNIA STREET",
+"SourceID":"CAC435579",
+"CWPStreet":"2580 CALIFORNIA",
+"CWPCity":"MOUNTAIN VIEW",
+"CWPState":"CA",
+"CWPZip":"94040",
+"RegistryID":"110070670460",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.41263",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"25TH STREET",
+"SourceID":"CAZ460470",
+"CWPStreet":"2121 EAST 25TH STREET",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90058",
+"RegistryID":"110070094973",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.01583",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2600 SAN TOMAS",
+"SourceID":"CAZ442008",
+"CWPStreet":"2600 SAN TOMAS EXPRESSWAY",
+"CWPCity":"SANTA CLARA",
+"CWPState":"CA",
+"CWPZip":"95050",
+"RegistryID":"110070093028",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.37066",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"262004 WILLITS BYPASS MASTER",
+"SourceID":"CAZ432895",
+"CWPStreet":"300 EAST HILL ROAD",
+"CWPCity":"WILLITS",
+"CWPState":"CA",
+"CWPZip":"95490",
+"RegistryID":"110070092188",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"39.39915",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"265014 LS IRRIGATION PLANTING AND ELECTRICAL",
+"SourceID":"CAZ445806",
+"CWPStreet":"I5 AND SR163",
+"CWPCity":"SAN DIEGO",
+"CWPState":"CA",
+"CWPZip":"92101",
+"RegistryID":"110070093560",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.724169",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2655 STOKES CANYON ROAD",
+"SourceID":"CAZ421007",
+"CWPStreet":"2655 STOKES CANYON ROAD",
+"CWPCity":"CALABASAS",
+"CWPState":"CA",
+"CWPZip":"91302",
+"RegistryID":"110070091626",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.11101",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"26G-STV - PRODUCED WATER SUBSTATION",
+"SourceID":"CAU001127",
+"CWPStreet":"N35 16.061 / W119 26.165",
+"CWPCity":"TAFT",
+"CWPState":"CA",
+"CWPZip":"93268",
+"RegistryID":"110054123300",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"35.267683",
+"CWPDateLastInspection":"07/31/2012",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"272404 LA 5 PLANTING AND IRRIGATION",
+"SourceID":"CAZ444342",
+"CWPStreet":"INDIANA STREET UC TO BOYLE AVE OC",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90023",
+"RegistryID":"110070093325",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.02591",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"27501 S WESTERN AVE",
+"SourceID":"CAZ186747",
+"CWPStreet":"27501 S WESTERN AVENUE",
+"CWPCity":"RANCHO PALOS VERDES",
+"CWPState":"CA",
+"CWPZip":"90274",
+"RegistryID":"110070087853",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.772396",
+"CWPDateLastInspection":"11/20/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2751  AIELLO DR SUITE A.",
+"SourceID":"CAW506656",
+"CWPStreet":"SAN JOSE",
+"CWPCity":"SAN JOSE",
+"CWPState":"CA",
+"CWPZip":"95111",
+"RegistryID":"110070528490",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.2838535",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2755 BELLA VISTA",
+"SourceID":"CAZ432434",
+"CWPStreet":"2755 BELLA VISTA DRIVE",
+"CWPCity":"MONTECITO",
+"CWPState":"CA",
+"CWPZip":"93108",
+"RegistryID":"110070092147",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.44867",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"27760 GRAND AVE",
+"SourceID":"CAZ402586",
+"CWPStreet":"27760 GRAND AVE",
+"CWPCity":"WILDOMAR",
+"CWPState":"CA",
+"CWPZip":"92595",
+"RegistryID":"110070091098",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.58355",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"28 TEABERRY LANE",
+"SourceID":"CAZ432693",
+"CWPStreet":"28 TEABERRY LANE",
+"CWPCity":"TIBURON",
+"CWPState":"CA",
+"CWPZip":"94920",
+"RegistryID":"110070092166",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.891738",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"280 DILLON",
+"SourceID":"CAZ447827",
+"CWPStreet":"280 DILLON AVE",
+"CWPCity":"CAMPBELL",
+"CWPState":"CA",
+"CWPZip":"95008",
+"RegistryID":"110070093845",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.28478",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"284204 LA 5 IMPROVEMENT",
+"SourceID":"CAZ447115",
+"CWPStreet":"5 AND 10 SEPARATION TO 5 AND 134 SEPARATION",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90039",
+"RegistryID":"110070093739",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.106",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2847 LEEWARD",
+"SourceID":"CAC428739",
+"CWPStreet":"2841-2847 LEEWARD",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90005",
+"RegistryID":"110070548645",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.05902",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"29 DEL MAR",
+"SourceID":"CAZ444374",
+"CWPStreet":"29 DEL MAR",
+"CWPCity":"NEWPORT COAST",
+"CWPState":"CA",
+"CWPZip":"92657",
+"RegistryID":"110070093335",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.57623",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2920",
+"SourceID":"CAZ439545",
+"CWPStreet":"2920 ROWENA AVENUE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90039",
+"RegistryID":"110070092760",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.108",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2A9204 ED,PLA 89  LAKESIDE",
+"SourceID":"CAZ427395",
+"CWPStreet":"HIGHWAY 89",
+"CWPCity":"TAHOE CITY",
+"CWPState":"CA",
+"CWPZip":"96145",
+"RegistryID":"110070091889",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"39.11167",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2M MACHINE CORPORATION",
+"SourceID":"CAZ461970",
+"CWPStreet":"13171 ROSECRANS AVE",
+"CWPCity":"SANTA FE SPRINGS",
+"CWPState":"CA",
+"CWPZip":"90670",
+"RegistryID":"110070095206",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.90276",
+"CWPDateLastInspection":"08/30/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2M MACHINING AND MANUFACTURING",
+"SourceID":"CAW511978",
+"CWPStreet":"8630 SANTA FE AVE",
+"CWPCity":"SOUTH GATE",
+"CWPState":"CA",
+"CWPZip":"90280",
+"RegistryID":"110070621948",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.958381",
+"CWPDateLastInspection":"08/19/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2ND AND PCH",
+"SourceID":"CAC418618",
+"CWPStreet":"6400 EAST PACIFIC COAST",
+"CWPCity":"LONG BEACH",
+"CWPState":"CA",
+"CWPZip":"90803",
+"RegistryID":"110070215938",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.75603",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2ND STREET WIDENING",
+"SourceID":"CAZ430110",
+"CWPStreet":"2ND STREET",
+"CWPCity":"CALEXICO",
+"CWPState":"CA",
+"CWPZip":"92231",
+"RegistryID":"110070092033",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.66564",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2PLANK VINEYARDS",
+"SourceID":"CAZ461785",
+"CWPStreet":"2379 LA MIRADA DR",
+"CWPCity":"VISTA",
+"CWPState":"CA",
+"CWPZip":"92083",
+"RegistryID":"110070095181",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.15481",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"2T2004 SD I805 N DB BRIDGE WIDENINGS AND HOV LANE",
+"SourceID":"CAZ439464",
+"CWPStreet":"SR 52 TO HALF  MI N OF MIRA MESA",
+"CWPCity":"SAN DIEGO",
+"CWPState":"CA",
+"CWPZip":"92122",
+"RegistryID":"110070092755",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.87284",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3 LOT SUBDIVISION",
+"SourceID":"CAW412017",
+"CWPStreet":"5531 S OHIO ST",
+"CWPCity":"YORBA LINDA",
+"CWPState":"CA",
+"CWPZip":"92886",
+"RegistryID":"110070084969",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.8954111",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3 NEW SINGLE FAMILY HOUSE",
+"SourceID":"CAZ338374",
+"CWPStreet":"939 959 DELANEY DR",
+"CWPCity":"WALNUT",
+"CWPState":"CA",
+"CWPZip":"91789",
+"RegistryID":"110070090557",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.02995",
+"CWPDateLastInspection":"02/15/2022",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3-D POLYMERS",
+"SourceID":"CAW469038",
+"CWPStreet":"13026 S NORMANDIE AVE",
+"CWPCity":"GARDENA",
+"CWPState":"CA",
+"CWPZip":"90249",
+"RegistryID":"110065291491",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.9137",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"30 LRS VEHICLE MAINTENANCE FACILITY",
+"SourceID":"CAZ499897",
+"CWPStreet":"CALIFORNIA AVE",
+"CWPCity":"VANDENBERG AFB",
+"CWPState":"CA",
+"CWPZip":"93437",
+"RegistryID":"110070267221",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.731753",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"300 EL CAMINO REAL",
+"SourceID":"CAC435681",
+"CWPStreet":"300 EL CAMINO REAL",
+"CWPCity":"MENLO PARK",
+"CWPState":"CA",
+"CWPZip":"94025",
+"RegistryID":"110070667841",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.44929",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"303 BALDWIN AVENUE",
+"SourceID":"CAC439595",
+"CWPStreet":"303 BALDWIN",
+"CWPCity":"SAN MATEO",
+"CWPState":"CA",
+"CWPZip":"94401",
+"RegistryID":"110070662793",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.567473",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"303 HAYWORTH",
+"SourceID":"CAC441720",
+"CWPStreet":"303 NORTH HAYWORTH",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90048",
+"RegistryID":"110070917949",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0764",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3122 SOUTH RIVERSIDE AVENUE PROPERTY",
+"SourceID":"CAW511627",
+"CWPStreet":"3122 SOUTH RIVERSIDE AVENUE",
+"CWPCity":"BLOOMINGTON",
+"CWPState":"CA",
+"CWPZip":"92316",
+"RegistryID":"110070621752",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.057066",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"31537 ANACAPA VIEW DR",
+"SourceID":"CAZ431556",
+"CWPStreet":"31537 ANACAPA VIEW DR",
+"CWPCity":"MALIBU",
+"CWPState":"CA",
+"CWPZip":"90265",
+"RegistryID":"110070092096",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.046312",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3163 LLC",
+"SourceID":"CAZ202730",
+"CWPStreet":"3131 SANKEY RD",
+"CWPCity":"PLEASANT GROVE",
+"CWPState":"CA",
+"CWPZip":"95668",
+"RegistryID":"110070089037",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.780368",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"31801 VIOLETA LANE",
+"SourceID":"CAW575228",
+"CWPStreet":"31801 VIOLETA LANE",
+"CWPCity":"COTO DE CAZA",
+"CWPState":"CA",
+"CWPZip":"92679",
+"RegistryID":"110071897010",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.6494382",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"32 ARCE PARCEL",
+"SourceID":"CAW446394",
+"CWPStreet":"NEC BASTANCHURY & CASA LOMA AVE",
+"CWPCity":"YORBA LINDA",
+"CWPState":"CA",
+"CWPZip":"92886",
+"RegistryID":"110070086044",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.8954111",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"32 COLD LLC",
+"SourceID":"CAZ489615",
+"CWPStreet":"6700 ALAMEDA ST",
+"CWPCity":"HUNTINGTON PARK",
+"CWPState":"CA",
+"CWPZip":"90255",
+"RegistryID":"110070102709",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.978644",
+"CWPDateLastInspection":"02/06/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"320 LA CIENEGA DEVELOPMENT",
+"SourceID":"CAC447481",
+"CWPStreet":"320 LA CIENEGA",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90048",
+"RegistryID":"110071959116",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0767",
+"CWPDateLastInspection":"04/22/2022",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"32036 LIVE OAK CANYON",
+"SourceID":"CAW418608",
+"CWPStreet":"32036 LIVE OAK CANYON",
+"CWPCity":"REDLANDS",
+"CWPState":"CA",
+"CWPZip":"92373",
+"RegistryID":"110070085370",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0119465",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"325 27TH STREET, OAKLAND, CA",
+"SourceID":"CAC407741",
+"CWPStreet":"325 27TH",
+"CWPCity":"OAKLAND",
+"CWPState":"CA",
+"CWPZip":"94612",
+"RegistryID":"110070114126",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.8077089",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"328 WEST BROKAW ROAD",
+"SourceID":"CAC397958",
+"CWPStreet":"328 WEST BROKAW",
+"CWPCity":"SANTA CLARA",
+"CWPState":"CA",
+"CWPZip":"95052",
+"RegistryID":"110070116332",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.364613",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3295 CASTRO VALLEY BOULEVARD ALAMEDA COUNTY REDEVELOPMENT AGENCY",
+"SourceID":"CAC397988",
+"CWPStreet":"3295 CASTRO VALLEY",
+"CWPCity":"CASTRO VALLEY",
+"CWPState":"CA",
+"CWPZip":"94546",
+"RegistryID":"110070111841",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.7453986",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"32ND ST NAVSTA DESALINATION",
+"SourceID":"CAV162025",
+"CWPStreet":"32ND STREET NAVAL STATION",
+"CWPCity":"SAN DIEGO",
+"CWPState":"CA",
+"CWPZip":"92136",
+"RegistryID":"110006177617",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.91622",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3303 SUNSET",
+"SourceID":"CAC444183",
+"CWPStreet":"3303 SUNSET",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90026",
+"RegistryID":"110071950947",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08673",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"33051 MULHOLLAND HWY",
+"SourceID":"CAZ187560",
+"CWPStreet":"33051 MULHOLLAND HWY",
+"CWPCity":"WESTLAKE VILLAGE",
+"CWPState":"CA",
+"CWPZip":"90265",
+"RegistryID":"110070087857",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.10346",
+"CWPDateLastInspection":"07/11/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3333 SCOTT BOULEVARD",
+"SourceID":"CAZ425043",
+"CWPStreet":"3333 SCOTT BOULEVARD",
+"CWPCity":"SANTA CLARA",
+"CWPState":"CA",
+"CWPZip":"95054",
+"RegistryID":"110070091793",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.381786",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3336 FRUITLAND AVE LLC",
+"SourceID":"CAZ504403",
+"CWPStreet":"3336 FRUITLAND AVEW",
+"CWPCity":"VERNON",
+"CWPState":"CA",
+"CWPZip":"90058",
+"RegistryID":"110070499694",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.995666",
+"CWPDateLastInspection":"05/11/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3400 HILLVIEW AVENUE, PALO ALTO",
+"SourceID":"CAC398000",
+"CWPStreet":"3400 HILLVIEW",
+"CWPCity":"PALO ALTO",
+"CWPState":"CA",
+"CWPZip":"94304",
+"RegistryID":"110065560887",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.40406",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"34METRO LINES-SEGMENTS 1 & 2A",
+"SourceID":"CA0064092",
+"CWPStreet":"GREATER LOS ANGELES",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90017",
+"RegistryID":"110037256019",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.24289",
+"CWPDateLastInspection":"11/30/2005",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"359 N. ALFRED STREET",
+"SourceID":"CAC426056",
+"CWPStreet":"359 NORTH ALFRED",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90048",
+"RegistryID":"110070506116",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.07772",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"360 DESTINATION GROUP, FIREWORKS EVENT LOCATION",
+"SourceID":"CAC408433",
+"CWPStreet":"NOT APPLICABLE",
+"CWPCity":"SAN DIEGO",
+"CWPState":"CA",
+"CWPZip":"92101",
+"RegistryID":"110070084285",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.71377",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"360 STONE CANYON ROAD",
+"SourceID":"CAZ422140",
+"CWPStreet":"360 STONE CANYON ROAD",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90077",
+"RegistryID":"110070091675",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08139",
+"CWPDateLastInspection":"08/16/2023",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3670 IMPERIAL",
+"SourceID":"CAZ443079",
+"CWPStreet":"3670 W IMPERIAL",
+"CWPCity":"HAWTHORNE",
+"CWPState":"CA",
+"CWPZip":"90250",
+"RegistryID":"110070093152",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.930015",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3670 IMPERIAL",
+"SourceID":"CAW511438",
+"CWPStreet":"3670 WEST IMPERIAL HIGHWAY",
+"CWPCity":"HAWTHORNE",
+"CWPState":"CA",
+"CWPZip":"90303",
+"RegistryID":"110070620953",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.9362911",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"368 PETALUMA BLVD. NORTH",
+"SourceID":"CAC435734",
+"CWPStreet":"368 NORTH PETALUMA",
+"CWPCity":"PETALUMA",
+"CWPState":"CA",
+"CWPZip":"94954",
+"RegistryID":"110070671005",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.238574",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3700 ROAD J",
+"SourceID":"CAZ459883",
+"CWPStreet":"3700 ROAD J",
+"CWPCity":"REDWOOD VALLEY",
+"CWPState":"CA",
+"CWPZip":"95470",
+"RegistryID":"110070094868",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"39.302889",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3797U4 YOL SAC 80 ACROSS THE TOP",
+"SourceID":"CAZ438740",
+"CWPStreet":"YOLO AND SAC COUNTIES IN AND NEAR WEST SAC AND SAC",
+"CWPCity":"SACRAMENTO",
+"CWPState":"CA",
+"CWPZip":"95833",
+"RegistryID":"110070092616",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.64085",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"38 UNIT MIXED USE",
+"SourceID":"CAZ438207",
+"CWPStreet":"416 E LAS TUNAS DRIVE",
+"CWPCity":"SAN GABRIEL",
+"CWPState":"CA",
+"CWPZip":"91776",
+"RegistryID":"110070092525",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.102832",
+"CWPDateLastInspection":"04/26/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3800 WEST SIXTH STREET LLC",
+"SourceID":"CAC431531",
+"CWPStreet":"3800 WEST 6TH",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90020",
+"RegistryID":"110070399235",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06342",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3980 WILSHIRE BLVD.",
+"SourceID":"CAC416497",
+"CWPStreet":"3980 WILSHIRE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90010",
+"RegistryID":"110070216040",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0617",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3A TREATMENT PLANT",
+"SourceID":"CAZ508124",
+"CWPStreet":"26801 CAMINO CAPISTRANO",
+"CWPCity":"LAGUNA NIGUEL",
+"CWPState":"CA",
+"CWPZip":"92677",
+"RegistryID":"110000513533",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.57715",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3A1004 SOUTH STOCKTON PROJECT",
+"SourceID":"CAZ436347",
+"CWPStreet":"3663 ARCH RD",
+"CWPCity":"STOCKTON",
+"CWPState":"CA",
+"CWPZip":"95215",
+"RegistryID":"110070092405",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.93521",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3B MACHINING",
+"SourceID":"CAW506489",
+"CWPStreet":"2292  TRADE ZONE BLVD.",
+"CWPCity":"SAN JOSE",
+"CWPState":"CA",
+"CWPZip":"95131",
+"RegistryID":"110066247065",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.40204",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3C3804  Y TO TROUT CREEK",
+"SourceID":"CAZ485747",
+"CWPStreet":"2489 LAKE TAHOE BOULEVARD",
+"CWPCity":"SOUTH LAKE TAHOE",
+"CWPState":"CA",
+"CWPZip":"96150",
+"RegistryID":"110070097544",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.92401",
+"CWPDateLastInspection":"05/19/2020",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3D LETTERING CORP",
+"SourceID":"CAZ475015",
+"CWPStreet":"4477 SHOPPING LANE",
+"CWPCity":"SIMI VALLEY",
+"CWPState":"CA",
+"CWPZip":"93063",
+"RegistryID":"110070096687",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.271134",
+"CWPDateLastInspection":"03/11/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3D TEK CNC",
+"SourceID":"CAZ500609",
+"CWPStreet":"2362 STURGIS ROAD",
+"CWPCity":"OXNARD",
+"CWPState":"CA",
+"CWPZip":"93030",
+"RegistryID":"110070382895",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.20075",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3F MEADOWS",
+"SourceID":"CAZ185479",
+"CWPStreet":"SAN MARCOS ROAD AND CENEGAL ROAD",
+"CWPCity":"ATASCADERO",
+"CWPState":"CA",
+"CWPZip":"93422",
+"RegistryID":"110070087724",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"35.148611",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3H DAIRY (HHH DAIRY)",
+"SourceID":"CAU000356",
+"CWPStreet":"6460 SMITH RD",
+"CWPCity":"OAKDALE",
+"CWPState":"CA",
+"CWPZip":"95361",
+"RegistryID":"110010781029",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.73003",
+"CWPDateLastInspection":"07/15/2001",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3M BRINE PONDS",
+"SourceID":"CAV159450",
+"CWPStreet":"18750MINNESOTA",
+"CWPCity":"CORONA",
+"CWPState":"CA",
+"CWPZip":"92881",
+"RegistryID":"110041564465",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.7166",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3M CANOGA PARK",
+"SourceID":"CAZ466125",
+"CWPStreet":"8357 CANOGA PARK AVENUE",
+"CWPCity":"CANOGA PARK",
+"CWPState":"CA",
+"CWPZip":"91304",
+"RegistryID":"110070095959",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.22159",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3M COMPANY",
+"SourceID":"CAZ210719",
+"CWPStreet":"18750 MINNESOTA RD",
+"CWPCity":"CORONA",
+"CWPState":"CA",
+"CWPZip":"92881",
+"RegistryID":"110000477467",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.84916",
+"CWPDateLastInspection":"12/03/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3M COMPANY",
+"SourceID":"CAZ188885",
+"CWPStreet":"1601 S SHAMROCK AVE",
+"CWPCity":"MONROVIA",
+"CWPState":"CA",
+"CWPZip":"91016",
+"RegistryID":"110000476583",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.13352",
+"CWPDateLastInspection":"01/18/2024",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3M DAIMLER",
+"SourceID":"CAZ209102",
+"CWPStreet":"17466 DAIMLER ST",
+"CWPCity":"IRVINE",
+"CWPState":"CA",
+"CWPZip":"92614",
+"RegistryID":"110070089321",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.69831",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3M GARDEN GROVE",
+"SourceID":"CAZ429038",
+"CWPStreet":"7341 ANACONDA AVE",
+"CWPCity":"GARDEN GROVE",
+"CWPState":"CA",
+"CWPZip":"92841",
+"RegistryID":"110024427912",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.78252",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3M IRVINE BARRANCA",
+"SourceID":"CAZ322061",
+"CWPStreet":"1922 BARRANCA PKWY",
+"CWPCity":"IRVINE",
+"CWPState":"CA",
+"CWPZip":"92606",
+"RegistryID":"110070090312",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.70208",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3M IRVINE DENTAL",
+"SourceID":"CAZ208253",
+"CWPStreet":"2111 MCGAW AVE",
+"CWPCity":"IRVINE",
+"CWPState":"CA",
+"CWPZip":"92614",
+"RegistryID":"110000783046",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.691787",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3M MORGAN HILL",
+"SourceID":"CAZ459316",
+"CWPStreet":"16235 VINEYARD BOULEVARD",
+"CWPCity":"MORGAN HILL",
+"CWPState":"CA",
+"CWPZip":"95037",
+"RegistryID":"110070094778",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.11796",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3M NORTHRIDGE",
+"SourceID":"CAZ189076",
+"CWPStreet":"19901 NORDHOFF",
+"CWPCity":"NORTHRIDGE",
+"CWPState":"CA",
+"CWPZip":"91328",
+"RegistryID":"110000476823",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.23181",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3M PHARMACEUTICALS",
+"SourceID":"CA0063312",
+"CWPStreet":"19901  NORDHOFF ST",
+"CWPCity":"NORTHRIDGE",
+"CWPState":"CA",
+"CWPZip":"91328",
+"RegistryID":"110000476823",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.23181",
+"CWPDateLastInspection":"01/08/2004",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3M UNITED AUTO PARTS",
+"SourceID":"CAZ406891",
+"CWPStreet":"1726 SMITH AVE",
+"CWPCity":"SAN JOSE",
+"CWPState":"CA",
+"CWPZip":"95112",
+"RegistryID":"110039628105",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.31443",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3R NETWORK",
+"SourceID":"CAZ484329",
+"CWPStreet":"14225 TELEPHONE AVENUE",
+"CWPCity":"CHINO",
+"CWPState":"CA",
+"CWPZip":"91710",
+"RegistryID":"110070085657",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.99507",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3R NETWORK INC",
+"SourceID":"CAW426796",
+"CWPStreet":"14225 TELEPHONE AVENUE UNIT C",
+"CWPCity":"CHINO",
+"CWPState":"CA",
+"CWPZip":"91710",
+"RegistryID":"110070085657",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.99507",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3RD & FAIRFAX",
+"SourceID":"CAC446668",
+"CWPStreet":"355 SOUTH OGDEN",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90036",
+"RegistryID":"110071279038",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.07767",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3RD & PACIFIC PROJECT",
+"SourceID":"CAC415806",
+"CWPStreet":"230 WEST 3RD",
+"CWPCity":"LONG BEACH",
+"CWPState":"CA",
+"CWPZip":"90802",
+"RegistryID":"110070117317",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.77016",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3RD AND CLAREMONT",
+"SourceID":"CAC437204",
+"CWPStreet":"THIRD AVENUE AND CLAREMONT STREET",
+"CWPCity":"SAN MATEO",
+"CWPState":"CA",
+"CWPZip":"94401",
+"RegistryID":"110070707059",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.56941",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3RD BUILDING LLP",
+"SourceID":"CAZ442297",
+"CWPStreet":"26477 RUETHER AVE",
+"CWPCity":"SANTA CLARITA",
+"CWPState":"CA",
+"CWPZip":"91350",
+"RegistryID":"110070093070",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.415311",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3T HOLDING INC",
+"SourceID":"CAU004094",
+"CWPStreet":"18221 SUSANA RD",
+"CWPCity":"RANCHO DOMINGUEZ",
+"CWPState":"CA",
+"CWPZip":"90221",
+"RegistryID":"110065302247",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.86568",
+"CWPDateLastInspection":"11/30/2015",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3T HOLDING INC",
+"SourceID":"CAZ423799",
+"CWPStreet":"18221 SUSANA RD",
+"CWPCity":"RANCHO DOMINGUEZ",
+"CWPState":"CA",
+"CWPZip":"90221",
+"RegistryID":"110065302247",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.86568",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"3V FASTNERS CO INC",
+"SourceID":"CAZ288883",
+"CWPStreet":"320 REED CIR",
+"CWPCity":"CORONA",
+"CWPState":"CA",
+"CWPZip":"92879",
+"RegistryID":"110055884137",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.88191",
+"CWPDateLastInspection":"05/21/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4 CYLINDER CARS DISMANTLERS",
+"SourceID":"CAZ509264",
+"CWPStreet":"11485 EAST SANTA FE AVE",
+"CWPCity":"HESPERIA",
+"CWPState":"CA",
+"CWPZip":"92345",
+"RegistryID":"110070547776",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.45071",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4 JS AUTO DISMANTLING",
+"SourceID":"CAZ448187",
+"CWPStreet":"1818 E MAURETANIA ST",
+"CWPCity":"WILMINGTON",
+"CWPState":"CA",
+"CWPZip":"90744",
+"RegistryID":"110070093885",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.79023",
+"CWPDateLastInspection":"09/22/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4 SEASONS AT BEAUMONT",
+"SourceID":"CAZ284680",
+"CWPStreet":"1001 S HIGHLANDS SPRINGS AVE",
+"CWPCity":"BEAUMONT",
+"CWPState":"CA",
+"CWPZip":"92223",
+"RegistryID":"110070089899",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.911679",
+"CWPDateLastInspection":"04/02/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4 STARS AUTO DISMANTLER",
+"SourceID":"CAW568885",
+"CWPStreet":"921 N HENRY FORD AVE",
+"CWPCity":"WILMINGTON",
+"CWPState":"CA",
+"CWPZip":"90744",
+"RegistryID":"110071786593",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.78266",
+"CWPDateLastInspection":"12/04/2023",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4 STARS AUTO DISMANTLER SALES",
+"SourceID":"CAU001164",
+"CWPStreet":"921 N HENRY FORD AVE",
+"CWPCity":"WILMINGTON",
+"CWPState":"CA",
+"CWPZip":"90744-4716",
+"RegistryID":"110037961667",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.78291",
+"CWPDateLastInspection":"01/31/2024",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4 STARS AUTO DISMANTLER SALES",
+"SourceID":"CAZ191013",
+"CWPStreet":"921 N HENRY FORD AVE",
+"CWPCity":"WILMINGTON",
+"CWPState":"CA",
+"CWPZip":"90744",
+"RegistryID":"110037961667",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.78291",
+"CWPDateLastInspection":"12/04/2023",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4 WHEEL DISMANTLING",
+"SourceID":"CAZ450094",
+"CWPStreet":"1034 CRISTOBAL",
+"CWPCity":"WILMINGTON",
+"CWPState":"CA",
+"CWPZip":"90744",
+"RegistryID":"110070093997",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.78464",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4-H CALF RANCH",
+"SourceID":"CAC211757",
+"CWPStreet":"9200 EDISON",
+"CWPCity":"ONTARIO",
+"CWPState":"CA",
+"CWPZip":"91762",
+"RegistryID":"110054215933",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.997269",
+"CWPDateLastInspection":"07/18/2024",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4-S RANCH WRF",
+"SourceID":"CAL010551",
+"CWPStreet":"1966 OLIVENHAIN ROAD",
+"CWPCity":"ENCINITAS",
+"CWPState":"CA",
+"CWPZip":"92024-5699",
+"RegistryID":"110069996521",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.0144",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"405 ALBERTO WAY",
+"SourceID":"CAC439592",
+"CWPStreet":"405 ALBERTO",
+"CWPCity":"LOS GATOS",
+"CWPState":"CA",
+"CWPZip":"95032",
+"RegistryID":"110070791995",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.227301",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"407 NORTH MAPLE DRIVE",
+"SourceID":"CAC193509",
+"CWPStreet":"407 NORTH MAPLE",
+"CWPCity":"BEVERLY HILLS",
+"CWPState":"CA",
+"CWPZip":"90210",
+"RegistryID":"110070083793",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.075885",
+"CWPDateLastInspection":"04/30/2025",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4200 COAL MINE RD",
+"SourceID":"CAW430803",
+"CWPStreet":"4200 COAL MINE RD",
+"CWPCity":"IONE",
+"CWPState":"CA",
+"CWPZip":"95640",
+"RegistryID":"110070085759",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.3414666",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4255 RUFFIN ROAD",
+"SourceID":"CAZ434606",
+"CWPStreet":"4255 RUFFIN ROAD",
+"CWPCity":"SAN DIEGO",
+"CWPState":"CA",
+"CWPZip":"CA/92",
+"RegistryID":"110070092292",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.8188",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"43 AUTO WRECKING",
+"SourceID":"CAZ482188",
+"CWPStreet":"2760 HWY 43",
+"CWPCity":"EARLIMART",
+"CWPState":"CA",
+"CWPZip":"93219",
+"RegistryID":"110070097271",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"35.827835",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"440 N. WOLFE ROAD (813 STEWART DRIVE)",
+"SourceID":"CAC397921",
+"CWPStreet":"440 NORTH WOLFE",
+"CWPCity":"SUNNYVALE",
+"CWPState":"CA",
+"CWPZip":"94085",
+"RegistryID":"110070111616",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.3886171",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4413 PATTERSON H&M",
+"SourceID":"CAZ520313",
+"CWPStreet":"4413 PATTERSON AVE",
+"CWPCity":"PERRIS",
+"CWPState":"CA",
+"CWPZip":"92571",
+"RegistryID":"110070791341",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.85214",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"442 OCEAN APT CONSTRUCTION",
+"SourceID":"CAC403040",
+"CWPStreet":"442 OCEAN",
+"CWPCity":"LONG BEACH",
+"CWPState":"CA",
+"CWPZip":"90802",
+"RegistryID":"110070084048",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.76718",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"445 1ST AVE",
+"SourceID":"CAZ431309",
+"CWPStreet":"445 1ST AVE",
+"CWPCity":"CHULA VISTA",
+"CWPState":"CA",
+"CWPZip":"91910",
+"RegistryID":"110070092072",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.638865",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4501 TIDEWATER AVE, OAKLAND",
+"SourceID":"CAC402858",
+"CWPStreet":"4501 TIDEWATER",
+"CWPCity":"OAKLAND",
+"CWPState":"CA",
+"CWPZip":"94601",
+"RegistryID":"110066697444",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.76488",
+"CWPDateLastInspection":"02/21/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4525 WILSHIRE",
+"SourceID":"CAC193432",
+"CWPStreet":"4525 WILSHIRE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90010",
+"RegistryID":"110070083788",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.061915",
+"CWPDateLastInspection":"02/26/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"465 N MARY AVE",
+"SourceID":"CAC436817",
+"CWPStreet":"465 NORTH MARY",
+"CWPCity":"SUNNYVALE",
+"CWPState":"CA",
+"CWPZip":"94085",
+"RegistryID":"110070694319",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.398641",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"469 N SWEETZER AVE",
+"SourceID":"CAC433606",
+"CWPStreet":"469 NORTH SWEETZER",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90048",
+"RegistryID":"110070618299",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08005",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4733 ELMWOOD HOA",
+"SourceID":"CAC325787",
+"CWPStreet":"4733 ELMWOOD",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90004",
+"RegistryID":"110066685377",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0786",
+"CWPDateLastInspection":"04/27/2022",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4755 NEXUS SHELL",
+"SourceID":"CAZ426328",
+"CWPStreet":"4755 NEXUS CENTER DRIVE",
+"CWPCity":"SAN DIEGO",
+"CWPState":"CA",
+"CWPZip":"92121",
+"RegistryID":"110070091839",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.87823",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"47TH STREET",
+"SourceID":"CAZ415236",
+"CWPStreet":"1740 47TH STREET",
+"CWPCity":"SAN DIEGO",
+"CWPState":"CA",
+"CWPZip":"92102",
+"RegistryID":"110070091467",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.7357",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"48 AUTO WRECKING",
+"SourceID":"CAF010036",
+"CWPStreet":"84805 AVE 48",
+"CWPCity":"COACHELLA",
+"CWPState":"CA",
+"CWPZip":"92236",
+"RegistryID":"110064629353",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.7027649",
+"CWPDateLastInspection":"04/26/2012",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"48 AUTO WRECKING",
+"SourceID":"CAW409254",
+"CWPStreet":"84805 AVENUE 48",
+"CWPCity":"COACHELLA",
+"CWPState":"CA",
+"CWPZip":"92236",
+"RegistryID":"110065302292",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.69935",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"487 E MIDDLEFIELD, SMI HOLDING, LLC",
+"SourceID":"CAC397993",
+"CWPStreet":"487 EAST MIDDLEFIELD",
+"CWPCity":"MOUNTAIN VIEW",
+"CWPState":"CA",
+"CWPZip":"94043",
+"RegistryID":"110070109322",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.4119135",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"48FORTY",
+"SourceID":"CAZ403757",
+"CWPStreet":"2641 HALL AVE",
+"CWPCity":"RIVERSIDE",
+"CWPState":"CA",
+"CWPZip":"92509",
+"RegistryID":"110070091163",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.00911",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"48FORTY PALLET SOLUTIONS",
+"SourceID":"CAZ483641",
+"CWPStreet":"2276 WILBUR LANE",
+"CWPCity":"ANTIOCH",
+"CWPState":"CA",
+"CWPZip":"94509",
+"RegistryID":"110070097383",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.01168",
+"CWPDateLastInspection":"06/06/2024",
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4929 WILSHIRE LP",
+"SourceID":"CAC193315",
+"CWPStreet":"4929 WILSHIRE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90010",
+"RegistryID":"110066112138",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06264",
+"CWPDateLastInspection":"08/05/2024",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"495 HARTFORD",
+"SourceID":"CAC444574",
+"CWPStreet":"495 HARTFORD",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90017",
+"RegistryID":"110071237337",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.05598",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4AE COMPLETE AUTOMOTIVE SERVICES",
+"SourceID":"CAW492680",
+"CWPStreet":"9708 FACTORIAL WAY",
+"CWPCity":"SOUTH EL MONTE",
+"CWPState":"CA",
+"CWPZip":"91733",
+"RegistryID":"110070144977",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.054081",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4D INDUSTRIES, INC.",
+"SourceID":"CAW498112",
+"CWPStreet":"10550 ARNO ROAD",
+"CWPCity":"GALT",
+"CWPState":"CA",
+"CWPZip":"95632",
+"RegistryID":"110070235505",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.330244",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4F8404 MEYERS ROUNDABOUT",
+"SourceID":"CAZ508567",
+"CWPStreet":"HWY 50/89 INTERSECTION",
+"CWPCity":"MEYERS",
+"CWPState":"CA",
+"CWPZip":"96150",
+"RegistryID":"110070551776",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.85103",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"4S RANCH WRF",
+"SourceID":"CAZ218823",
+"CWPStreet":"16595 DOVE CANYON RD",
+"CWPCity":"SAN DIEGO",
+"CWPState":"CA",
+"CWPZip":"92127",
+"RegistryID":"110055972229",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.01335",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5 BOYS PRECISION MACHINING",
+"SourceID":"CAW512486",
+"CWPStreet":"1516-A WEST INDUSTRIAL PARK STREET",
+"CWPCity":"COVINA",
+"CWPState":"CA",
+"CWPZip":"91722",
+"RegistryID":"110070621347",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0973329",
+"CWPDateLastInspection":"09/05/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5 DAY BUSINESS FORMS MFG INC",
+"SourceID":"CAZ482567",
+"CWPStreet":"1391 N HUNDLEY STREET",
+"CWPCity":"ANAHEIM",
+"CWPState":"CA",
+"CWPZip":"92806",
+"RegistryID":"110070097288",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.86049",
+"CWPDateLastInspection":"02/21/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5 DAY BUSINESS FORMS MFG INC",
+"SourceID":"CAZ482568",
+"CWPStreet":"2921 E LA CRESTA AVE",
+"CWPCity":"ANAHEIM",
+"CWPState":"CA",
+"CWPZip":"92806",
+"RegistryID":"110002418474",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.85449",
+"CWPDateLastInspection":"02/21/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5 LOWER RAGSDALE DRIVE MEDICAL OFFICE BUILDING",
+"SourceID":"CAZ358834",
+"CWPStreet":"5 LOWER RAGSDALE DR",
+"CWPCity":"MONTEREY",
+"CWPState":"CA",
+"CWPZip":"93940",
+"RegistryID":"110070090812",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.57663",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5 POINTS EXHIBITS INC",
+"SourceID":"CAZ521183",
+"CWPStreet":"2260 E SPRUCE ST",
+"CWPCity":"ONTARIO",
+"CWPState":"CA",
+"CWPZip":"91761",
+"RegistryID":"110070792080",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.03509",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5 PP",
+"SourceID":"CAQQQQQQQ",
+"CWPStreet":"PP",
+"CWPCity":"PP",
+"CWPState":"CA",
+"CWPZip":"99999",
+"RegistryID":"110064617446",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.148573",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5 STAR SR STEEL",
+"SourceID":"CAW535971",
+"CWPStreet":"14548 MANZANITA AVENUE",
+"CWPCity":"FONTANA",
+"CWPState":"CA",
+"CWPZip":"92335",
+"RegistryID":"110070947527",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0873327",
+"CWPDateLastInspection":"04/29/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5 STAR SWEEPING",
+"SourceID":"CAW534068",
+"CWPStreet":"330 N PALM ST",
+"CWPCity":"BREA",
+"CWPState":"CA",
+"CWPZip":"92821",
+"RegistryID":"110070925653",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.9305232",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5 UNITS SINGLE FAMILY HOMES",
+"SourceID":"CAZ298219",
+"CWPStreet":"8304 SCENIC DR",
+"CWPCity":"ROSEMEAD",
+"CWPState":"CA",
+"CWPZip":"91770",
+"RegistryID":"110070090093",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.04483",
+"CWPDateLastInspection":"05/03/2022",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"500 BROADWAY",
+"SourceID":"CAC425487",
+"CWPStreet":"500 BROADWAY",
+"CWPCity":"SANTA MONICA",
+"CWPState":"CA",
+"CWPZip":"90401",
+"RegistryID":"110070392902",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.01576",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"503 BANGOR PARK ROAD",
+"SourceID":"CAV461254",
+"CWPStreet":"503WESTBANGOR PARK",
+"CWPCity":"BANGOR",
+"CWPState":"CA",
+"CWPZip":"95914",
+"RegistryID":"110071950055",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"39.4075858",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"505 SILVER LAKE",
+"SourceID":"CAC430307",
+"CWPStreet":"505 SILVER LAKE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90026",
+"RegistryID":"110070563523",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.07805",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"507-509 ORLANDO",
+"SourceID":"CAC409948",
+"CWPStreet":"507- 509 ORLANDO",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90048",
+"RegistryID":"110070084293",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08054",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"514 N. HUNTLEY DRIVE",
+"SourceID":"CAC441502",
+"CWPStreet":"514 NORTH HUNTLEY",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90048",
+"RegistryID":"110070893693",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08046",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5217 ADAMS",
+"SourceID":"CAC448457",
+"CWPStreet":"5213-5223 WEST ADAMS",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90016",
+"RegistryID":"110071309547",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.03274",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"52ND STREET WELL",
+"SourceID":"CAC305742",
+"CWPStreet":"4421 EAST 52ND",
+"CWPCity":"MAYWOOD",
+"CWPState":"CA",
+"CWPZip":"90270",
+"RegistryID":"110070083890",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.994167",
+"CWPDateLastInspection":"01/12/2022",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"540 SPECTRUM CR",
+"SourceID":"CAZ499016",
+"CWPStreet":"540 SPECRTUM CR",
+"CWPCity":"OXNARD",
+"CWPState":"CA",
+"CWPZip":"93030",
+"RegistryID":"110070257519",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.20687",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"550 ALLERTON STREET",
+"SourceID":"CAC402327",
+"CWPStreet":"550 ALLERTON",
+"CWPCity":"REDWOOD CITY",
+"CWPState":"CA",
+"CWPZip":"94063",
+"RegistryID":"110066484664",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.488685",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5510 HALL ROAD",
+"SourceID":"CAW442984",
+"CWPStreet":"5510 HALL ROAD",
+"CWPCity":"SANTA ROSA",
+"CWPState":"CA",
+"CWPZip":"95401",
+"RegistryID":"110070085993",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.4491367",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"56 UNIT RESIDENTIAL CONDOS",
+"SourceID":"CAZ334177",
+"CWPStreet":"92 RIO RANCHO RD",
+"CWPCity":"POMONA",
+"CWPState":"CA",
+"CWPZip":"91766",
+"RegistryID":"110070090513",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.02621",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"56 YARD CONCRETE BATCH PLANT",
+"SourceID":"CAZ508239",
+"CWPStreet":"I5 AND SR56",
+"CWPCity":"SAN DIEGO",
+"CWPState":"CA",
+"CWPZip":"92130",
+"RegistryID":"110070553622",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.9324",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"563 N ALFRED ST",
+"SourceID":"CA0060186",
+"CWPStreet":"UNKNOWN",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"00000",
+"RegistryID":"110037253110",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.081338",
+"CWPDateLastInspection":"08/28/2003",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5641 01 LA HABRA CA WALMART",
+"SourceID":"CAW427108",
+"CWPStreet":"1000 E IMPERIAL HWY",
+"CWPCity":"LA HABRA",
+"CWPState":"CA",
+"CWPZip":"90631",
+"RegistryID":"110070085667",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.9427081",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5667 SANTA MONICA BOULEVARD",
+"SourceID":"CAC410057",
+"CWPStreet":"5601- 5667 WEST SANTA MONICA",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90038",
+"RegistryID":"110070084295",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.09107",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5670 WILSHIRE BLVD. PROPERTY",
+"SourceID":"CAV166331",
+"CWPStreet":"5670WILSHIRE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90036",
+"RegistryID":"110070084489",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0702908",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5731 SANTA MONICA BLVD PARKING GARAGE",
+"SourceID":"CAC447624",
+"CWPStreet":"5731 SANTA MONICA",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90038",
+"RegistryID":"110071359076",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0911",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"58 BELTWAY OPERATIONAL IMPROVEMENTS BATCH PLANT",
+"SourceID":"CAZ461637",
+"CWPStreet":"E ROSA PARKS HIGHWAY/E 58 MOJAVE TEHACHAPI CONNECT",
+"CWPCity":"BAKERSFIELD",
+"CWPState":"CA",
+"CWPZip":"93309",
+"RegistryID":"110070095155",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"35.352207",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5802 LUBAOV AVE",
+"SourceID":"CAC458920",
+"CWPStreet":"5802 LUBAOV",
+"CWPCity":"WOODLAND HILLS",
+"CWPState":"CA",
+"CWPZip":"91367",
+"RegistryID":"110071896172",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.1773105",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5868 W JEFFERSON BLVD",
+"SourceID":"CAC446885",
+"CWPStreet":"5868 WEST JEFFERSON",
+"CWPCity":"NOT APPLICABLE",
+"CWPState":"CA",
+"CWPZip":"00000",
+"RegistryID":"110071280713",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.02346",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5950 JEFFERSON BLVD COMMERCIAL BLDG",
+"SourceID":"CAC433071",
+"CWPStreet":"5950 JEFFERSON",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90016",
+"RegistryID":"110070619582",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.02084",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5C 6699 MILL CREEK ROAD ROAD REPAIR PROJECT, EUPHRAT PROPERTY",
+"SourceID":"CAV446412",
+"CWPStreet":"6699MILL CREEK",
+"CWPCity":"HEALDSBURG",
+"CWPState":"CA",
+"CWPZip":"95448",
+"RegistryID":"110071240018",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.6229845",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5C MARK EVANS PROPERTY, 2001 LOS ALAMOS ROAD",
+"SourceID":"CAV446410",
+"CWPStreet":"2001LOS ALAMOS",
+"CWPCity":"SANTA ROSA",
+"CWPState":"CA",
+"CWPZip":"95409",
+"RegistryID":"110071240204",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.4684846",
+"CWPDateLastInspection":"01/27/2023",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5C NAVARRO RIDGE ROAD @ HIGHWAY 128",
+"SourceID":"CAV446413",
+"CWPStreet":"NAVARRO RIDGE",
+"CWPCity":"ALBION",
+"CWPState":"CA",
+"CWPZip":"95410",
+"RegistryID":"110071239732",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"39.2349401",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"5TH & HUNTINGTON",
+"SourceID":"CAZ446197",
+"CWPStreet":"1110 SOUTH 5TH AVENUE",
+"CWPCity":"MONROVIA",
+"CWPState":"CA",
+"CWPZip":"91016",
+"RegistryID":"110070093605",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0455",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"601 DILLON (LA) LLC",
+"SourceID":"CAC429685",
+"CWPStreet":"601 NORTH DILLON",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90026",
+"RegistryID":"110070561993",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0785",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"601 MARSHALL STREET OWNER, LLC",
+"SourceID":"CAC406310",
+"CWPStreet":"601 MARSHALL",
+"CWPCity":"REDWOOD CITY",
+"CWPState":"CA",
+"CWPZip":"94063",
+"RegistryID":"110070114353",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.493306",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"6041 VARIEL AVENUE",
+"SourceID":"CAC421063",
+"CWPStreet":"6041 VARIEL",
+"CWPCity":"WOODLAND HILLS",
+"CWPState":"CA",
+"CWPZip":"91367",
+"RegistryID":"110070237013",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.1773105",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"610 WALNUT STREET",
+"SourceID":"CAC435672",
+"CWPStreet":"610 WALNUT",
+"CWPCity":"REDWOOD CITY",
+"CWPState":"CA",
+"CWPZip":"94063",
+"RegistryID":"110070668927",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.48886",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"619 DOHENY",
+"SourceID":"CAZ440951",
+"CWPStreet":"619 DOHENY",
+"CWPCity":"BEVERLY HILLS",
+"CWPState":"CA",
+"CWPZip":"90210",
+"RegistryID":"110070092908",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08991",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"620 GRAMERCY PLACE",
+"SourceID":"CAC193580",
+"CWPStreet":"620 SOUTH GRAMERCY",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90005",
+"RegistryID":"110070083795",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.063126",
+"CWPDateLastInspection":"03/08/2022",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"6341 SAN IGNACIO",
+"SourceID":"CAZ515418",
+"CWPStreet":"6341 SAN IGNACIO AVENUE",
+"CWPCity":"SAN JOSE",
+"CWPState":"CA",
+"CWPZip":"95119",
+"RegistryID":"110070674390",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.23854",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"639 S. LA BREA AVE.",
+"SourceID":"CAC447821",
+"CWPStreet":"623-671 SOUTH LA BREA",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90036",
+"RegistryID":"110071312267",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08258",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"640 PAGE MILL ROAD",
+"SourceID":"CAC397945",
+"CWPStreet":"640 PAGE MILL",
+"CWPCity":"PALO ALTO",
+"CWPState":"CA",
+"CWPZip":"94304",
+"RegistryID":"110066511046",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.421337",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"640 S. ST. ANDREWS PLACE",
+"SourceID":"CAC439224",
+"CWPStreet":"640 SOUTH ST. ANDREWS",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90010",
+"RegistryID":"110070831128",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06215",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"642 S WATERMAN AVE",
+"SourceID":"CAW514336",
+"CWPStreet":"642 S WATERMAN AVENUE",
+"CWPCity":"SAN BERNARDINO",
+"CWPState":"CA",
+"CWPZip":"92408",
+"RegistryID":"110070625366",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0836194",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"645 N. ROBERTSON BLVD.",
+"SourceID":"CAC444237",
+"CWPStreet":"645 NORTH ROBERTSON",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90069",
+"RegistryID":"110071236727",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0821",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"6500 WILSHIRE",
+"SourceID":"CAC193433",
+"CWPStreet":"6500 WILSHIRE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90048",
+"RegistryID":"110066112307",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06355",
+"CWPDateLastInspection":"10/28/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"6500 WILSHIRE BLVD",
+"SourceID":"CA0059510",
+"CWPStreet":"UNKNOWN",
+"CWPCity":"BEVERLY HILLS",
+"CWPState":"CA",
+"CWPZip":"00000",
+"RegistryID":"110037253977",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.058306",
+"CWPDateLastInspection":"07/21/2003",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"6540 FEDERAL BLVD PARTNERSHIP",
+"SourceID":"CAZ457738",
+"CWPStreet":"6540 FEDERAL BLVD",
+"CWPCity":"LEMON GROVE",
+"CWPState":"CA",
+"CWPZip":"91945",
+"RegistryID":"110070094572",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.733656",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"6540 FEDERAL BLVD PARTNERSHIP",
+"SourceID":"CAZ450487",
+"CWPStreet":"6540 FEDERAL BLVD",
+"CWPCity":"LEMON GROVE",
+"CWPState":"CA",
+"CWPZip":"91945",
+"RegistryID":"110070094015",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.73177",
+"CWPDateLastInspection":"11/02/2017",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"6933 SANTA MONICA BLVD.",
+"SourceID":"CAC429133",
+"CWPStreet":"6933 SANTA MONICA",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90038",
+"RegistryID":"110070548080",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.09082",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"6D HELMETS LLC",
+"SourceID":"CAW535231",
+"CWPStreet":"2923 SATURN ST",
+"CWPCity":"BREA",
+"CWPState":"CA",
+"CWPZip":"92821",
+"RegistryID":"110070937443",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.9305232",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"6TH & BIXEL",
+"SourceID":"CAZ444013",
+"CWPStreet":"632 S LUCAS AVENUE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90017",
+"RegistryID":"110070093277",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.05399",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"7 UP / RC BOTTLING CO. OF S.C.",
+"SourceID":"CAV150137",
+"CWPStreet":"322026TH",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90023",
+"RegistryID":"110070084346",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0225015",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"700 DEGREES ARTISTRY AND METAL FABRICATION",
+"SourceID":"CAW550777",
+"CWPStreet":"2240 MAIN ST STE 9",
+"CWPCity":"CHULA VISTA",
+"CWPState":"CA",
+"CWPZip":"91911",
+"RegistryID":"110071295048",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.6073516",
+"CWPDateLastInspection":"06/14/2022",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"71 91 LLC",
+"SourceID":"CAW467828",
+"CWPStreet":"20310 TEMESCAL CANYON RD",
+"CWPCity":"CORONA",
+"CWPState":"CA",
+"CWPZip":"92881",
+"RegistryID":"110070086330",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.8238798",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"71 91 LLC PRADO PIT  RP 113",
+"SourceID":"CAZ468417",
+"CWPStreet":"11091 HIGHWAY 71",
+"CWPCity":"CORONA",
+"CWPState":"CA",
+"CWPZip":"91720",
+"RegistryID":"110070096145",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.88627",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"711 MAMMOTH",
+"SourceID":"CAZ406929",
+"CWPStreet":"198 COMMERCE DR",
+"CWPCity":"MAMMOTH LAKES",
+"CWPState":"CA",
+"CWPZip":"93545",
+"RegistryID":"110055832087",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.64294",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"711 MATERIAL INC",
+"SourceID":"CAZ503174",
+"CWPStreet":"270 GEORGE REED DRIVE",
+"CWPCity":"SAN ANDREAS",
+"CWPState":"CA",
+"CWPZip":"95249",
+"RegistryID":"110070500353",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.1788",
+"CWPDateLastInspection":"04/09/2020",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"711 MATERIALS INC",
+"SourceID":"CAZ503177",
+"CWPStreet":"1470 LINEBAUGH ROAD",
+"CWPCity":"ARNOLD",
+"CWPState":"CA",
+"CWPZip":"95223",
+"RegistryID":"110070505369",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.26376",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"711 PINE CREEK",
+"SourceID":"CAZ334533",
+"CWPStreet":"517 RONEY TRAIL",
+"CWPCity":"CHICO",
+"CWPState":"CA",
+"CWPZip":"95926",
+"RegistryID":"110066617931",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"39.881879",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"711 STOCKTON",
+"SourceID":"CAZ201891",
+"CWPStreet":"2714 STAGECOACH RD",
+"CWPCity":"STOCKTON",
+"CWPState":"CA",
+"CWPZip":"95215",
+"RegistryID":"110058373335",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.93311",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"7115 WARING AVENUE PROJECT",
+"SourceID":"CAC436006",
+"CWPStreet":"7115 WARING",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90046",
+"RegistryID":"110070740887",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08541",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"714 N. SWEETZER",
+"SourceID":"CAC409953",
+"CWPStreet":"714 NORTH SWEETZER",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90069",
+"RegistryID":"110070561386",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0842",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"7145 CARMEL VALLEY RD",
+"SourceID":"CAZ185006",
+"CWPStreet":"7145 CARMEL VALLEY RD",
+"CWPCity":"CARMEL",
+"CWPState":"CA",
+"CWPZip":"93923",
+"RegistryID":"110070087670",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.533878",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"716 EAST ALONDRA BOULEVARD",
+"SourceID":"CAZ445288",
+"CWPStreet":"716 EAST ALONDRA BOULEVARD",
+"CWPCity":"CARSON",
+"CWPState":"CA",
+"CWPZip":"90746",
+"RegistryID":"110070093477",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.88616",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"718 NORTH HUDSON AVENUE",
+"SourceID":"CAC430604",
+"CWPStreet":"718 NORTH HUDSON",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90038",
+"RegistryID":"110070826499",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08408",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"723 HUNTLEY",
+"SourceID":"CAC400451",
+"CWPStreet":"723 HUNTLEY",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90069",
+"RegistryID":"110066511135",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08436",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"728 N. SWEETZER",
+"SourceID":"CAC409965",
+"CWPStreet":"728 NORTH SWEETZER",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90069",
+"RegistryID":"110070084294",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08458",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"730 VERMONT APARTMENTS",
+"SourceID":"CAC445100",
+"CWPStreet":"730 SOUTH VERMONT",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90005",
+"RegistryID":"110071239236",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.05914",
+"CWPDateLastInspection":"10/25/2023",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"734 MISSION ROCK ROAD",
+"SourceID":"CAZ450100",
+"CWPStreet":"734 AND 736 MISSION ROCK ROAD",
+"CWPCity":"SANTA PAULA",
+"CWPState":"CA",
+"CWPZip":"93060",
+"RegistryID":"110070093999",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.31655",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"737 & 765 LEWIS STREET",
+"SourceID":"CAW542324",
+"CWPStreet":"737 & 765 LEWIS STREET",
+"CWPCity":"POMONA",
+"CWPState":"CA",
+"CWPZip":"91768",
+"RegistryID":"110071236177",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0643625",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"74 WELD",
+"SourceID":"CAW546288",
+"CWPStreet":"9349 BOND AVE",
+"CWPCity":"EL CAJON",
+"CWPState":"CA",
+"CWPZip":"92021",
+"RegistryID":"110071237931",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.8357316",
+"CWPDateLastInspection":"02/02/2022",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"740 SOUTH RIDGELEY DRIVE",
+"SourceID":"CAC413774",
+"CWPStreet":"740 SOUTH RIDGELEY",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90036",
+"RegistryID":"110070084332",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06118",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"750 GARLAND, LLC",
+"SourceID":"CA0053490",
+"CWPStreet":"750 GARLAND AVENUE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90017",
+"RegistryID":"110010059211",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.05023",
+"CWPDateLastInspection":"07/07/2011",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"755 S. FIGUEROA",
+"SourceID":"CAC437266",
+"CWPStreet":"755 WEST 7TH",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90017",
+"RegistryID":"110070819157",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.04875",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"75S CORP FMC METALS",
+"SourceID":"CAZ370489",
+"CWPStreet":"800 E 62ND ST",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90001",
+"RegistryID":"110070090960",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.98324",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"760 PRINTING",
+"SourceID":"CAW543977",
+"CWPStreet":"2585 FORTUNE WAY SUITE B",
+"CWPCity":"VISTA",
+"CWPState":"CA",
+"CWPZip":"92081",
+"RegistryID":"110071236257",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.1645491",
+"CWPDateLastInspection":"11/19/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"7771 BEVERLY LLC",
+"SourceID":"CAC458259",
+"CWPStreet":"7771 BEVERLY",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90036",
+"RegistryID":"110071898522",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0702908",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"7UP BOTTLING",
+"SourceID":"CAZ460178",
+"CWPStreet":"2009 FARALLON DR",
+"CWPCity":"SAN LEANDRO",
+"CWPState":"CA",
+"CWPZip":"95477",
+"RegistryID":"110066549710",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.69353",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"7UP BOTTLING COMPANY OF SAN FRANCISCO A DIVION OF THE AMERICAN BOTTLING COMPANY",
+"SourceID":"CAZ457391",
+"CWPStreet":"2875 PRUNE AVE",
+"CWPCity":"FREMONT",
+"CWPState":"CA",
+"CWPZip":"94539",
+"RegistryID":"110070094499",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.50649",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"7UP OF  CHICO",
+"SourceID":"CAZ458651",
+"CWPStreet":"306 OTTERSON DRIVE SUITE 10",
+"CWPCity":"CHICO",
+"CWPState":"CA",
+"CWPZip":"95928",
+"RegistryID":"110070529009",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"39.705375",
+"CWPDateLastInspection":"03/19/2024",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8 WELDING IRON WORK",
+"SourceID":"CAW501940",
+"CWPStreet":"135 SOUTH OAKS AVENUE",
+"CWPCity":"ONTARIO",
+"CWPState":"CA",
+"CWPZip":"92762",
+"RegistryID":"110070367630",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0395244",
+"CWPDateLastInspection":"01/17/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"800 ALFRED NOBEL",
+"SourceID":"CAZ483293",
+"CWPStreet":"800 ALFRED NOBEL",
+"CWPCity":"HERCULES",
+"CWPState":"CA",
+"CWPZip":"94547",
+"RegistryID":"110070097345",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.021115",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8000 BEVERLY",
+"SourceID":"CAC445043",
+"CWPStreet":"8000 BEVERLY",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90048",
+"RegistryID":"110071239079",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.07591",
+"CWPDateLastInspection":"02/09/2024",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8070 BEVERLY (FUTURE SENIOR LIVING COMMUNITY)",
+"SourceID":"CAC448248",
+"CWPStreet":"8070 BEVERLY",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90048",
+"RegistryID":"110071244451",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.07579",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"81 SOMERSET LANE",
+"SourceID":"CAZ448683",
+"CWPStreet":"81 SOMERSET LANE",
+"CWPCity":"ATHERTON",
+"CWPState":"CA",
+"CWPZip":"94027",
+"RegistryID":"110070093948",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.4436",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"812 HUNTLEY DR.",
+"SourceID":"CAC415859",
+"CWPStreet":"812 HUNTLEY",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90069",
+"RegistryID":"110070114893",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0853",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"812 MAIN LLC",
+"SourceID":"CAC422948",
+"CWPStreet":"812 MAIN",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90291",
+"RegistryID":"110070503865",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.9927",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"820 LORRAINE DR",
+"SourceID":"CAZ400622",
+"CWPStreet":"820 LORRAINE DR",
+"CWPCity":"CHESTER",
+"CWPState":"CA",
+"CWPZip":"96020",
+"RegistryID":"110070091007",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"40.3",
+"CWPDateLastInspection":"04/01/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8200 & 7411 ST. HELENA ROAD, SANTA ROSA",
+"SourceID":"CAV444820",
+"CWPStreet":"8200ST. HELENA ROAD & 7411 ST. HELENA",
+"CWPCity":"SANTA ROSA",
+"CWPState":"CA",
+"CWPZip":"95404",
+"RegistryID":"110071236118",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.5257333",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"822 N. KENTER AVENUE",
+"SourceID":"CAW462327",
+"CWPStreet":"822 N. KENTER AVE.",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90049",
+"RegistryID":"110070086278",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0925404",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"823 WESTBOURNE DRIVE",
+"SourceID":"CAC459743",
+"CWPStreet":"823 WESTBOURNE",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90069",
+"RegistryID":"110071914861",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08556",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8282 DUNISCH RAOD",
+"SourceID":"CAZ431203",
+"CWPStreet":"8282 DUNISCH ROAD",
+"CWPCity":"ELK GROVE",
+"CWPState":"CA",
+"CWPZip":"95758",
+"RegistryID":"110070092064",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.426944",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8383 WILSHIRE",
+"SourceID":"CAC193563",
+"CWPStreet":"8383 WILSHIRE",
+"CWPCity":"BEVERLY HILLS",
+"CWPState":"CA",
+"CWPZip":"90211",
+"RegistryID":"110066698345",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06501",
+"CWPDateLastInspection":"11/12/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"84 RECYCLING",
+"SourceID":"CAZ472049",
+"CWPStreet":"8241 W GOSHEN AVE",
+"CWPCity":"VISALIA",
+"CWPState":"CA",
+"CWPZip":"93291",
+"RegistryID":"110070096449",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.341624",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"84 RECYCLING",
+"SourceID":"CAZ491421",
+"CWPStreet":"866 EAST 5TH STREET",
+"CWPCity":"HANFORD",
+"CWPState":"CA",
+"CWPZip":"93291",
+"RegistryID":"110070110773",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.326126",
+"CWPDateLastInspection":"04/25/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8484 WILSHIRE",
+"SourceID":"CAC193376",
+"CWPStreet":"8484 WILSHIRE",
+"CWPCity":"BEVERLY HILLS",
+"CWPState":"CA",
+"CWPZip":"90211",
+"RegistryID":"110066691333",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0645",
+"CWPDateLastInspection":"12/15/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"850 JEFFERSON AVENUE, REDWOOD CITY ON BROADWAY",
+"SourceID":"CAC397972",
+"CWPStreet":"850 JEFFERSON",
+"CWPCity":"REDWOOD CITY",
+"CWPState":"CA",
+"CWPZip":"94063",
+"RegistryID":"110065538902",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.485564",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8500 SANTA MONICA",
+"SourceID":"CAC456667",
+"CWPStreet":"8500 SANTA MONICA",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90069",
+"RegistryID":"110071734695",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08901",
+"CWPDateLastInspection":"04/09/2025",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8500 SANTA MONICA",
+"SourceID":"CAC456927",
+"CWPStreet":"961 LA CIENEGA",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90069",
+"RegistryID":"110071897438",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08859",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"852 NW KNOLL DR",
+"SourceID":"CAC450981",
+"CWPStreet":"852 NORTHWEST KNOLL",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90069",
+"RegistryID":"110071405346",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08644",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"854 WESTMOUNT DRIVE",
+"SourceID":"CAC442163",
+"CWPStreet":"854 WESTMOUNT",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90069",
+"RegistryID":"110070925125",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08638",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8600 WILSHIRE",
+"SourceID":"CAC405856",
+"CWPStreet":"8600 WILSHIRE",
+"CWPCity":"BEVERLY HILLS",
+"CWPState":"CA",
+"CWPZip":"90211",
+"RegistryID":"110070084225",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06618",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8728 ASHCROFT",
+"SourceID":"CAC429981",
+"CWPStreet":"8728 ASHCROFT",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90048",
+"RegistryID":"110070555632",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0788",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"875 MAUDE AVE, MT. VIEW",
+"SourceID":"CAV163441",
+"CWPStreet":"875MAUDE",
+"CWPCity":"MOUNTAIN VIEW",
+"CWPState":"CA",
+"CWPZip":"94043",
+"RegistryID":"110070084468",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.4119135",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8750 EL TOVAR",
+"SourceID":"CAC443184",
+"CWPStreet":"8750 EL TOVAR",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90069",
+"RegistryID":"110071070579",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0815",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8777 WASHINGTON BLVD.",
+"SourceID":"CAC418798",
+"CWPStreet":"8777 WASHINGTON",
+"CWPCity":"CULVER CITY",
+"CWPState":"CA",
+"CWPZip":"90232",
+"RegistryID":"110070222106",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0193227",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"88 TRITON PARK LANE",
+"SourceID":"CAZ445489",
+"CWPStreet":"88 TRITON PARK LANE",
+"CWPCity":"FOSTER CITY",
+"CWPState":"CA",
+"CWPZip":"94404",
+"RegistryID":"110070093510",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.566136",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8833 CYNTHIA",
+"SourceID":"CAC366982",
+"CWPStreet":"8833 CYNTHIA",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90069",
+"RegistryID":"110066693037",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0875",
+"CWPDateLastInspection":"06/15/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8888 WASHINGTON BLVD.",
+"SourceID":"CAC422571",
+"CWPStreet":"8888 WASHINGTON",
+"CWPCity":"CULVER CITY",
+"CWPState":"CA",
+"CWPZip":"90232",
+"RegistryID":"110070264866",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.02635",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8899 BEVERLY-TOWNSCAPE PROJECT",
+"SourceID":"CAC407697",
+"CWPStreet":"8899 BEVERLY",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90048",
+"RegistryID":"110070084255",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.07741",
+"CWPDateLastInspection":"05/27/2025",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8920 SUNSET BOULEVARD, LLC",
+"SourceID":"CAC436011",
+"CWPStreet":"8920 WEST SUNSET",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90069",
+"RegistryID":"110070819097",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.09037",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8AS DISMANTLING",
+"SourceID":"CAZ451037",
+"CWPStreet":"1218 MIRAGE AVE",
+"CWPCity":"LINDSAY",
+"CWPState":"CA",
+"CWPZip":"93257",
+"RegistryID":"110070094038",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.06523",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"8TH STREET AND FRANCISCO STREET PARKING STRUCTURE",
+"SourceID":"CAZ442938",
+"CWPStreet":"990WEST8THSTREET",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90015",
+"RegistryID":"110070093131",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.04745",
+"CWPDateLastInspection":"09/27/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"9 SINGLE FAMILY LOTS SUBDIVISION",
+"SourceID":"CAZ448887",
+"CWPStreet":"9814 CHURCH STREET",
+"CWPCity":"RANCHO CUCAMONGA",
+"CWPState":"CA",
+"CWPZip":"91730",
+"RegistryID":"110070093960",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.114367",
+"CWPDateLastInspection":"01/18/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"90 SITES GROUNDWATER ASSESSMEN",
+"SourceID":"CA0063304",
+"CWPStreet":"90 SITES IN LA & VENTURA",
+"CWPCity":"VENTURA",
+"CWPState":"CA",
+"CWPZip":"93005",
+"RegistryID":"110037255653",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.2869059032857",
+"CWPDateLastInspection":"01/29/2001",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"900 INNES AVENUE, SAN FRANCISCO (RUBECON BUILDERS, INC.)",
+"SourceID":"CAC444905",
+"CWPStreet":"900 INNES",
+"CWPCity":"SAN FRANCISCO",
+"CWPState":"CA",
+"CWPZip":"94124",
+"RegistryID":"110059658464",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.73216",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"900 LA BREA",
+"SourceID":"CAC412115",
+"CWPStreet":"7077 WILLOUGHBY",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90046",
+"RegistryID":"110070084313",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08707",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"903 QUIMISA DR",
+"SourceID":"CAZ192033",
+"CWPStreet":"903 QUISMA DR",
+"CWPCity":"SIMI VALLEY",
+"CWPState":"CA",
+"CWPZip":"93065",
+"RegistryID":"110070088530",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.286545",
+"CWPDateLastInspection":"09/07/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"910 WETHERLY DRIVE",
+"SourceID":"CAC459928",
+"CWPStreet":"910-916 NORTH WETHERLY",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90069",
+"RegistryID":"110071905017",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08767",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"915 DEGUIGNE DRIVE GROUNDWATER TREATMENT SYSTEM",
+"SourceID":"CAC397989",
+"CWPStreet":"915 DEGUIGNE",
+"CWPCity":"SUNNYVALE",
+"CWPState":"CA",
+"CWPZip":"94088",
+"RegistryID":"110065316768",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.386228",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"9200 WILSHIRE",
+"SourceID":"CAC397011",
+"CWPStreet":"9200 WILSHIRE",
+"CWPCity":"BEVERLY HILLS",
+"CWPState":"CA",
+"CWPZip":"90210",
+"RegistryID":"110070084007",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06755",
+"CWPDateLastInspection":"01/02/2020",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"928 INTERNATIONAL",
+"SourceID":"CAZ351891",
+"CWPStreet":"2900 E MIRALOMA D",
+"CWPCity":"ANAHEIM",
+"CWPState":"CA",
+"CWPZip":"92806",
+"RegistryID":"110065280485",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.85555",
+"CWPDateLastInspection":"06/25/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"928 INTERNATIONAL LTD",
+"SourceID":"CAZ495475",
+"CWPStreet":"2900 E MIRALOMA AVENUE UNIT D",
+"CWPCity":"ANAHEIM",
+"CWPState":"CA",
+"CWPZip":"92806",
+"RegistryID":"110065280485",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.85555",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"928 INTERNATIONAL LTD",
+"SourceID":"CAZ495477",
+"CWPStreet":"2900 E MIRALOMA #D",
+"CWPCity":"ANAHEIM",
+"CWPState":"CA",
+"CWPZip":"92806",
+"RegistryID":"110065280485",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.85555",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"942 N. BROADWAY PROJECT",
+"SourceID":"CAC442185",
+"CWPStreet":"942 NORTH BROADWAY",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90015",
+"RegistryID":"110070930578",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.04135",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"944 AIROLE ESTATE",
+"SourceID":"CAZ439392",
+"CWPStreet":"944 AIROLE WAY",
+"CWPCity":"BEL AIR",
+"CWPState":"CA",
+"CWPZip":"90077",
+"RegistryID":"110070092747",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0879",
+"CWPDateLastInspection":"06/23/2023",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"953 NORTH SYCAMORE PROJECT",
+"SourceID":"CAC409580",
+"CWPStreet":"953 NORTH SYCAMORE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90038",
+"RegistryID":"110070084291",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.08867",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"960 DOHENY CONDOMINIUM",
+"SourceID":"CAC193578",
+"CWPStreet":"960 NORTH DOHENY",
+"CWPCity":"WEST HOLLYWOOD",
+"CWPState":"CA",
+"CWPZip":"90069",
+"RegistryID":"110070083794",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.088873",
+"CWPDateLastInspection":"05/29/2024",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"9601 WILSHIRE",
+"SourceID":"CAC193548",
+"CWPStreet":"9601 WILSHIRE",
+"CWPCity":"BEVERLY HILLS",
+"CWPState":"CA",
+"CWPZip":"90210",
+"RegistryID":"110065817557",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06763",
+"CWPDateLastInspection":"10/15/2024",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"9712 OAK PASS ROAD",
+"SourceID":"CAZ419090",
+"CWPStreet":"9712 OAK PASS ROAD",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90210",
+"RegistryID":"110070091563",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.11389",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"9735 WASHINGTON BLVD",
+"SourceID":"CAC433394",
+"CWPStreet":"9735 WASHINGTON",
+"CWPCity":"CULVER CITY",
+"CWPState":"CA",
+"CWPZip":"90232",
+"RegistryID":"110070625912",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.02257",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"974 ARQUES - AMI - B81 DEWATER",
+"SourceID":"CAC397987",
+"CWPStreet":"974 ARQUES",
+"CWPCity":"SANTA CLARA",
+"CWPState":"CA",
+"CWPZip":"94086",
+"RegistryID":"110065560976",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.37877",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"99 AUTO DISMANTLER",
+"SourceID":"CAZ401312",
+"CWPStreet":"3532 E MINER AVE",
+"CWPCity":"STOCKTON",
+"CWPState":"CA",
+"CWPZip":"95205",
+"RegistryID":"110070091042",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.965314",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"99 CENT ONLY STORES",
+"SourceID":"CAZ429891",
+"CWPStreet":"4000 UNION PACIFIC AVE",
+"CWPCity":"COMMERCE",
+"CWPState":"CA",
+"CWPZip":"90023",
+"RegistryID":"110011644658",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.01654",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"99 CENTS ONLY STORES AT EAST OLYMPIC BLVD AND DITMAN AVE",
+"SourceID":"CAZ440932",
+"CWPStreet":"3965 EAST OLYMPIC BLVD",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90023",
+"RegistryID":"110070092905",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.019444",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"99 ONLY DELANO",
+"SourceID":"CAZ415107",
+"CWPStreet":"626 CECIL AVE",
+"CWPCity":"DELANO",
+"CWPState":"CA",
+"CWPZip":"93215",
+"RegistryID":"110070091460",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"35.775432",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"99 RECYCLING CENTER",
+"SourceID":"CAZ470298",
+"CWPStreet":"830 S CALIFORNIA ST STE A",
+"CWPCity":"STOCKTON",
+"CWPState":"CA",
+"CWPZip":"95206",
+"RegistryID":"110070095283",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.94521",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"9908 SANTA MONICA BLVD",
+"SourceID":"CAC446067",
+"CWPStreet":"9900-9916 SOUTH SANTA MONICA",
+"CWPCity":"BEVERLY HILLS",
+"CWPState":"CA",
+"CWPZip":"90212",
+"RegistryID":"110071237561",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06608",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"9933 TOWER LANE",
+"SourceID":"CAZ420300",
+"CWPStreet":"9933 TOWER LANE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90210",
+"RegistryID":"110070091598",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.09167",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"9941 TOWER LANE",
+"SourceID":"CAZ420301",
+"CWPStreet":"9941 TOWER LANE",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90210",
+"RegistryID":"110070091599",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.092331",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"9TO5 SEATING",
+"SourceID":"CAZ517623",
+"CWPStreet":"3211 JACK NORTHROP AVENUE",
+"CWPCity":"HAWTHORNE",
+"CWPState":"CA",
+"CWPZip":"90250",
+"RegistryID":"110070706441",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.92035",
+"CWPDateLastInspection":"12/16/2024",
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A",
+"SourceID":"CAW562367",
+"CWPStreet":"A",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90040",
+"RegistryID":"110071436587",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.9945234",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  & S FINISHING LLC",
+"SourceID":"CAZ462832",
+"CWPStreet":"20540 W SUPERIOR STREET",
+"CWPCity":"CHATSWORTH",
+"CWPState":"CA",
+"CWPZip":"91311",
+"RegistryID":"110038873181",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.24632",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  A AUTO PARTS",
+"SourceID":"CAZ198159",
+"CWPStreet":"6240 BRENTWOOD BLVD",
+"CWPCity":"BRENTWOOD",
+"CWPState":"CA",
+"CWPZip":"94513",
+"RegistryID":"110070088797",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.9655",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  A CONCRETE SUPPLY AUBURN",
+"SourceID":"CAZ477400",
+"CWPStreet":"890 GRASS VALLEY HIGHWAY",
+"CWPCity":"AUBURN",
+"CWPState":"CA",
+"CWPZip":"95828",
+"RegistryID":"110070096858",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.918642",
+"CWPDateLastInspection":"02/01/2023",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  A CONCRETE SUPPLY CHICO",
+"SourceID":"CAZ197197",
+"CWPStreet":"3578 ESPLANADE",
+"CWPCity":"CHICO",
+"CWPState":"CA",
+"CWPZip":"95973",
+"RegistryID":"110070088732",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"39.783806",
+"CWPDateLastInspection":"01/10/2025",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  A CONCRETE SUPPLY LINCOLN",
+"SourceID":"CAZ199236",
+"CWPStreet":"2930 LESVOS CT",
+"CWPCity":"LINCOLN",
+"CWPState":"CA",
+"CWPZip":"95648",
+"RegistryID":"110070088853",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.84041",
+"CWPDateLastInspection":"07/30/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  A CONCRETE SUPPLY STOCKTON",
+"SourceID":"CAZ201658",
+"CWPStreet":"4035 E MARIPOSA RD",
+"CWPCity":"STOCKTON",
+"CWPState":"CA",
+"CWPZip":"95215",
+"RegistryID":"110054312935",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.9308",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  A CONCRETE SUPPLY TRACY",
+"SourceID":"CAZ201831",
+"CWPStreet":"10250 W LINNE RD",
+"CWPCity":"TRACY",
+"CWPState":"CA",
+"CWPZip":"95377",
+"RegistryID":"110054301974",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.69602",
+"CWPDateLastInspection":"12/20/2017",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  A CONCRETE SUPPLY YUBA CITY",
+"SourceID":"CAZ202727",
+"CWPStreet":"1201 MARKET ST",
+"CWPCity":"YUBA CITY",
+"CWPState":"CA",
+"CWPZip":"95991",
+"RegistryID":"110070089035",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"39.148232",
+"CWPDateLastInspection":"05/21/2024",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  A STEPPING STONE MANUFACTURING INC",
+"SourceID":"CAZ199231",
+"CWPStreet":"10291 OPHIR RD",
+"CWPCity":"NEWCASTLE",
+"CWPState":"CA",
+"CWPZip":"95658",
+"RegistryID":"110070088851",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.881835",
+"CWPDateLastInspection":"03/01/2024",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  B AUTO DISMANTLING",
+"SourceID":"CAZ351933",
+"CWPStreet":"5941 E PANAMA RD STE C",
+"CWPCity":"BAKERSFIELD",
+"CWPState":"CA",
+"CWPZip":"93307",
+"RegistryID":"110070090739",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"35.26598",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  B SANDBLAST CO",
+"SourceID":"CAZ191327",
+"CWPStreet":"2447 E 54TH ST",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90058",
+"RegistryID":"110017780267",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.99386",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  B TRUCK RECYCLING",
+"SourceID":"CAZ218424",
+"CWPStreet":"2863 COMMERCIAL ST",
+"CWPCity":"SAN DIEGO",
+"CWPState":"CA",
+"CWPZip":"92113",
+"RegistryID":"110070089693",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.7053",
+"CWPDateLastInspection":"03/27/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  D PLATING INC",
+"SourceID":"CAZ218818",
+"CWPStreet":"2265 MICRO PL  A",
+"CWPCity":"ESCONDIDO",
+"CWPState":"CA",
+"CWPZip":"92029",
+"RegistryID":"110070089763",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.1305",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  J AUTO PARTS",
+"SourceID":"CAZ412305",
+"CWPStreet":"11644 SHELDON ST",
+"CWPCity":"SUN VALLEY",
+"CWPState":"CA",
+"CWPZip":"91352",
+"RegistryID":"110070091396",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.24483",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  M MARBLE INC",
+"SourceID":"CAZ439353",
+"CWPStreet":"909 ARLEE PL",
+"CWPCity":"ANAHEIM",
+"CWPState":"CA",
+"CWPZip":"92805",
+"RegistryID":"110070085891",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.82345",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  M PALLET RECYCLERS",
+"SourceID":"CAZ277016",
+"CWPStreet":"2493 DUNN RD",
+"CWPCity":"HAYWARD",
+"CWPState":"CA",
+"CWPZip":"94545",
+"RegistryID":"110070089855",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.64494",
+"CWPDateLastInspection":"11/15/2023",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  M REINFORCING SPECIALISTS INC",
+"SourceID":"CAZ453754",
+"CWPStreet":"10520 KENNEY ST",
+"CWPCity":"SANTEE",
+"CWPState":"CA",
+"CWPZip":"92071",
+"RegistryID":"110070094180",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.83003",
+"CWPDateLastInspection":"09/20/2022",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  M WELDING INC",
+"SourceID":"CAZ190658",
+"CWPStreet":"16935 S BROADWAY ST",
+"CWPCity":"CARSON",
+"CWPState":"CA",
+"CWPZip":"90248",
+"RegistryID":"110055759022",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.8774",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  S METALS RECYCLING INC",
+"SourceID":"CAZ190528",
+"CWPStreet":"2261 E 15TH ST",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90021",
+"RegistryID":"110070088263",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.02177",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  W ENGINEERING",
+"SourceID":"CAZ188672",
+"CWPStreet":"8528 DICE RD  8518",
+"CWPCity":"SANTA FE SPRINGS",
+"CWPState":"CA",
+"CWPZip":"90670",
+"RegistryID":"110070133395",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.963713",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A  W ENGINEERING",
+"SourceID":"CAZ507600",
+"CWPStreet":"8528 DICE RD",
+"CWPCity":"SANTA FE SPRINGS",
+"CWPState":"CA",
+"CWPZip":"90670",
+"RegistryID":"110065330644",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.96368",
+"CWPDateLastInspection":"03/03/2020",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & A AUTO DISMANTLERS",
+"SourceID":"CAF001357",
+"CWPStreet":"30 WEST HIGHWAY 98",
+"CWPCity":"CALEXICO",
+"CWPState":"CA",
+"CWPZip":"92231",
+"RegistryID":"110064625810",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.6802",
+"CWPDateLastInspection":"02/23/2011",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & A AUTO WRECKING",
+"SourceID":"CAZ482462",
+"CWPStreet":"1806 SICHEL STREET",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90031",
+"RegistryID":"110066196342",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.06425",
+"CWPDateLastInspection":"10/15/2021",
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & A BROTHERS RECYCLING",
+"SourceID":"CAZ469762",
+"CWPStreet":"22393 OUTER HIGHWAY 18",
+"CWPCity":"APPLE VALLEY",
+"CWPState":"CA",
+"CWPZip":"92307",
+"RegistryID":"110070096253",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.50082",
+"CWPDateLastInspection":"10/09/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & A CONCRETE SUPPLY",
+"SourceID":"CAF001205",
+"CWPStreet":"3578  ESPLANADE",
+"CWPCity":"CHICO",
+"CWPState":"CA",
+"CWPZip":"95973",
+"RegistryID":"110021137134",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"39.78215",
+"CWPDateLastInspection":"01/13/2010",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & A INC",
+"SourceID":"CAW512202",
+"CWPStreet":"12031 PHILADELPHIA STREET, BLDG 2",
+"CWPCity":"WHITTIER",
+"CWPState":"CA",
+"CWPZip":"90601",
+"RegistryID":"110070617412",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.008008",
+"CWPDateLastInspection":"08/21/2019",
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & A MACHINING,INC",
+"SourceID":"CAW506490",
+"CWPStreet":"1251  ALMA CT",
+"CWPCity":"SAN JOSE",
+"CWPState":"CA",
+"CWPZip":"94301",
+"RegistryID":"110065821908",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.317815",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & A READY MIXED CONCRETE INC DBA A & A CONCRETE SUPPLY",
+"SourceID":"CAZ477403",
+"CWPStreet":"212 RAILROAD STREET",
+"CWPCity":"COLFAX",
+"CWPState":"CA",
+"CWPZip":"95828",
+"RegistryID":"110070096859",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"39.098049",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & A READY MIXED CONCRETE INC DBA A & A CONCRETE SUPPLY",
+"SourceID":"CAZ200708",
+"CWPStreet":"8272 BERRY AVE",
+"CWPCity":"SACRAMENTO",
+"CWPState":"CA",
+"CWPZip":"95828",
+"RegistryID":"110070088897",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.505789",
+"CWPDateLastInspection":"10/17/2017",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & A TOOL DIE MACHINE",
+"SourceID":"CAW485512",
+"CWPStreet":"1266 S LYON ST",
+"CWPCity":"SANTA ANA",
+"CWPState":"CA",
+"CWPZip":"92705",
+"RegistryID":"110070086909",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.7660065",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & C ELECTRONICS",
+"SourceID":"CAZ191174",
+"CWPStreet":"18153 NAPA ST",
+"CWPCity":"NORTHRIDGE",
+"CWPState":"CA",
+"CWPZip":"91325",
+"RegistryID":"110000782635",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.22645",
+"CWPDateLastInspection":"05/30/2023",
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & C VIERRA DAIRY",
+"SourceID":"CAU004047",
+"CWPStreet":"6125 S CENTRAL AVE",
+"CWPCity":"TURLOCK",
+"CWPState":"CA",
+"CWPZip":"95380",
+"RegistryID":"110038448980",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.43085",
+"CWPDateLastInspection":"01/14/2009",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & D PRECISION MANIFACTURING",
+"SourceID":"CAW536550",
+"CWPStreet":"4751 E HUNTER AVE",
+"CWPCity":"ANAHEIM",
+"CWPState":"CA",
+"CWPZip":"92807",
+"RegistryID":"110066632362",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.8648",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & D PRECISION MFG",
+"SourceID":"CAW536556",
+"CWPStreet":"1262 N LA LOMA CIR",
+"CWPCity":"ANAHEIM",
+"CWPState":"CA",
+"CWPZip":"92806",
+"RegistryID":"110070946982",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.8379605",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & E TRUCKING",
+"SourceID":"CAW590581",
+"CWPStreet":"15018 SAN FERNANDO ROAD",
+"CWPCity":"SYLMAR",
+"CWPState":"CA",
+"CWPZip":"91342",
+"RegistryID":"110072000587",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.3265845",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & F DAIRY",
+"SourceID":"CAA000151",
+"CWPStreet":"691 INYO AVE",
+"CWPCity":"NEWMAN",
+"CWPState":"CA",
+"CWPZip":"95360",
+"RegistryID":"110009000320",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.31108",
+"CWPDateLastInspection":"03/14/2000",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & F TRANSPORT",
+"SourceID":"CAW492358",
+"CWPStreet":"1231 REDWOOD VIEW DRIVE",
+"CWPCity":"POMONA",
+"CWPState":"CA",
+"CWPZip":"91766",
+"RegistryID":"110070146540",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.0422858",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & G MACHINE SHOP, INC.",
+"SourceID":"CAZ485984",
+"CWPStreet":"1352 BURTON  AVENUE",
+"CWPCity":"SALINAS",
+"CWPState":"CA",
+"CWPZip":"93901",
+"RegistryID":"110066301754",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.649574",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & I FINISHING INC",
+"SourceID":"CAZ489509",
+"CWPStreet":"5981 MAYWOOD AVENUE #A",
+"CWPCity":"HUNTINGTON PARK",
+"CWPState":"CA",
+"CWPZip":"90255",
+"RegistryID":"110070102701",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.98719",
+"CWPDateLastInspection":"03/06/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & I PALLETS LLC",
+"SourceID":"CAZ507978",
+"CWPStreet":"9405 S ALAMEDA STREET",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90002",
+"RegistryID":"110065821695",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.951403",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & J MOLDS",
+"SourceID":"CAZ480623",
+"CWPStreet":"1046 COMMERCE STREET # H",
+"CWPCity":"SAN MARCOS",
+"CWPState":"CA",
+"CWPZip":"92078",
+"RegistryID":"110070097136",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.138104",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & L MANUFACTURING CO INC",
+"SourceID":"CAW512363",
+"CWPStreet":"7623 BALDWIN PLACE",
+"CWPCity":"WHITTIER",
+"CWPState":"CA",
+"CWPZip":"90602",
+"RegistryID":"110066501752",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.97234",
+"CWPDateLastInspection":"09/13/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & M MARBLE INC",
+"SourceID":"CAW438276",
+"CWPStreet":"909 ARLEE PL",
+"CWPCity":"ANAHEIM",
+"CWPState":"CA",
+"CWPZip":"92805",
+"RegistryID":"110070085891",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.82345",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & M STONE AND CABINET",
+"SourceID":"CAZ491054",
+"CWPStreet":"72060 CORPORATE WAY",
+"CWPCity":"THOUSAND PALMS",
+"CWPState":"CA",
+"CWPZip":"92276",
+"RegistryID":"110070133618",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.82342",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & R POWDER COATING",
+"SourceID":"CAW537068",
+"CWPStreet":"1198 N GROVE ST",
+"CWPCity":"ANAHEIM",
+"CWPState":"CA",
+"CWPZip":"92806",
+"RegistryID":"110066748586",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.85893",
+"CWPDateLastInspection":"07/01/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & S METALS",
+"SourceID":"CAZ498319",
+"CWPStreet":"456 BRUNKEN AVE",
+"CWPCity":"SALINAS",
+"CWPState":"CA",
+"CWPZip":"93901",
+"RegistryID":"110070250012",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.66664",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & S METALS RECYCLING INC",
+"SourceID":"CAF001184",
+"CWPStreet":"2261 15TH",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90021",
+"RegistryID":"110063649896",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.02187",
+"CWPDateLastInspection":"01/25/2010",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & W MACHINE BUILDING",
+"SourceID":"CAW498669",
+"CWPStreet":"159 SOUTH IRWINDALE AVENUE",
+"CWPCity":"AZUSA",
+"CWPState":"CA",
+"CWPZip":"91702",
+"RegistryID":"110070249404",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.2815249",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & Z GRINDING INC",
+"SourceID":"CAZ464804",
+"CWPStreet":"1543 NADEAU STREET",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90001",
+"RegistryID":"110070086262",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.96771",
+"CWPDateLastInspection":"01/03/2018",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A & Z GRINDING INC",
+"SourceID":"CAW458215",
+"CWPStreet":"1543 NADEAU ST",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"90001",
+"RegistryID":"110070086262",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.96771",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A &S AUTO WRECKING INC",
+"SourceID":"CAZ432366",
+"CWPStreet":"895 SHERIDAN ROAD UNIT F",
+"CWPCity":"ARROYO GRANDE",
+"CWPState":"CA",
+"CWPZip":"93420",
+"RegistryID":"110070092137",
+"Statute":"CWA",
+"CWPNAICSCodes":"111998",
+"FacLat":"35.040437",
+"CWPDateLastInspection":"03/06/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A 1 AUTO WRECKERS",
+"SourceID":"CAZ178204",
+"CWPStreet":"1100 MCNAMARA RD",
+"CWPCity":"CRESCENT CITY",
+"CWPState":"CA",
+"CWPZip":"95531",
+"RegistryID":"110002905839",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"41.76734",
+"CWPDateLastInspection":"11/18/2020",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A 1 AUTO WRECKERS",
+"SourceID":"CAZ183929",
+"CWPStreet":"200 HILLSDALE AVE",
+"CWPCity":"SAN JOSE",
+"CWPState":"CA",
+"CWPZip":"95136",
+"RegistryID":"110055660262",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.28055",
+"CWPDateLastInspection":"05/07/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A 1 AUTO WRECKERS",
+"SourceID":"CAZ299085",
+"CWPStreet":"2381 W MAIN ST",
+"CWPCity":"BARSTOW",
+"CWPState":"CA",
+"CWPZip":"92311",
+"RegistryID":"110064965783",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.8909",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A 1 BUDGET AUTO DISMANTLING INC",
+"SourceID":"CAZ338824",
+"CWPStreet":"42234 4TH ST E",
+"CWPCity":"LANCASTER",
+"CWPState":"CA",
+"CWPZip":"93534",
+"RegistryID":"110070102737",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.650121",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A 1 GRIT COMPANY",
+"SourceID":"CAZ451794",
+"CWPStreet":"10338 POPLAR AVE",
+"CWPCity":"FONTANA",
+"CWPState":"CA",
+"CWPZip":"92355",
+"RegistryID":"110065822088",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.065452",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A 1 HESPERIA RECYCLING COMPANY INC",
+"SourceID":"CAZ444456",
+"CWPStreet":"16666 SPRUCE STREET",
+"CWPCity":"HESPERIA",
+"CWPState":"CA",
+"CWPZip":"92345",
+"RegistryID":"110070093348",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.42439",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A 1 METALS &  AUTO SALVAGE INC",
+"SourceID":"CAZ185709",
+"CWPStreet":"5795 STOCKDALE RD",
+"CWPCity":"PASO ROBLES",
+"CWPState":"CA",
+"CWPZip":"93446",
+"RegistryID":"110032962417",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"35.685998",
+"CWPDateLastInspection":"05/18/2022",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A 1 METALS & AUTO SALVAGE",
+"SourceID":"CAF001340",
+"CWPStreet":"5795 STOCKDALE RD.",
+"CWPCity":"PASO ROBLES",
+"CWPState":"CA",
+"CWPZip":"93446",
+"RegistryID":"110032962417",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"35.685998",
+"CWPDateLastInspection":"03/31/2011",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A 1 METALS RECYCLING",
+"SourceID":"CAF001190",
+"CWPStreet":"8250 TUJUNGA AVE",
+"CWPCity":"SUN VALLEY",
+"CWPState":"CA",
+"CWPZip":"91352",
+"RegistryID":"110064611889",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.220847",
+"CWPDateLastInspection":"01/26/2010",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A 1 RECYCLING",
+"SourceID":"CAZ402846",
+"CWPStreet":"1248 W 9TH ST",
+"CWPCity":"UPLAND",
+"CWPState":"CA",
+"CWPZip":"91786",
+"RegistryID":"110070091107",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.09604",
+"CWPDateLastInspection":"12/20/2017",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A 1 WRECKING YARD",
+"SourceID":"CAZ495694",
+"CWPStreet":"2015 W STONEHURST DR",
+"CWPCity":"RIALTO",
+"CWPState":"CA",
+"CWPZip":"92377",
+"RegistryID":"110070230692",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.1442",
+"CWPDateLastInspection":"10/16/2019",
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A A 2 AUTO SALVAGE",
+"SourceID":"CAZ204317",
+"CWPStreet":"45509 DIVISION ST",
+"CWPCity":"LANCASTER",
+"CWPState":"CA",
+"CWPZip":"93535",
+"RegistryID":"110066303002",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"34.70989",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A A CONCRETE SUPPLY FAIRFIELD SUISUN CITY",
+"SourceID":"CAZ276942",
+"CWPStreet":"3809 BITHELL LN",
+"CWPCity":"SUISUN CITY",
+"CWPState":"CA",
+"CWPZip":"94585",
+"RegistryID":"110070089850",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.22111",
+"CWPDateLastInspection":"05/03/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A A CONCRETE SUPPLY GRASS VALLEY",
+"SourceID":"CAZ477398",
+"CWPStreet":"270 RAILROAD AVENUE",
+"CWPCity":"GRASS VALLEY",
+"CWPState":"CA",
+"CWPZip":"95945",
+"RegistryID":"110070096857",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"39.223092",
+"CWPDateLastInspection":"12/29/2022",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A ALPHA WAVEGUIDE INC",
+"SourceID":"CAZ492545",
+"CWPStreet":"1217 E EL SEGUNDO BLVD",
+"CWPCity":"LOS ANGELES",
+"CWPState":"CA",
+"CWPZip":"CA",
+"RegistryID":"110002683427",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.91639",
+"CWPDateLastInspection":"06/18/2021",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A AND G METAL WORKS",
+"SourceID":"CAW548576",
+"CWPStreet":"755 VERNON WAY",
+"CWPCity":"EL CAJON",
+"CWPState":"CA",
+"CWPZip":"92020",
+"RegistryID":"110071253702",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.7956047",
+"CWPDateLastInspection":"04/07/2022",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A AND L TILE",
+"SourceID":"CAW443491",
+"CWPStreet":"3722 MAIN STREET",
+"CWPCity":"SAN DIEGO",
+"CWPState":"CA",
+"CWPZip":"92113",
+"RegistryID":"110070086000",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"32.694637",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A AND M DISMANTLING INC",
+"SourceID":"CAZ200673",
+"CWPStreet":"716 BELL AVE",
+"CWPCity":"SACRAMENTO",
+"CWPState":"CA",
+"CWPZip":"95838",
+"RegistryID":"110070088881",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"38.647613",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A AND M METALS",
+"SourceID":"CAZ427238",
+"CWPStreet":"2301 W 5TH ST",
+"CWPCity":"SANTA ANA",
+"CWPState":"CA",
+"CWPZip":"92703",
+"RegistryID":"110002834675",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.7487",
+"CWPDateLastInspection":"11/17/2022",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A AND P GRINDING",
+"SourceID":"CAZ519679",
+"CWPStreet":"1824 RAILROAD STREET",
+"CWPCity":"CORONA",
+"CWPState":"CA",
+"CWPZip":"92880",
+"RegistryID":"110065481552",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.89027",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A AND S METALS",
+"SourceID":"CAZ410833",
+"CWPStreet":"6454 CHESTNUT ST",
+"CWPCity":"GILROY",
+"CWPState":"CA",
+"CWPZip":"95020",
+"RegistryID":"110064972310",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.993966",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A AND S METALS",
+"SourceID":"CAZ447841",
+"CWPStreet":"1080 W BEACH STREET",
+"CWPCity":"WATSONVILLE",
+"CWPState":"CA",
+"CWPZip":"95076",
+"RegistryID":"110066302012",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.90249",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A AND S METALS",
+"SourceID":"CAZ445590",
+"CWPStreet":"11340 COMMERCIAL PARKWAY",
+"CWPCity":"CASTROVILLE",
+"CWPState":"CA",
+"CWPZip":"95012",
+"RegistryID":"110066435183",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"36.75518",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A AND S METALS",
+"SourceID":"CAZ420208",
+"CWPStreet":"2510 TECHNOLOGY DR",
+"CWPCity":"LOS BANOS",
+"CWPState":"CA",
+"CWPZip":"95012",
+"RegistryID":"110070091595",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.05513",
+"CWPDateLastInspection":"04/06/2023",
+"CWPViolStatus":"Yes",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A AND SHIRLEY L SABA",
+"SourceID":"CAW493094",
+"CWPStreet":"41309 AVENIDA BIONA",
+"CWPCity":"TEMECULA",
+"CWPState":"CA",
+"CWPZip":"92951",
+"RegistryID":"110070147592",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.5019227",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A AND T PRECISION MACHINING",
+"SourceID":"CAW506492",
+"CWPStreet":"330  PIERCY RD.",
+"CWPCity":"SAN JOSE",
+"CWPState":"CA",
+"CWPZip":"95138",
+"RegistryID":"110066550994",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"37.25509",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A AUTO SALVAGE",
+"SourceID":"CAW415870",
+"CWPStreet":"1925 S UNION AVENUE",
+"CWPCity":"BAKERSFIELD",
+"CWPState":"CA",
+"CWPZip":"93307",
+"RegistryID":"110014448339",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"35.33167",
+"CWPDateLastInspection":"04/26/2023",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A AUTO SALVAGE",
+"SourceID":"CAZ481092",
+"CWPStreet":"1925 SOUTH UNION AVE",
+"CWPCity":"BAKERSFIELD",
+"CWPState":"CA",
+"CWPZip":"93307",
+"RegistryID":"110014448339",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"35.33167",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A B C PRESS",
+"SourceID":"CAW512146",
+"CWPStreet":"2780 WALNUT AVENUE",
+"CWPCity":"SIGNAL HILL",
+"CWPState":"CA",
+"CWPZip":"90806",
+"RegistryID":"110066589980",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.80768",
+"CWPDateLastInspection":"08/20/2019",
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+,{
+"CWPName":"A B C SCH DIST TRANS",
+"SourceID":"CAZ188811",
+"CWPStreet":"11865 178TH ST",
+"CWPCity":"ARTESIA",
+"CWPState":"CA",
+"CWPZip":"90701",
+"RegistryID":"110070087929",
+"Statute":"CWA",
+"CWPNAICSCodes":null,
+"FacLat":"33.86941",
+"CWPDateLastInspection":null,
+"CWPViolStatus":"No",
+"ElectrRptWaiverEffDate":null
+}
+]
+}
+}

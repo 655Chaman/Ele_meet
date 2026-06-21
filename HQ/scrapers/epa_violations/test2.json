@@ -1,0 +1,7 @@
+{
+  "Results":{
+    "Error":{
+      "ErrorMessage":"If your requests exceed 300 per hour or 1,500 per day, we will throttle your request.  ECHO has exports of bulk data available for download at https://echo.epa.gov/tools/data-downloads."
+    }
+  }
+}

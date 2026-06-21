@@ -1,0 +1,6 @@
+company_name,city,state,violation_type,penalty_amount,citation_date,urgency_score
+a Bowden Piggly Wiggly supermarket franchisee,ATLANTA,Unknown,safety,196251,2026-06-01,5
+Unknown,WASHINGTON,Unknown,Unknown,0,2026-05-04,5
+Unknown,Unknown,Unknown,Unknown,0,2026-05-04,1
+a Florida roofing employer,FORT LAUDERDALE,FL,willfully exposing employees to safety,172324,2026-04-24,5
+Unknown,OKLAHOMA CITY,Unknown,"engaging in protected activities under the Pipeline Safety Improvement Act , which protects employees from retaliation for reporting",35000,2026-04-23,3

@@ -1,0 +1,21 @@
+company_name,city,state,issue_date,violation_type,product_type,classification,urgency_score
+"Kalman Health & Wellness, Inc. dba Essential Wellness Pharma",Peoria,IL,20150903,Lack of Assurance of Sterility:  A recall of all compounded sterile preparations within expiry is being initiated due to observations associated with poor sterile production practices resulting in a lack of sterility assurance for their finished drugs.,Drugs,Class II,1
+Albek De Mexico S.A. De C.V.,San Juan Del Rio,N/A,20200730,CGMP Deviations: Next Advanced Antibacterial Hand Sanitizer was found to be below the label claim for ethanol content and contained methanol. Other products were recalled because they were manufactured in the same facility as the product found to contain methanol.,Drugs,Class II,4
+ProRx LLC,Exton,PA,20251015,Lack of Assurance of Sterility,Drugs,Class II,1
+Teva Pharmaceuticals USA,Parsippany,NJ,20200522,Some bottles may contain mixed strengths of the product.,Drugs,Class II,1
+Perrigo Company PLC,Allegan,MI,20211026,CGMP Deviations: Products were manufactured with contaminated excipient that was recalled from the excipient supplier.,Drugs,Class II,4
+"Pharmedium Services, LLC",Lake Forest,IL,20160505,Presence of Particulate Matter: API contaminated with glass particulate was used to produce sterile injectable drugs.,Drugs,Class II,1
+Pfizer Inc.,New York,NY,20140708,Labeling: Incorrect or missing lot and or Exp Date: The bottles were labeled with an incorrect expiry date 11/2016.  The correct expiry date is 09/2016.,Drugs,Class III,2
+Little Moon Essentials LLC,Dania Beach,FL,20240620,CGMP deviations,Drugs,Class II,4
+"Pharm D Solutions, LLC",Houston,TX,20180910,Lack of Assurance of Sterility,Drugs,Class II,1
+AmeriSource Bergen,Chesterbrook,PA,20130913,Temperature abuse: Certain vials of Ifosfamide IV products were not refrigerated at certain Amerisource Bergen Drug Corp distribution centers.,Drugs,Class II,1
+Apace KY LLC,Fountain Run,KY,20170619,"Labeling; Label Mix up; cartons labeled as Amantadine HCl 100 mg Capsules contain unit dose blister cards of Cyclobenzaprine HCl Tablet, USP 5 mg",Drugs,Class II,2
+Cardinal Health Inc.,Dublin,OH,20210315,CGMP Deviations: Intermittent exposure to temperature excursion during storage.,Drugs,Class II,4
+The Compounding Pharmacy of America,Knoxville,TN,20150602,Lack of Assurance of Sterility; FDA inspection identified GMP violations potentially impacting product quality and sterility,Drugs,Class II,1
+West-Ward Pharmaceutical Corp.,Eatontown,NJ,20131107,"Presence of Foreign Substance; heavy metals (chromium, titanium etc) and inactive components of the product were visually observed during routine stability testing",Drugs,Class II,1
+CARDINAL HEALTHCARE,Dublin,OH,20220126,CGMP Deviations: Products were exposed to temperatures outside of the products labeled storage conditions.,Drugs,Class II,4
+Westminster Pharmaceuticals LLC,Olive Branch,MS,20180803,"Failed Content Uniformity Specifications: Product was manufactured using an adulterated active pharmaceutical ingredient; additionally, lack of process controls and good manufacturing practices resulted in finished product failing content uniformity specifications which can result in a product having a strength that is more or less than is labeled.",Drugs,Class I,3
+"KRS Global Biotechnology, Inc",Boca Raton,FL,20171116,Labeling: Incorrect or Missing Lot and/or Exp Date: Beyond Use Date (BUD) exceed the BUD/EXP of at least one ingredient used to make final product.,Drugs,Class II,2
+Sentara Infusion Services,Chesapeake,VA,20221227,Lack of sterility assurance,Drugs,Class II,1
+The Compounding Pharmacy of America,Knoxville,TN,20150602,Lack of Assurance of Sterility; FDA inspection identified GMP violations potentially impacting product quality and sterility,Drugs,Class II,1
+"Aidapak Services, LLC",Vancouver,WA,20130702,"Labeling: Label Mixup; FAMOTIDINE Tablet, 20 mg may be potentially mislabeled as    CARVEDILOL PHOSPHATE ER, Capsule, 20 mg, NDC 00007337113, Pedigree: W003225, EXP: 6/17/2014;  DULoxetine HCl DR, Capsule, 20 mg, NDC 00002323560, Pedigree: W003506, EXP: 6/21/2014;  FAMOTIDINE, Tablet, 20 mg, NDC 16714036104, Pedigree: W003507, EXP: 6/21/2014;  MYCOPHENOLATE MOFETIL, Capsule, 250 mg, NDC 0037822500",Drugs,Class II,2

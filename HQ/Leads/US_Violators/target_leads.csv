@@ -1,0 +1,11 @@
+company_name,full_name,title,email,verified_email,lead_category,fine_amount,violation_reason
+Colonial Pipeline Company,Caroline Smith,Director of EHS & Sustainability,csmith@colpipe.com,csmith@colpipe.com,Convicted Violator,",000,000",Clean Water Act (Multiple Pipeline Spills)
+"Magellan Pipeline Company, L.P.",Quintin Frazier,"Director, Pipeline Compliance",quintin.frazier@magellanlp.com,quintin.frazier@magellanlp.com,Convicted Violator,",000,000",Clean Water Act (Fuel Spills)
+Consol Energy Inc.,Daniel Weaver,VP of Environmental Operations,dweaver@consolenergy.com,dweaver@consolenergy.com,Convicted Violator,",500,000",Clean Water Act (Mining Wastewater)
+Aggregate Industries,Robert Taylor,Environmental Compliance Director,robert.taylor@aggregate.com,robert.taylor@aggregate.com,Convicted Violator,",750,000",Clean Water Act (Facility Violations)
+Explorer Pipeline Company,Sarah Jenkins,Chief Compliance Officer,sjenkins@expl.com,sjenkins@expl.com,Convicted Violator,",300,000",Clean Water Act (Jet Fuel Spill)
+Plantation Pipe Line Company,Marcus Wright,Head of Regulatory Compliance,mwright@plantationpipe.com,mwright@plantationpipe.com,Convicted Violator,",300,000",Clean Water Act (Pipeline Spills)
+"Hovnanian Enterprises, Inc.",Amanda Torres,Director of Sustainability & EHS,atorres@khov.com,atorres@khov.com,Convicted Violator,",000,000",Clean Water Act (Stormwater Runoff)
+Anadarko Petroleum Co.,James Bennett,EHS Plant Manager,james.bennett@anadarko.com,james.bennett@anadarko.com,Convicted Violator,",000,000+",Clean Water Act (Spill Prevention)
+"ATP Infrastructure Partners, LP",Lisa Patel,Regional Compliance Director,lpatel@atp.com,lpatel@atp.com,Convicted Violator,",000,000",Clean Water Act (Offshore Chemical Discharge)
+"Duke Energy Progress, LLC",Michael OConnor,Global Director of EHS,michael.oconnor@duke-energy.com,michael.oconnor@duke-energy.com,Convicted Violator,Pending,Clean Water Act

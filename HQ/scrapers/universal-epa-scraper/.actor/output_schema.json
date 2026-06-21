@@ -1,0 +1,14 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Extracted Leads Output",
+    "description": "The environmental corporate violations and high-value leads extracted by the ELESIUM.online Universal Engine.",
+    "type": "object",
+    "properties": {
+        "defaultDatasetId": {
+            "type": "string",
+            "title": "Corporate Violator Leads",
+            "description": "Dataset containing the extracted environmental violation leads.",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "actorSpecification": 1,
+    "name": "universal-epa-scraper",
+    "version": "0.1",
+    "buildTag": "latest",
+    "env": null,
+    "output": "./output_schema.json",
+    "storages": {
+        "dataset": "./dataset_schema.json"
+    }
+}

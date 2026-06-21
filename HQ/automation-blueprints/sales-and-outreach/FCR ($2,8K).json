@@ -1,0 +1,1981 @@
+{
+  "name": "FCR ($2,8K)",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -160,
+        -40
+      ],
+      "id": "25cf11c9-17f9-4bc6-bf61-33647304bf78",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "url": "=https://token.mailtester.ninja/token?key=yourkey",
+        "options": {
+          "batching": {
+            "batch": {
+              "batchSize": 10
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        300,
+        -40
+      ],
+      "id": "dd70289a-d132-4dc4-8927-624b6deb6c29",
+      "name": "Verify Email",
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "claude-3-7-sonnet-20250219",
+          "mode": "list",
+          "cachedResultName": "Claude Sonnet 3.7"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.3,
+      "position": [
+        1040,
+        180
+      ],
+      "id": "e16dce86-cb65-4e3d-a0df-b6351cfe4e4e",
+      "name": "Anthropic Chat Model",
+      "credentials": {
+        "anthropicApi": {
+          "id": "TIy95Ot7SL19I43A",
+          "name": "Anthropic account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "claude-3-7-sonnet-20250219",
+          "mode": "list",
+          "cachedResultName": "Claude Sonnet 3.7"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.3,
+      "position": [
+        620,
+        180
+      ],
+      "id": "8ba26a21-8db3-4108-9e62-65e4436e2f81",
+      "name": "Anthropic Chat Model1",
+      "credentials": {
+        "anthropicApi": {
+          "id": "TIy95Ot7SL19I43A",
+          "name": "Anthropic account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Normalize the company name by {{ $('G Sheets Reader').item.json.organization_name }} focusing on its most distinctive and memorable element, as it may be reflected in the company's domain {{ $('G Sheets Reader').item.json.organization_primary_domain }} and the company's LinkedIn {{ $('G Sheets Reader').item.json.organization_linkedin_url }}.The goal is to identify the standout part of the name, typically the first noun, while discarding generic terms.\nOutput a concise, casual abbreviation employees might use, respecting original capitalization and spacing. Provide only the final normalized result.",
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        560,
+        -160
+      ],
+      "id": "8dbc54ed-02c4-4c05-8b81-6b0f200107af",
+      "name": "Clean Company Name"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Generate a statement similar to:\n Saw [companyName] is growing in [location] — exciting to see that momentum 👏\nI’m connected with an IT team based locally in [state] — they’ve helped a few firms like X reduce downtime, secure systems, and fully offload tech headaches.\n {{ $('G Sheets Reader').item.json.organization_city }}\n{{ $json.text }}",
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        1000,
+        -40
+      ],
+      "id": "948b9bf5-720f-4c99-b9ad-964abcde77ab",
+      "name": "Dream Email"
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "documentId": {
+          "__rl": true,
+          "value": "1tQJ8fiCJ-q4woe588tAeSUhR_2zZMZoVGtWyHVPV-G0",
+          "mode": "list",
+          "cachedResultName": "FCR $2.8K",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1tQJ8fiCJ-q4woe588tAeSUhR_2zZMZoVGtWyHVPV-G0/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 245760687,
+          "mode": "list",
+          "cachedResultName": "Sheet2",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1tQJ8fiCJ-q4woe588tAeSUhR_2zZMZoVGtWyHVPV-G0/edit#gid=245760687"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "dream copy": "={{ $json.text }}",
+            "row_number": "={{ $('G Sheets Reader').item.json.row_number }}"
+          },
+          "matchingColumns": [
+            "row_number"
+          ],
+          "schema": [
+            {
+              "id": "city",
+              "displayName": "city",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "country",
+              "displayName": "country",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "department",
+              "displayName": "department",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "email",
+              "displayName": "email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "email_domain_catchall",
+              "displayName": "email_domain_catchall",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "estimated_num_employees",
+              "displayName": "estimated_num_employees",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "facebook_url",
+              "displayName": "facebook_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "first_name",
+              "displayName": "first_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline",
+              "displayName": "headline",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "id",
+              "displayName": "id",
+              "required": false,
+              "defaultMatch": true,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "industry",
+              "displayName": "industry",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "keywords",
+              "displayName": "keywords",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "last_name",
+              "displayName": "last_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "linkedin_url",
+              "displayName": "linkedin_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "name",
+              "displayName": "name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_annual_revenue",
+              "displayName": "organization_annual_revenue",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_annual_revenue_printed",
+              "displayName": "organization_annual_revenue_printed",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_city",
+              "displayName": "organization_city",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_country",
+              "displayName": "organization_country",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_facebook_url",
+              "displayName": "organization_facebook_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_founded_year",
+              "displayName": "organization_founded_year",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_id",
+              "displayName": "organization_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_linkedin_uid",
+              "displayName": "organization_linkedin_uid",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_linkedin_url",
+              "displayName": "organization_linkedin_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_logo_url",
+              "displayName": "organization_logo_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_market_cap",
+              "displayName": "organization_market_cap",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_name",
+              "displayName": "organization_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_phone",
+              "displayName": "organization_phone",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_postal_code",
+              "displayName": "organization_postal_code",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_primary_domain",
+              "displayName": "organization_primary_domain",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_raw_address",
+              "displayName": "organization_raw_address",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_seo_description",
+              "displayName": "organization_seo_description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_short_description",
+              "displayName": "organization_short_description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_state",
+              "displayName": "organization_state",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_street_address",
+              "displayName": "organization_street_address",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_technologies",
+              "displayName": "organization_technologies",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_total_funding",
+              "displayName": "organization_total_funding",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_total_funding_printed",
+              "displayName": "organization_total_funding_printed",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_twitter_url",
+              "displayName": "organization_twitter_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "organization_website_url",
+              "displayName": "organization_website_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "personal_email",
+              "displayName": "personal_email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "photo_url",
+              "displayName": "photo_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "seniority",
+              "displayName": "seniority",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "state",
+              "displayName": "state",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "title",
+              "displayName": "title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "twitter_url",
+              "displayName": "twitter_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "dream copy",
+              "displayName": "dream copy",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "row_number",
+              "displayName": "row_number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "readOnly": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.6,
+      "position": [
+        1360,
+        -40
+      ],
+      "id": "ce73efe5-4a5c-4903-bada-8c5ef4155754",
+      "name": "Update row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "cm9QswRynPLs4EoC",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "https://api.nwita.ai/g-sheet-reader",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "sheet_url",
+              "value": "https://docs.google.com/spreadsheets/d/1tQJ8fiCJ-q4woe588tAeSUhR_2zZMZoVGtWyHVPV-G0/edit?usp=sharing"
+            },
+            {
+              "name": "tab",
+              "value": "Sheet2"
+            },
+            {
+              "name": "limit",
+              "value": "50"
+            }
+          ]
+        },
+        "sendHeaders": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        60,
+        -40
+      ],
+      "id": "2898d406-6aa6-407a-b87e-4885318651c5",
+      "name": "G Sheets Reader"
+    }
+  ],
+  "pinData": {
+    "Dream Email": [
+      {
+        "json": {
+          "text": "Saw LAAPIP is growing in Miami — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Zinzow is growing in Tampa — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like Zinzow reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Noticed [companyName] is expanding operations in [location] — thrilled to watch your progress 👏\nI'm linked with a tech support group headquartered in [state] — they've assisted several businesses similar to yours with improving system reliability, enhancing cybersecurity, and completely managing IT responsibilities."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw JetStream Digital is growing in Tampa — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Gaggo is growing in Phoenix — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Arizona — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches.\nTroy"
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Kovar is growing in Saint Petersburg — exciting to see that momentum 👏\n\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw AG Immigration is growing in Orlando — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Nexa is growing in London — exciting to see that momentum 👏\nI'm connected with an IT team based locally in England — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Sanderson is growing in Bradenton — exciting to see that momentum 👏 \nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw FincenFetch is growing in Palm Beach — exciting to see that momentum 👏\n\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Loigica is growing in Miami — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Techno-Crime is growing in Seattle — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Washington — they've helped a few firms like Techno-Crime reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Leap Frog is growing in Orlando — exciting to see that momentum 👏\n\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Ahava is growing in Saint Petersburg — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like Ahava reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Westbury is growing in Kayse — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Montana — they've helped a few firms like Westbury reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw AKTION is growing in Valencia — exciting to see that momentum 👏\nI'm connected with an IT team based locally in California — they've helped a few firms like AKTION reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw SMT is growing in Detroit — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Michigan — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Veritas is growing in Boynton Beach — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like Veritas reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Family First Firm is growing in Winter Park — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Riverview is growing in Guided Life — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Arizona — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Valle Law is growing in Orlando — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Verdant Solutions is growing in Dallas — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Texas — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches.\nTroy\nPaletz"
+        }
+      },
+      {
+        "json": {
+          "text": "Saw eNotaryLog is growing in Tampa — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like eNotaryLog reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Rossen is growing in Fort Lauderdale — exciting to see that momentum 👏\n\nI'm connected with an IT team based locally in Florida — they've helped a few firms like Rossen reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw CompTech Solutions is growing in Plantation — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like JOINUSA reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Serve is growing in Tampa — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Serve Legal is growing in Tampa — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Lawgical is growing in Miami — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Lateral Match is growing in Cincinnati — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Ohio — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Coastal is growing in New Smyrna Beach — exciting to see that momentum 👏\n\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Noticed [companyName] is expanding in Bethlehem — thrilled to see that progress 👏  \nI'm connected with a tech support team based right here in Pennsylvania — they've successfully helped several organizations similar to DNA minimize disruptions, strengthen their security protocols, and completely handle all IT challenges."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Vasquez is growing in Miami — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like Vasquez reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Noticed [companyName] is expanding operations in [location] — thrilled to see your continued success 👏\n\nI'm linked with a technology group headquartered in [state] — they've supported several businesses similar to Novi Stern with infrastructure optimization, cybersecurity enhancements, and comprehensive IT management solutions."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Cathey & Miles is growing in Saint Petersburg — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw ByteTech Solutions is growing in Sacramento — exciting to see that momentum 👏\nI'm connected with an IT team based locally in California — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches.\n\nStrategic"
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Shea is growing in Southfield — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Michigan — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Veritas is growing in Boynton Beach — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Longwood is growing in Consumer Rights — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Kenol is growing in Hollywood — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Broward Public Defender is growing in Fort Lauderdale — exciting to see that momentum 👏\n\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw DataSync Solutions is growing in Miami — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches.\n\nAlex Hanna"
+        }
+      },
+      {
+        "json": {
+          "text": "Saw LIT is growing in Coral Gables — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Molina is growing in Blue Ash — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Ohio — they've helped a few firms like Molina reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Orlando Business Solutions is growing in Altamonte Springs — exciting to see that momentum 👏\n\nI'm connected with an IT team based locally in Florida — they've helped a few firms like FAB reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw The Freelance Firm is growing in Fort Lauderdale — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Synergy Systems is growing in Portland — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Oregon — they've helped a few firms like Synergy reduce downtime, secure systems, and fully offload tech headaches.\n\nGray"
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Bratter is growing in Miami Beach — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Bloodworth is growing in Orlando — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      },
+      {
+        "json": {
+          "text": "Saw [companyName] is growing in Bloomfield Hills — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Michigan — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches.\n\nJennifer Ross"
+        }
+      },
+      {
+        "json": {
+          "text": "Saw Coven is growing in Seattle — exciting to see that momentum 👏\nI'm connected with an IT team based locally in Washington — they've helped a few firms like yours reduce downtime, secure systems, and fully offload tech headaches."
+        }
+      }
+    ],
+    "Clean Company Name": [
+      {
+        "json": {
+          "text": "LAAPIP"
+        }
+      },
+      {
+        "json": {
+          "text": "Zinzow"
+        }
+      },
+      {
+        "json": {
+          "text": "Served123"
+        }
+      },
+      {
+        "json": {
+          "text": "Florida Document"
+        }
+      },
+      {
+        "json": {
+          "text": "Gaggo"
+        }
+      },
+      {
+        "json": {
+          "text": "Kovar"
+        }
+      },
+      {
+        "json": {
+          "text": "AG Immigration"
+        }
+      },
+      {
+        "json": {
+          "text": "Nexa"
+        }
+      },
+      {
+        "json": {
+          "text": "Sanderson"
+        }
+      },
+      {
+        "json": {
+          "text": "FincenFetch"
+        }
+      },
+      {
+        "json": {
+          "text": "Loigica"
+        }
+      },
+      {
+        "json": {
+          "text": "Techno-Crime"
+        }
+      },
+      {
+        "json": {
+          "text": "Leap Frog"
+        }
+      },
+      {
+        "json": {
+          "text": "Ahava"
+        }
+      },
+      {
+        "json": {
+          "text": "Kayse"
+        }
+      },
+      {
+        "json": {
+          "text": "AKTION"
+        }
+      },
+      {
+        "json": {
+          "text": "SMT"
+        }
+      },
+      {
+        "json": {
+          "text": "Veritas"
+        }
+      },
+      {
+        "json": {
+          "text": "Family First Firm"
+        }
+      },
+      {
+        "json": {
+          "text": "Guided Life"
+        }
+      },
+      {
+        "json": {
+          "text": "Valle Law"
+        }
+      },
+      {
+        "json": {
+          "text": "Paletz"
+        }
+      },
+      {
+        "json": {
+          "text": "eNotaryLog"
+        }
+      },
+      {
+        "json": {
+          "text": "Rossen"
+        }
+      },
+      {
+        "json": {
+          "text": "JOINUSA"
+        }
+      },
+      {
+        "json": {
+          "text": "Serve"
+        }
+      },
+      {
+        "json": {
+          "text": "Serve Legal"
+        }
+      },
+      {
+        "json": {
+          "text": "Lawgical"
+        }
+      },
+      {
+        "json": {
+          "text": "Lateral Match"
+        }
+      },
+      {
+        "json": {
+          "text": "Coastal"
+        }
+      },
+      {
+        "json": {
+          "text": "DNA"
+        }
+      },
+      {
+        "json": {
+          "text": "Vasquez"
+        }
+      },
+      {
+        "json": {
+          "text": "Stern"
+        }
+      },
+      {
+        "json": {
+          "text": "Cathey & Miles"
+        }
+      },
+      {
+        "json": {
+          "text": "Strategic"
+        }
+      },
+      {
+        "json": {
+          "text": "Shea"
+        }
+      },
+      {
+        "json": {
+          "text": "Veritas"
+        }
+      },
+      {
+        "json": {
+          "text": "Consumer Rights"
+        }
+      },
+      {
+        "json": {
+          "text": "Kenol"
+        }
+      },
+      {
+        "json": {
+          "text": "Broward Public Defender"
+        }
+      },
+      {
+        "json": {
+          "text": "Alex Hanna"
+        }
+      },
+      {
+        "json": {
+          "text": "LIT"
+        }
+      },
+      {
+        "json": {
+          "text": "Molina"
+        }
+      },
+      {
+        "json": {
+          "text": "FAB"
+        }
+      },
+      {
+        "json": {
+          "text": "The Freelance Firm"
+        }
+      },
+      {
+        "json": {
+          "text": "Gray"
+        }
+      },
+      {
+        "json": {
+          "text": "Bratter"
+        }
+      },
+      {
+        "json": {
+          "text": "Bloodworth"
+        }
+      },
+      {
+        "json": {
+          "text": "Jennifer Ross"
+        }
+      },
+      {
+        "json": {
+          "text": "Coven"
+        }
+      }
+    ],
+    "Verify Email": [
+      {
+        "json": {
+          "status": "risky",
+          "email": "fescutia@laapip.com",
+          "status_reason": "Catch-All",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "Fescutia",
+            "domain": "laapip.com",
+            "mx": "aspmx.l.google.com",
+            "time_exec": 728,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "clacerda@zinzowlaw.com",
+          "status_reason": "Timeout",
+          "email_provider": "Unknown",
+          "meta_data": {
+            "user_name": "Clacerda",
+            "domain": "zinzowlaw.com",
+            "mx": "mx1-us1.ppe-hosted.com",
+            "time_exec": 29750,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "daniel@served123.com",
+          "status_reason": "deliverable",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "Daniel",
+            "domain": "served123.com",
+            "mx": "aspmx.l.google.com",
+            "time_exec": 790,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "john@floridadocument.com",
+          "status_reason": "deliverable",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "John",
+            "domain": "floridadocument.com",
+            "mx": "ASPMX.L.GOOGLE.com",
+            "time_exec": 1117,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "bill@gaggoslaw.com",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Bill",
+            "domain": "gaggoslaw.com",
+            "mx": "gaggoslaw-com.mail.protection.outlook.com",
+            "time_exec": 2751,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "afowler@kovarlawgroup.com",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Afowler",
+            "domain": "kovarlawgroup.com",
+            "mx": "kovarlawgroup-com.mail.protection.outlook.com",
+            "time_exec": 2606,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "leda@agimmigration.law",
+          "status_reason": "deliverable",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "Leda",
+            "domain": "agimmigration.law",
+            "mx": "smtp.google.com",
+            "time_exec": 806,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "juan@nexafinance.us",
+          "status_reason": "deliverable",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "Juan",
+            "domain": "nexafinance.us",
+            "mx": "aspmx.l.google.com",
+            "time_exec": 1032,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "heather@sandersoncomp.com",
+          "status_reason": "Timeout",
+          "email_provider": "Unknown",
+          "meta_data": {
+            "user_name": "Heather",
+            "domain": "sandersoncomp.com",
+            "mx": "mx1-us1.ppe-hosted.com",
+            "time_exec": 29638,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "charles@fincenfetch.com",
+          "status_reason": "Catch-All",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "Charles",
+            "domain": "fincenfetch.com",
+            "mx": "aspmx.l.google.com",
+            "time_exec": 980,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "harry.tapias@loigica.com",
+          "status_reason": "Catch-All",
+          "email_provider": "Unknown",
+          "meta_data": {
+            "user_name": "Harry Tapias",
+            "domain": "loigica.com",
+            "mx": "d206132a.ess.barracudanetworks.com",
+            "time_exec": 1254,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "walt.manning@technocrime.com",
+          "status_reason": "Catch-All",
+          "email_provider": "ProtonMail",
+          "meta_data": {
+            "user_name": "Walt Manning",
+            "domain": "technocrime.com",
+            "mx": "mail.protonmail.ch",
+            "time_exec": 13230,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "aj@leapfrogdivorce.com",
+          "status_reason": "Catch-All",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Aj",
+            "domain": "leapfrogdivorce.com",
+            "mx": "leapfrogdivorce-com.mail.protection.outlook.com",
+            "time_exec": 2508,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "eddie@ahavalawgroup.com",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Eddie",
+            "domain": "ahavalawgroup.com",
+            "mx": "ahavalawgroup-com.mail.protection.outlook.com",
+            "time_exec": 4556,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "daniel@kayse.ai",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Daniel",
+            "domain": "kayse.ai",
+            "mx": "kayse-ai.mail.protection.outlook.com",
+            "time_exec": 1894,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "gmontiel@aktionlegal.com",
+          "status_reason": "Catch-All",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Gmontiel",
+            "domain": "aktionlegal.com",
+            "mx": "aktionlegal-com.mail.protection.outlook.com",
+            "time_exec": 2544,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "steal@smtlitigationconsulting.com",
+          "status_reason": "Catch-All",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Steal",
+            "domain": "smtlitigationconsulting.com",
+            "mx": "smtlitigationconsulting-com.mail.protection.outlook.com",
+            "time_exec": 2067,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "coral@veritaslegalplan.com",
+          "status_reason": "Catch-All",
+          "email_provider": "Unknown",
+          "meta_data": {
+            "user_name": "Coral",
+            "domain": "veritaslegalplan.com",
+            "mx": "veritaslegalplan-com.mx1.arsmtp.com",
+            "time_exec": 1401,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "geoff@familyfirstfirm.com",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Geoff",
+            "domain": "familyfirstfirm.com",
+            "mx": "familyfirstfirm-com.mail.protection.outlook.com",
+            "time_exec": 3186,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "jennifer.toles@guidedlifecare.com",
+          "status_reason": "Timeout",
+          "email_provider": "Unknown",
+          "meta_data": {
+            "user_name": "Jennifer Toles",
+            "domain": "guidedlifecare.com",
+            "mx": "mx1-us1.ppe-hosted.com",
+            "time_exec": 29722,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "rvalle@thevallelawfirm.com",
+          "status_reason": "Catch-All",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Rvalle",
+            "domain": "thevallelawfirm.com",
+            "mx": "thevallelawfirm-com.mail.protection.outlook.com",
+            "time_exec": 2481,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "mpaletz@paletzlaw.com",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Mpaletz",
+            "domain": "paletzlaw.com",
+            "mx": "paletzlaw-com.mail.protection.outlook.com",
+            "time_exec": 2154,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "james@enotarylog.com",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "James",
+            "domain": "enotarylog.com",
+            "mx": "enotarylog-com.mail.protection.outlook.com",
+            "time_exec": 3037,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "adam@rossenlawfirm.com",
+          "status_reason": "deliverable",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "Adam",
+            "domain": "rossenlawfirm.com",
+            "mx": "aspmx.l.google.com",
+            "time_exec": 1009,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "andrea@joinusainc.com",
+          "status_reason": "deliverable",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "Andrea",
+            "domain": "joinusainc.com",
+            "mx": "aspmx.l.google.com",
+            "time_exec": 992,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "sthomas@servelegalprocess.com",
+          "status_reason": "deliverable",
+          "email_provider": "Unknown",
+          "meta_data": {
+            "user_name": "Sthomas",
+            "domain": "servelegalprocess.com",
+            "mx": "mx001.netsol.xion.oxcs.net",
+            "time_exec": 4951,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "wmurray@servelegalprocess.com",
+          "status_reason": "deliverable",
+          "email_provider": "Unknown",
+          "meta_data": {
+            "user_name": "Wmurray",
+            "domain": "servelegalprocess.com",
+            "mx": "mx002.netsol.xion.oxcs.net",
+            "time_exec": 5569,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "mrusso@lawgicalinsight.com",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Mrusso",
+            "domain": "lawgicalinsight.com",
+            "mx": "lawgicalinsight-com.mail.protection.outlook.com",
+            "time_exec": 1873,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "afinley@lateral-match.com",
+          "status_reason": "Timeout",
+          "email_provider": "Unknown",
+          "meta_data": {
+            "user_name": "Afinley",
+            "domain": "lateral-match.com",
+            "mx": "mx1-us1.ppe-hosted.com",
+            "time_exec": 27631,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "irene@dejesuslawgroup.com",
+          "status_reason": "deliverable",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "Irene",
+            "domain": "dejesuslawgroup.com",
+            "mx": "aspmx.l.google.com",
+            "time_exec": 985,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "jveenkamp@dnacollects.com",
+          "status_reason": "Catch-All",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "Jveenkamp",
+            "domain": "dnacollects.com",
+            "mx": "aspmx.l.google.com",
+            "time_exec": 1300,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "julian@familylawprotection.com",
+          "status_reason": "deliverable",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "Julian",
+            "domain": "familylawprotection.com",
+            "mx": "aspmx.l.google.com",
+            "time_exec": 996,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "auto@sternlawonline.com",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Auto",
+            "domain": "sternlawonline.com",
+            "mx": "sternlawonline-com.mail.protection.outlook.com",
+            "time_exec": 5965,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "brandon@catheymiles.com",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Brandon",
+            "domain": "catheymiles.com",
+            "mx": "catheymiles-com.mail.protection.outlook.com",
+            "time_exec": 2333,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "lindsay@planwithstrategic.com",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Lindsay",
+            "domain": "planwithstrategic.com",
+            "mx": "planwithstrategic-com.mail.protection.outlook.com",
+            "time_exec": 3622,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "john.shea@sadplaw.com",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "John Shea",
+            "domain": "sadplaw.com",
+            "mx": "sadplaw-com.mail.protection.outlook.com",
+            "time_exec": 2270,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "sara@veritaslegalplan.com",
+          "status_reason": "Catch-All",
+          "email_provider": "Unknown",
+          "meta_data": {
+            "user_name": "Sara",
+            "domain": "veritaslegalplan.com",
+            "mx": "veritaslegalplan-com.mx1.arsmtp.com",
+            "time_exec": 1519,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "ruth@jacksonleepa.com",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Ruth",
+            "domain": "jacksonleepa.com",
+            "mx": "jacksonleepa-com.mail.protection.outlook.com",
+            "time_exec": 2317,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "rk@ralphkenolpa.com",
+          "status_reason": "Catch-All",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "Rk",
+            "domain": "ralphkenolpa.com",
+            "mx": "aspmx.l.google.com",
+            "time_exec": 1469,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "ephillips@browarddefender.org",
+          "status_reason": "Catch-All",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Ephillips",
+            "domain": "browarddefender.org",
+            "mx": "browarddefender-org.mail.protection.outlook.com",
+            "time_exec": 2255,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "lizet@alexhanna.com",
+          "status_reason": "Catch-All",
+          "email_provider": "Unknown",
+          "meta_data": {
+            "user_name": "Lizet",
+            "domain": "alexhanna.com",
+            "mx": "alexhanna.com.1.0001.arsmtp.com",
+            "time_exec": 1633,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "ian@litsoftware.com",
+          "status_reason": "deliverable",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "Ian",
+            "domain": "litsoftware.com",
+            "mx": "aspmx.l.google.com",
+            "time_exec": 1061,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "risky",
+          "email": "rebecca@molinaexecutivesearch.com",
+          "status_reason": "Catch-All",
+          "email_provider": "Unknown",
+          "meta_data": {
+            "user_name": "Rebecca",
+            "domain": "molinaexecutivesearch.com",
+            "mx": "mx1-us1.ppe-hosted.com",
+            "time_exec": 19171,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "fab@thefablawfirm.com",
+          "status_reason": "deliverable",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "Fab",
+            "domain": "thefablawfirm.com",
+            "mx": "aspmx.l.google.com",
+            "time_exec": 865,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "steve@thefreelancefirm.com",
+          "status_reason": "deliverable",
+          "email_provider": "Zoho Mail",
+          "meta_data": {
+            "user_name": "Steve",
+            "domain": "thefreelancefirm.com",
+            "mx": "mx.zoho.com",
+            "time_exec": 3331,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "veronica@thegraylawfirmllc.com",
+          "status_reason": "deliverable",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "Veronica",
+            "domain": "thegraylawfirmllc.com",
+            "mx": "aspmx.l.google.com",
+            "time_exec": 910,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "samantha@bratterpa.com",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Samantha",
+            "domain": "bratterpa.com",
+            "mx": "bratterpa-com.mail.protection.outlook.com",
+            "time_exec": 3732,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "reed@lawyerfightsforyou.com",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Reed",
+            "domain": "lawyerfightsforyou.com",
+            "mx": "lawyerfightsforyou-com.mail.protection.outlook.com",
+            "time_exec": 7400,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "jennifer@jenniferrossba.com",
+          "status_reason": "deliverable",
+          "email_provider": "Google Workspace",
+          "meta_data": {
+            "user_name": "Jennifer",
+            "domain": "jenniferrossba.com",
+            "mx": "aspmx.l.google.com",
+            "time_exec": 1264,
+            "indx": 0
+          }
+        }
+      },
+      {
+        "json": {
+          "status": "valid",
+          "email": "aaron@coven.law",
+          "status_reason": "deliverable",
+          "email_provider": "Microsoft 365",
+          "meta_data": {
+            "user_name": "Aaron",
+            "domain": "coven.law",
+            "mx": "coven-law.mail.protection.outlook.com",
+            "time_exec": 2490,
+            "indx": 0
+          }
+        }
+      }
+    ]
+  },
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "G Sheets Reader",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Verify Email": {
+      "main": [
+        [
+          {
+            "node": "Clean Company Name",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Anthropic Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Dream Email",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Anthropic Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Clean Company Name",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Clean Company Name": {
+      "main": [
+        [
+          {
+            "node": "Dream Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Dream Email": {
+      "main": [
+        [
+          {
+            "node": "Update row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "G Sheets Reader": {
+      "main": [
+        [
+          {
+            "node": "Verify Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "58939f52-7a61-42c4-92e5-a092c007ecbe",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "3478079955d24c17964917044e2d886ee6a277c5ea3926af074df7cae73ed1e4"
+  },
+  "id": "kkbvFSoLPJDuO1Lo",
+  "tags": []
+}

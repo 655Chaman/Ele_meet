@@ -1,0 +1,31 @@
+{
+    "title": "Universal Global Environmental Scraper",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "location": {
+            "title": "Country Database to Scrape",
+            "type": "string",
+            "description": "Select which government's database to target.",
+            "enum": ["US", "UK", "Canada", "Australia", "Ireland", "Germany", "France"],
+            "enumTitles": [
+                "United States (EPA ECHO)",
+                "United Kingdom (Environment Agency)",
+                "Canada (ECCC)",
+                "Australia (State EPAs)",
+                "Ireland (EPA)",
+                "Germany (UBA)",
+                "France (Ministry)"
+            ],
+            "default": "US"
+        },
+        "limit": {
+            "title": "Max Leads to Scrape",
+            "type": "integer",
+            "description": "Maximum number of leads to pull in this run.",
+            "default": 500,
+            "minimum": 1
+        }
+    },
+    "required": ["location", "limit"]
+}

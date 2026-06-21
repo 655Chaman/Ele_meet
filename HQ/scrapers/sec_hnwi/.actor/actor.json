@@ -1,0 +1,9 @@
+{
+  "actorSpecification": 1,
+  "name": "sec_hnwi-scraper",
+  "title": "sec_hnwi Scraper",
+  "version": "1.0",
+  "buildTag": "latest",
+  "environmentVariables": {},
+  "dockerfile": "./Dockerfile"
+}

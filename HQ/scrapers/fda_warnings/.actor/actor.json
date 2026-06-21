@@ -1,0 +1,9 @@
+{
+  "actorSpecification": 1,
+  "name": "fda_warnings-scraper",
+  "title": "fda_warnings Scraper",
+  "version": "1.0",
+  "buildTag": "latest",
+  "environmentVariables": {},
+  "dockerfile": "./Dockerfile"
+}

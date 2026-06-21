@@ -1,0 +1,58 @@
+{
+    "actorSpecification": 1,
+    "fields": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+            "country": {
+                "type": "string",
+                "title": "Country",
+                "description": "The country of origin for the lead."
+            },
+            "lead_category": {
+                "type": "string",
+                "title": "Lead Category",
+                "description": "Classification of the lead: Convicted Violator vs. Heavy Industrial Polluter."
+            },
+            "facility_name": {
+                "type": "string",
+                "title": "Company / Facility Name",
+                "description": "The name of the violating corporate entity."
+            },
+            "street": {
+                "type": "string",
+                "title": "Street Address"
+            },
+            "city": {
+                "type": "string",
+                "title": "City"
+            },
+            "state": {
+                "type": "string",
+                "title": "State/Province"
+            },
+            "violation_type": {
+                "type": "string",
+                "title": "Violation / Offence",
+                "description": "The specific environmental violation."
+            },
+            "date_of_action": {
+                "type": "string",
+                "title": "Date of Action"
+            }
+        },
+        "required": ["country"]
+    },
+    "views": {
+        "overview": {
+            "title": "ELESIUM Operations View",
+            "description": "Primary view for the extracted corporate leads.",
+            "transformation": {
+                "fields": ["facility_name", "lead_category", "country", "violation_type", "state", "city", "street", "date_of_action"]
+            },
+            "display": {
+                "component": "table"
+            }
+        }
+    }
+}

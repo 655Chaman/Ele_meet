@@ -1,0 +1,14 @@
+{
+    "title": "Scraper Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "limit": {
+            "title": "Max Records",
+            "type": "integer",
+            "description": "Maximum number of records to fetch",
+            "default": 100
+        }
+    },
+    "required": ["limit"]
+}

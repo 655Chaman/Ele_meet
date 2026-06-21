@@ -1,0 +1,20 @@
+{
+"Results":{
+"Message":"Success",
+"Version":"CWA v2017-10-13 1325",
+"QueryRows":"31745",
+"IndianCountryRows":"161",
+"SVRows":"205",
+"CVRows":"2712",
+"V3Rows":"3394",
+"FEARows":"583",
+"InfFEARows":"4247",
+"INSPRows":"4616",
+"BioCVRows":"0",
+"BioV3Rows":"6",
+"VioLast4QRows":"2978",
+"TotalPenalties":"$25,836,905",
+"BadSystemIDs":null,
+"QueryID":"786"
+}
+}

@@ -1,0 +1,1574 @@
+{
+    "name": "Getting Recently Funded Clients (using Crunchbase)",
+    "flow": [
+        {
+            "id": 1,
+            "module": "apify:fetchDatasetItems",
+            "version": 1,
+            "parameters": {
+                "__IMTCONN__": 4542982
+            },
+            "mapper": {
+                "type": "clean",
+                "format": "json",
+                "datasetId": "NfCfNMonkScEQf1GO"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 0,
+                    "y": 150,
+                    "name": "Get Funded Companies"
+                },
+                "restore": {
+                    "expect": {
+                        "type": {
+                            "mode": "chose",
+                            "label": "Clean"
+                        },
+                        "limit": {
+                            "empty": true
+                        },
+                        "format": {
+                            "mode": "chose",
+                            "label": "JSON"
+                        }
+                    },
+                    "parameters": {
+                        "__IMTCONN__": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "apify"
+                            },
+                            "label": "Demo Live CB (myoprocess@gmail.com)"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account:apify2,apify",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "datasetId",
+                        "type": "text",
+                        "label": "Dataset ID",
+                        "required": true
+                    },
+                    {
+                        "name": "type",
+                        "type": "select",
+                        "label": "Data transformation",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "clean",
+                                "simplified",
+                                "none"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "format",
+                        "type": "select",
+                        "label": "Format",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "json",
+                                "csv",
+                                "html",
+                                "xml",
+                                "rss",
+                                "xlsx"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "type": "uinteger",
+                        "label": "Limit",
+                        "validate": {
+                            "max": 100000,
+                            "min": 1
+                        }
+                    },
+                    {
+                        "name": "offset",
+                        "type": "uinteger",
+                        "label": "Offset",
+                        "validate": {
+                            "min": 0
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "module": "anymailfinder:emailSearchPerson",
+            "version": 1,
+            "parameters": {
+                "__IMTCONN__": 4542985
+            },
+            "mapper": {
+                "domain": "{{1.website.value}}",
+                "full_name": "{{1.founder_identifiers[].value}}",
+                "searchCriteria": "domain",
+                "not_found_error": false,
+                "fully_verified_only": true
+            },
+            "metadata": {
+                "designer": {
+                    "x": 300,
+                    "y": 150,
+                    "name": "Find Email"
+                },
+                "restore": {
+                    "expect": {
+                        "searchCriteria": {
+                            "label": "Domain"
+                        },
+                        "fully_verified_only": {
+                            "mode": "chose",
+                            "label": "Use only Fully Verified Emails (97%+ delivery rate)"
+                        }
+                    },
+                    "parameters": {
+                        "__IMTCONN__": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "anymailfinder"
+                            },
+                            "label": "Demo Live CB"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account:anymailfinder",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "not_found_error",
+                        "type": "hidden"
+                    },
+                    {
+                        "name": "searchCriteria",
+                        "type": "select",
+                        "label": "Search by",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "domain",
+                                "companyName"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "full_name",
+                        "type": "text",
+                        "label": "Full Name"
+                    },
+                    {
+                        "name": "first_name",
+                        "type": "text",
+                        "label": "First Name"
+                    },
+                    {
+                        "name": "last_name",
+                        "type": "text",
+                        "label": "Last Name"
+                    },
+                    {
+                        "name": "fully_verified_only",
+                        "type": "select",
+                        "label": "Email Verification Filter",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                true,
+                                false
+                            ]
+                        }
+                    },
+                    {
+                        "name": "domain",
+                        "type": "text",
+                        "label": "Domain",
+                        "required": true
+                    },
+                    {
+                        "name": "not_found_error",
+                        "type": "hidden"
+                    },
+                    {
+                        "name": "searchCriteria",
+                        "type": "select",
+                        "label": "Search by",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "domain",
+                                "companyName"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "full_name",
+                        "type": "text",
+                        "label": "Full Name"
+                    },
+                    {
+                        "name": "first_name",
+                        "type": "text",
+                        "label": "First Name"
+                    },
+                    {
+                        "name": "last_name",
+                        "type": "text",
+                        "label": "Last Name"
+                    },
+                    {
+                        "name": "fully_verified_only",
+                        "type": "select",
+                        "label": "Email Verification Filter",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                true,
+                                false
+                            ]
+                        }
+                    },
+                    {
+                        "name": "domain",
+                        "type": "text",
+                        "label": "Domain",
+                        "required": true
+                    }
+                ]
+            },
+            "onerror": [
+                {
+                    "id": 10,
+                    "module": "builtin:Break",
+                    "version": 1,
+                    "parameters": {},
+                    "mapper": {
+                        "count": "3",
+                        "retry": true,
+                        "interval": "1"
+                    },
+                    "metadata": {
+                        "designer": {
+                            "x": 600,
+                            "y": 300
+                        },
+                        "restore": {
+                            "expect": {
+                                "retry": {
+                                    "mode": "chose"
+                                }
+                            }
+                        },
+                        "expect": [
+                            {
+                                "name": "retry",
+                                "type": "boolean",
+                                "label": "Automatically complete execution",
+                                "required": true
+                            },
+                            {
+                                "name": "count",
+                                "type": "uinteger",
+                                "label": "Number of attempts",
+                                "required": true,
+                                "validate": {
+                                    "max": 10000,
+                                    "min": 1
+                                }
+                            },
+                            {
+                                "name": "interval",
+                                "type": "uinteger",
+                                "label": "Interval between attempts",
+                                "required": true,
+                                "validate": {
+                                    "max": 44640,
+                                    "min": 1
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "module": "azure-openai:createAChatCompletion",
+            "version": 1,
+            "parameters": {
+                "__IMTCONN__": 4299534
+            },
+            "filter": {
+                "name": "Email Found?",
+                "conditions": [
+                    [
+                        {
+                            "a": "{{2.results.email}}",
+                            "o": "exist"
+                        }
+                    ]
+                ]
+            },
+            "mapper": {
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": [
+                            {
+                                "text": "TASK: Fill in funding details\r\nTEMPLATE: \"Saw you guys just closed your [funding round]- congrats on the [funding_amount].\"\r\n\r\nPERFECT EXAMPLE: Saw you guys just closed your Series A - congrats on the $5M.\r\n\r\nCOMPANY DATA: \r\nFunding amount: {{1.last_funding_total.value}}\r\nFunding type:\n{{1.last_funding_type}}\r\n\r\n\nRULES: \r\n- Keep it simple: \"seed\", \"Series A\", \"Series B\" \r\n- Always use $ sign and M for millions\r\n- Round to nearest half million\r\n\r\n",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "temperature": "1",
+                "deploymentName": "gpt-4o"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 600,
+                    "y": 0,
+                    "name": "Opener (1:1)"
+                },
+                "restore": {
+                    "expect": {
+                        "stop": {
+                            "mode": "chose"
+                        },
+                        "messages": {
+                            "mode": "chose",
+                            "items": [
+                                {
+                                    "role": {
+                                        "mode": "chose",
+                                        "label": "User"
+                                    },
+                                    "content": {
+                                        "mode": "chose",
+                                        "items": [
+                                            {
+                                                "type": {
+                                                    "mode": "chose",
+                                                    "label": "Text"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        "logit_bias": {
+                            "mode": "chose"
+                        }
+                    },
+                    "parameters": {
+                        "__IMTCONN__": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "azure-openai3"
+                            },
+                            "label": "My Azure OpenAI API Key (advanced) connection"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account:azure-openai2,azure-openai3",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "deploymentName",
+                        "type": "text",
+                        "label": "OpenAI Deployment Name",
+                        "required": true
+                    },
+                    {
+                        "name": "messages",
+                        "spec": {
+                            "name": "value",
+                            "spec": [
+                                {
+                                    "name": "role",
+                                    "type": "select",
+                                    "label": "Role",
+                                    "options": [
+                                        {
+                                            "label": "System",
+                                            "value": "system",
+                                            "nested": [
+                                                {
+                                                    "help": "The contents of the message. This parameter is required except for `Assistant` role with function calls.",
+                                                    "name": "content",
+                                                    "type": "text",
+                                                    "label": "Message Content",
+                                                    "required": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "label": "User",
+                                            "value": "user",
+                                            "nested": [
+                                                {
+                                                    "name": "content",
+                                                    "spec": {
+                                                        "spec": [
+                                                            {
+                                                                "help": "`Image` is supported by only GPT-4 Turbo with Vision model.",
+                                                                "name": "type",
+                                                                "type": "select",
+                                                                "label": "Type",
+                                                                "options": [
+                                                                    {
+                                                                        "label": "Text",
+                                                                        "value": "text",
+                                                                        "nested": [
+                                                                            {
+                                                                                "name": "text",
+                                                                                "type": "text",
+                                                                                "label": "Text",
+                                                                                "required": true
+                                                                            }
+                                                                        ],
+                                                                        "default": true
+                                                                    },
+                                                                    {
+                                                                        "label": "Image",
+                                                                        "value": "image_url",
+                                                                        "nested": [
+                                                                            {
+                                                                                "name": "image_url",
+                                                                                "spec": [
+                                                                                    {
+                                                                                        "name": "url",
+                                                                                        "type": "text",
+                                                                                        "label": "URL",
+                                                                                        "required": true
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "detail",
+                                                                                        "type": "select",
+                                                                                        "label": "Detail",
+                                                                                        "options": [
+                                                                                            {
+                                                                                                "label": "High",
+                                                                                                "value": "high"
+                                                                                            },
+                                                                                            {
+                                                                                                "label": "Low",
+                                                                                                "value": "low"
+                                                                                            },
+                                                                                            {
+                                                                                                "label": "Auto",
+                                                                                                "value": "auto"
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ],
+                                                                                "type": "collection",
+                                                                                "label": "Image URL"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ],
+                                                                "mappable": false,
+                                                                "required": true
+                                                            }
+                                                        ],
+                                                        "type": "collection",
+                                                        "label": "Content"
+                                                    },
+                                                    "type": "array",
+                                                    "label": "Content",
+                                                    "labels": {
+                                                        "add": "Add content"
+                                                    },
+                                                    "required": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "label": "Assistant",
+                                            "value": "assistant",
+                                            "nested": [
+                                                {
+                                                    "help": "The contents of the message. This parameter is required except for `Assistant` role with function calls.",
+                                                    "name": "content",
+                                                    "type": "text",
+                                                    "label": "Message Content",
+                                                    "required": true
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "required": true
+                                }
+                            ],
+                            "type": "collection",
+                            "label": "Message"
+                        },
+                        "type": "array",
+                        "label": "Messages",
+                        "required": true
+                    },
+                    {
+                        "name": "max_tokens",
+                        "type": "number",
+                        "label": "Max Tokens",
+                        "validate": {
+                            "min": 0
+                        }
+                    },
+                    {
+                        "name": "temperature",
+                        "type": "number",
+                        "label": "Temperature",
+                        "validate": {
+                            "max": 2,
+                            "min": 0
+                        }
+                    },
+                    {
+                        "name": "top_p",
+                        "type": "number",
+                        "label": "Top P",
+                        "validate": {
+                            "max": 1,
+                            "min": 0
+                        }
+                    },
+                    {
+                        "name": "n",
+                        "type": "number",
+                        "label": "Number of Completions"
+                    },
+                    {
+                        "name": "frequency_penalty",
+                        "type": "number",
+                        "label": "Frequency Penalty",
+                        "validate": {
+                            "max": 2,
+                            "min": -2
+                        }
+                    },
+                    {
+                        "name": "presence_penalty",
+                        "type": "number",
+                        "label": "Presence Penalty",
+                        "validate": {
+                            "max": 2,
+                            "min": -2
+                        }
+                    },
+                    {
+                        "name": "logit_bias",
+                        "spec": {
+                            "name": "value",
+                            "spec": [
+                                {
+                                    "name": "token",
+                                    "type": "text",
+                                    "label": "Token",
+                                    "required": true
+                                },
+                                {
+                                    "name": "probability",
+                                    "type": "number",
+                                    "label": "Probability",
+                                    "required": true,
+                                    "validate": {
+                                        "max": 100,
+                                        "min": -100
+                                    }
+                                }
+                            ],
+                            "type": "collection",
+                            "label": "Token Probability"
+                        },
+                        "type": "array",
+                        "label": "Token Probability"
+                    },
+                    {
+                        "name": "stop",
+                        "spec": {
+                            "name": "value",
+                            "spec": [
+                                {
+                                    "type": "text"
+                                }
+                            ],
+                            "type": "text",
+                            "label": "Sequence"
+                        },
+                        "type": "array",
+                        "label": "Stop Sequences",
+                        "validate": {
+                            "maxItems": 4
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "module": "azure-openai:createAChatCompletion",
+            "version": 1,
+            "parameters": {
+                "__IMTCONN__": 4299534
+            },
+            "mapper": {
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": [
+                            {
+                                "text": "TASK: Fill in business problem and industry\r\nTEMPLATE: Looks like you're solving [business_insight] - that's a huge pain point in [industry_space].\r\nPERFECT EXAMPLE: \"Looks like you're solving the information overload problem - that's a huge pain point in healthcare.\"\r\nCOMPANY DATA: \r\n\r\n{{1.description}}\n{{1.short_description}}\nRULES:\r\n- Business insight: Describe the messy problem they fix, not what they built\r\n- Use 2-4 words max for business insight\r\n- Use everyday language people actually say: \"scheduling chaos\", \"data mess\", \"communication breakdowns\", \"manual headaches\"\r\n- Industry space: 1 word only (healthcare, finance, retail, manufacturing)\r\n- Never use corporate buzzwords like \"optimization\", \"enhancement\", \"solutions\", \"efficiency\"\r\n- Think: what would someone complain about at happy hour?\r\n- Output format: exactly \"Looks like you're solving [X] - that's a huge pain point in [Y].\"\r\n\r\n",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "temperature": "1",
+                "deploymentName": "gpt-4o"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 900,
+                    "y": 0,
+                    "name": "1:1 Insight observation"
+                },
+                "restore": {
+                    "expect": {
+                        "stop": {
+                            "mode": "chose"
+                        },
+                        "messages": {
+                            "mode": "chose",
+                            "items": [
+                                {
+                                    "role": {
+                                        "mode": "chose",
+                                        "label": "User"
+                                    },
+                                    "content": {
+                                        "mode": "chose",
+                                        "items": [
+                                            {
+                                                "type": {
+                                                    "mode": "chose",
+                                                    "label": "Text"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        "logit_bias": {
+                            "mode": "chose"
+                        }
+                    },
+                    "parameters": {
+                        "__IMTCONN__": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "azure-openai3"
+                            },
+                            "label": "My Azure OpenAI API Key (advanced) connection"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account:azure-openai2,azure-openai3",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "deploymentName",
+                        "type": "text",
+                        "label": "OpenAI Deployment Name",
+                        "required": true
+                    },
+                    {
+                        "name": "messages",
+                        "spec": {
+                            "name": "value",
+                            "spec": [
+                                {
+                                    "name": "role",
+                                    "type": "select",
+                                    "label": "Role",
+                                    "options": [
+                                        {
+                                            "label": "System",
+                                            "value": "system",
+                                            "nested": [
+                                                {
+                                                    "help": "The contents of the message. This parameter is required except for `Assistant` role with function calls.",
+                                                    "name": "content",
+                                                    "type": "text",
+                                                    "label": "Message Content",
+                                                    "required": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "label": "User",
+                                            "value": "user",
+                                            "nested": [
+                                                {
+                                                    "name": "content",
+                                                    "spec": {
+                                                        "spec": [
+                                                            {
+                                                                "help": "`Image` is supported by only GPT-4 Turbo with Vision model.",
+                                                                "name": "type",
+                                                                "type": "select",
+                                                                "label": "Type",
+                                                                "options": [
+                                                                    {
+                                                                        "label": "Text",
+                                                                        "value": "text",
+                                                                        "nested": [
+                                                                            {
+                                                                                "name": "text",
+                                                                                "type": "text",
+                                                                                "label": "Text",
+                                                                                "required": true
+                                                                            }
+                                                                        ],
+                                                                        "default": true
+                                                                    },
+                                                                    {
+                                                                        "label": "Image",
+                                                                        "value": "image_url",
+                                                                        "nested": [
+                                                                            {
+                                                                                "name": "image_url",
+                                                                                "spec": [
+                                                                                    {
+                                                                                        "name": "url",
+                                                                                        "type": "text",
+                                                                                        "label": "URL",
+                                                                                        "required": true
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "detail",
+                                                                                        "type": "select",
+                                                                                        "label": "Detail",
+                                                                                        "options": [
+                                                                                            {
+                                                                                                "label": "High",
+                                                                                                "value": "high"
+                                                                                            },
+                                                                                            {
+                                                                                                "label": "Low",
+                                                                                                "value": "low"
+                                                                                            },
+                                                                                            {
+                                                                                                "label": "Auto",
+                                                                                                "value": "auto"
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ],
+                                                                                "type": "collection",
+                                                                                "label": "Image URL"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ],
+                                                                "mappable": false,
+                                                                "required": true
+                                                            }
+                                                        ],
+                                                        "type": "collection",
+                                                        "label": "Content"
+                                                    },
+                                                    "type": "array",
+                                                    "label": "Content",
+                                                    "labels": {
+                                                        "add": "Add content"
+                                                    },
+                                                    "required": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "label": "Assistant",
+                                            "value": "assistant",
+                                            "nested": [
+                                                {
+                                                    "help": "The contents of the message. This parameter is required except for `Assistant` role with function calls.",
+                                                    "name": "content",
+                                                    "type": "text",
+                                                    "label": "Message Content",
+                                                    "required": true
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "required": true
+                                }
+                            ],
+                            "type": "collection",
+                            "label": "Message"
+                        },
+                        "type": "array",
+                        "label": "Messages",
+                        "required": true
+                    },
+                    {
+                        "name": "max_tokens",
+                        "type": "number",
+                        "label": "Max Tokens",
+                        "validate": {
+                            "min": 0
+                        }
+                    },
+                    {
+                        "name": "temperature",
+                        "type": "number",
+                        "label": "Temperature",
+                        "validate": {
+                            "max": 2,
+                            "min": 0
+                        }
+                    },
+                    {
+                        "name": "top_p",
+                        "type": "number",
+                        "label": "Top P",
+                        "validate": {
+                            "max": 1,
+                            "min": 0
+                        }
+                    },
+                    {
+                        "name": "n",
+                        "type": "number",
+                        "label": "Number of Completions"
+                    },
+                    {
+                        "name": "frequency_penalty",
+                        "type": "number",
+                        "label": "Frequency Penalty",
+                        "validate": {
+                            "max": 2,
+                            "min": -2
+                        }
+                    },
+                    {
+                        "name": "presence_penalty",
+                        "type": "number",
+                        "label": "Presence Penalty",
+                        "validate": {
+                            "max": 2,
+                            "min": -2
+                        }
+                    },
+                    {
+                        "name": "logit_bias",
+                        "spec": {
+                            "name": "value",
+                            "spec": [
+                                {
+                                    "name": "token",
+                                    "type": "text",
+                                    "label": "Token",
+                                    "required": true
+                                },
+                                {
+                                    "name": "probability",
+                                    "type": "number",
+                                    "label": "Probability",
+                                    "required": true,
+                                    "validate": {
+                                        "max": 100,
+                                        "min": -100
+                                    }
+                                }
+                            ],
+                            "type": "collection",
+                            "label": "Token Probability"
+                        },
+                        "type": "array",
+                        "label": "Token Probability"
+                    },
+                    {
+                        "name": "stop",
+                        "spec": {
+                            "name": "value",
+                            "spec": [
+                                {
+                                    "type": "text"
+                                }
+                            ],
+                            "type": "text",
+                            "label": "Sequence"
+                        },
+                        "type": "array",
+                        "label": "Stop Sequences",
+                        "validate": {
+                            "maxItems": 4
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "module": "azure-openai:createAChatCompletion",
+            "version": 1,
+            "parameters": {
+                "__IMTCONN__": 4299534
+            },
+            "mapper": {
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": [
+                            {
+                                "text": "TASK: Fill in who they're trying to sell to\r\nTEMPLATE: Guessing the plan is to use that funding to get in front of more [target_customers]?\r\nPERFECT EXAMPLE: Guessing the plan is to use that funding to get in front of more hospital systems?\r\nCOMPANY DATA: \n{{1.description}}\n{{1.short_description}}\r\n\r\nRULES:\r\n- Think about who actually pays for their product\r\n- Keep it 1-3 words, make it plural\r\n- Examples: \"enterprise clients\", \"hospitals\", \"retail chains\", \"manufacturing companies\r\n\r\n",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "temperature": "1",
+                "deploymentName": "gpt-4o"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 1200,
+                    "y": 0,
+                    "name": "1:1 Introducing system"
+                },
+                "restore": {
+                    "expect": {
+                        "stop": {
+                            "mode": "chose"
+                        },
+                        "messages": {
+                            "mode": "chose",
+                            "items": [
+                                {
+                                    "role": {
+                                        "mode": "chose",
+                                        "label": "User"
+                                    },
+                                    "content": {
+                                        "mode": "chose",
+                                        "items": [
+                                            {
+                                                "type": {
+                                                    "mode": "chose",
+                                                    "label": "Text"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        "logit_bias": {
+                            "mode": "chose"
+                        }
+                    },
+                    "parameters": {
+                        "__IMTCONN__": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "azure-openai3"
+                            },
+                            "label": "My Azure OpenAI API Key (advanced) connection"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account:azure-openai2,azure-openai3",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "deploymentName",
+                        "type": "text",
+                        "label": "OpenAI Deployment Name",
+                        "required": true
+                    },
+                    {
+                        "name": "messages",
+                        "spec": {
+                            "name": "value",
+                            "spec": [
+                                {
+                                    "name": "role",
+                                    "type": "select",
+                                    "label": "Role",
+                                    "options": [
+                                        {
+                                            "label": "System",
+                                            "value": "system",
+                                            "nested": [
+                                                {
+                                                    "help": "The contents of the message. This parameter is required except for `Assistant` role with function calls.",
+                                                    "name": "content",
+                                                    "type": "text",
+                                                    "label": "Message Content",
+                                                    "required": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "label": "User",
+                                            "value": "user",
+                                            "nested": [
+                                                {
+                                                    "name": "content",
+                                                    "spec": {
+                                                        "spec": [
+                                                            {
+                                                                "help": "`Image` is supported by only GPT-4 Turbo with Vision model.",
+                                                                "name": "type",
+                                                                "type": "select",
+                                                                "label": "Type",
+                                                                "options": [
+                                                                    {
+                                                                        "label": "Text",
+                                                                        "value": "text",
+                                                                        "nested": [
+                                                                            {
+                                                                                "name": "text",
+                                                                                "type": "text",
+                                                                                "label": "Text",
+                                                                                "required": true
+                                                                            }
+                                                                        ],
+                                                                        "default": true
+                                                                    },
+                                                                    {
+                                                                        "label": "Image",
+                                                                        "value": "image_url",
+                                                                        "nested": [
+                                                                            {
+                                                                                "name": "image_url",
+                                                                                "spec": [
+                                                                                    {
+                                                                                        "name": "url",
+                                                                                        "type": "text",
+                                                                                        "label": "URL",
+                                                                                        "required": true
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "detail",
+                                                                                        "type": "select",
+                                                                                        "label": "Detail",
+                                                                                        "options": [
+                                                                                            {
+                                                                                                "label": "High",
+                                                                                                "value": "high"
+                                                                                            },
+                                                                                            {
+                                                                                                "label": "Low",
+                                                                                                "value": "low"
+                                                                                            },
+                                                                                            {
+                                                                                                "label": "Auto",
+                                                                                                "value": "auto"
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ],
+                                                                                "type": "collection",
+                                                                                "label": "Image URL"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ],
+                                                                "mappable": false,
+                                                                "required": true
+                                                            }
+                                                        ],
+                                                        "type": "collection",
+                                                        "label": "Content"
+                                                    },
+                                                    "type": "array",
+                                                    "label": "Content",
+                                                    "labels": {
+                                                        "add": "Add content"
+                                                    },
+                                                    "required": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "label": "Assistant",
+                                            "value": "assistant",
+                                            "nested": [
+                                                {
+                                                    "help": "The contents of the message. This parameter is required except for `Assistant` role with function calls.",
+                                                    "name": "content",
+                                                    "type": "text",
+                                                    "label": "Message Content",
+                                                    "required": true
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "required": true
+                                }
+                            ],
+                            "type": "collection",
+                            "label": "Message"
+                        },
+                        "type": "array",
+                        "label": "Messages",
+                        "required": true
+                    },
+                    {
+                        "name": "max_tokens",
+                        "type": "number",
+                        "label": "Max Tokens",
+                        "validate": {
+                            "min": 0
+                        }
+                    },
+                    {
+                        "name": "temperature",
+                        "type": "number",
+                        "label": "Temperature",
+                        "validate": {
+                            "max": 2,
+                            "min": 0
+                        }
+                    },
+                    {
+                        "name": "top_p",
+                        "type": "number",
+                        "label": "Top P",
+                        "validate": {
+                            "max": 1,
+                            "min": 0
+                        }
+                    },
+                    {
+                        "name": "n",
+                        "type": "number",
+                        "label": "Number of Completions"
+                    },
+                    {
+                        "name": "frequency_penalty",
+                        "type": "number",
+                        "label": "Frequency Penalty",
+                        "validate": {
+                            "max": 2,
+                            "min": -2
+                        }
+                    },
+                    {
+                        "name": "presence_penalty",
+                        "type": "number",
+                        "label": "Presence Penalty",
+                        "validate": {
+                            "max": 2,
+                            "min": -2
+                        }
+                    },
+                    {
+                        "name": "logit_bias",
+                        "spec": {
+                            "name": "value",
+                            "spec": [
+                                {
+                                    "name": "token",
+                                    "type": "text",
+                                    "label": "Token",
+                                    "required": true
+                                },
+                                {
+                                    "name": "probability",
+                                    "type": "number",
+                                    "label": "Probability",
+                                    "required": true,
+                                    "validate": {
+                                        "max": 100,
+                                        "min": -100
+                                    }
+                                }
+                            ],
+                            "type": "collection",
+                            "label": "Token Probability"
+                        },
+                        "type": "array",
+                        "label": "Token Probability"
+                    },
+                    {
+                        "name": "stop",
+                        "spec": {
+                            "name": "value",
+                            "spec": [
+                                {
+                                    "type": "text"
+                                }
+                            ],
+                            "type": "text",
+                            "label": "Sequence"
+                        },
+                        "type": "array",
+                        "label": "Stop Sequences",
+                        "validate": {
+                            "maxItems": 4
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "module": "util:SetVariable2",
+            "version": 1,
+            "parameters": {},
+            "mapper": {
+                "name": "Dream Outreach",
+                "scope": "roundtrip",
+                "value": "Hey {{get(split(2.input.full_name; space); 1)}}\n\n{{3.result}}\n\n{{4.result}}\n\n{{5.result}}\n\nIf that's part of the growth plan, would it be worth building you a system that connects you to the people who need exactly what you've built?\n\nCheers,\nSaad"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 1500,
+                    "y": 0,
+                    "name": "Dream Outreach"
+                },
+                "restore": {
+                    "expect": {
+                        "scope": {
+                            "label": "One cycle"
+                        }
+                    }
+                },
+                "expect": [
+                    {
+                        "name": "name",
+                        "type": "text",
+                        "label": "Variable name",
+                        "required": true
+                    },
+                    {
+                        "name": "scope",
+                        "type": "select",
+                        "label": "Variable lifetime",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "roundtrip",
+                                "execution"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "value",
+                        "type": "any",
+                        "label": "Variable value"
+                    }
+                ],
+                "interface": [
+                    {
+                        "name": "Dream Outreach",
+                        "type": "any",
+                        "label": "Dream Outreach"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "module": "instantly:CreateLead",
+            "version": 2,
+            "parameters": {
+                "__IMTCONN__": 4533634
+            },
+            "mapper": {
+                "email": "{{2.results.email}}",
+                "website": "{{2.input.domain}}",
+                "campaign": "5eb5fe55-52ae-4fc1-b8d2-1d0c2d4e1a6c",
+                "last_name": "{{get(split(2.input.full_name; space); 2)}}",
+                "first_name": "{{get(split(2.input.full_name; space); 1)}}",
+                "company_name": "{{1.name}}",
+                "personalization": "{{6.`Dream Outreach`}}"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 1800,
+                    "y": 0,
+                    "name": "Plug to Instantly"
+                },
+                "restore": {
+                    "expect": {
+                        "list_id": {
+                            "mode": "chose",
+                            "label": "Empty"
+                        },
+                        "campaign": {
+                            "mode": "chose",
+                            "label": "Demo Crunchbase"
+                        },
+                        "skip_if_in_list": {
+                            "mode": "chose"
+                        },
+                        "lt_interest_status": {
+                            "mode": "chose",
+                            "label": "Empty"
+                        },
+                        "skip_if_in_campaign": {
+                            "mode": "chose"
+                        },
+                        "skip_if_in_workspace": {
+                            "mode": "chose"
+                        },
+                        "verify_leads_on_import": {
+                            "mode": "chose"
+                        },
+                        "verify_leads_for_lead_finder": {
+                            "mode": "chose"
+                        }
+                    },
+                    "parameters": {
+                        "__IMTCONN__": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "instantly3"
+                            },
+                            "label": "Apollo System"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account:instantly3",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "campaign",
+                        "type": "select",
+                        "label": "Campaign ID",
+                        "required": true
+                    },
+                    {
+                        "name": "email",
+                        "type": "text",
+                        "label": "Email",
+                        "required": true
+                    },
+                    {
+                        "name": "personalization",
+                        "type": "text",
+                        "label": "Personalization"
+                    },
+                    {
+                        "name": "website",
+                        "type": "text",
+                        "label": "Website"
+                    },
+                    {
+                        "name": "last_name",
+                        "type": "text",
+                        "label": "Last Name"
+                    },
+                    {
+                        "name": "first_name",
+                        "type": "text",
+                        "label": "First Name"
+                    },
+                    {
+                        "name": "company_name",
+                        "type": "text",
+                        "label": "Company Name"
+                    },
+                    {
+                        "name": "phone",
+                        "type": "text",
+                        "label": "Phone"
+                    },
+                    {
+                        "name": "lt_interest_status",
+                        "type": "select",
+                        "label": "Lead Interest Status",
+                        "validate": {
+                            "enum": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                -1,
+                                -2,
+                                -3
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pl_value_lead",
+                        "type": "text",
+                        "label": "Potential Value of the Lead"
+                    },
+                    {
+                        "name": "list_id",
+                        "type": "select",
+                        "label": "List ID"
+                    },
+                    {
+                        "name": "assigned_to",
+                        "type": "uuid",
+                        "label": "Assigned To"
+                    },
+                    {
+                        "name": "skip_if_in_workspace",
+                        "type": "boolean",
+                        "label": "Skip If In Workspace"
+                    },
+                    {
+                        "name": "skip_if_in_campaign",
+                        "type": "boolean",
+                        "label": "Skip If In Campaign"
+                    },
+                    {
+                        "name": "skip_if_in_list",
+                        "type": "boolean",
+                        "label": "Skip If In List"
+                    },
+                    {
+                        "name": "blocklist_id",
+                        "type": "uuid",
+                        "label": "Blocklist ID"
+                    },
+                    {
+                        "name": "verify_leads_for_lead_finder",
+                        "type": "boolean",
+                        "label": "Verify Leads For Lead Finder"
+                    },
+                    {
+                        "name": "verify_leads_on_import",
+                        "type": "boolean",
+                        "label": "Verify Leads On Import"
+                    },
+                    {
+                        "name": "custom_variables",
+                        "type": "any",
+                        "label": "Custom Variables"
+                    }
+                ]
+            },
+            "onerror": [
+                {
+                    "id": 9,
+                    "module": "builtin:Break",
+                    "version": 1,
+                    "parameters": {},
+                    "mapper": {
+                        "count": "3",
+                        "retry": true,
+                        "interval": "1"
+                    },
+                    "metadata": {
+                        "designer": {
+                            "x": 2100,
+                            "y": 0
+                        },
+                        "restore": {
+                            "expect": {
+                                "retry": {
+                                    "mode": "chose"
+                                }
+                            }
+                        },
+                        "expect": [
+                            {
+                                "name": "retry",
+                                "type": "boolean",
+                                "label": "Automatically complete execution",
+                                "required": true
+                            },
+                            {
+                                "name": "count",
+                                "type": "uinteger",
+                                "label": "Number of attempts",
+                                "required": true,
+                                "validate": {
+                                    "max": 10000,
+                                    "min": 1
+                                }
+                            },
+                            {
+                                "name": "interval",
+                                "type": "uinteger",
+                                "label": "Interval between attempts",
+                                "required": true,
+                                "validate": {
+                                    "max": 44640,
+                                    "min": 1
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "instant": false,
+        "version": 1,
+        "scenario": {
+            "roundtrips": 1,
+            "maxErrors": 3,
+            "autoCommit": true,
+            "autoCommitTriggerLast": true,
+            "sequential": false,
+            "slots": null,
+            "confidential": false,
+            "dataloss": false,
+            "dlq": true,
+            "freshVariables": false
+        },
+        "designer": {
+            "orphans": []
+        },
+        "zone": "us1.make.com",
+        "notes": []
+    }
+}

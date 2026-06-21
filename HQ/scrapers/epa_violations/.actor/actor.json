@@ -1,0 +1,9 @@
+{
+  "actorSpecification": 1,
+  "name": "epa_violations-scraper",
+  "title": "epa_violations Scraper",
+  "version": "1.0",
+  "buildTag": "latest",
+  "environmentVariables": {},
+  "dockerfile": "./Dockerfile"
+}

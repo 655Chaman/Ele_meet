@@ -1,0 +1,1714 @@
+{
+    "name": "$4,000 FCR (ASD → PDL → AnymailFinder)",
+    "flow": [
+        {
+            "id": 1,
+            "module": "google-sheets:filterRows",
+            "version": 2,
+            "parameters": {
+                "__IMTCONN__": 3823244
+            },
+            "mapper": {
+                "from": "drive",
+                "limit": "10",
+                "sheetId": "NJ",
+                "sortOrder": "asc",
+                "spreadsheetId": "1nMdpJWkbjxJH4FkdNppYWqU0qyntGcIaiUup3eLSmRk",
+                "tableFirstRow": "A1:CZ1",
+                "includesHeaders": true,
+                "valueRenderOption": "FORMATTED_VALUE",
+                "dateTimeRenderOption": "FORMATTED_STRING"
+            },
+            "metadata": {
+                "designer": {
+                    "x": -500,
+                    "y": -111,
+                    "name": "Get Data"
+                },
+                "restore": {
+                    "expect": {
+                        "from": {
+                            "label": "Select from My Drive"
+                        },
+                        "orderBy": {
+                            "mode": "chose"
+                        },
+                        "sheetId": {
+                            "mode": "chose",
+                            "label": "NJ"
+                        },
+                        "sortOrder": {
+                            "mode": "chose",
+                            "label": "Ascending"
+                        },
+                        "spreadsheetId": {
+                            "mode": "chose",
+                            "label": "NJ Staffing Independent"
+                        },
+                        "tableFirstRow": {
+                            "label": "A-CZ"
+                        },
+                        "includesHeaders": {
+                            "mode": "chose",
+                            "label": "Yes"
+                        },
+                        "valueRenderOption": {
+                            "mode": "chose",
+                            "label": "Formatted value"
+                        },
+                        "dateTimeRenderOption": {
+                            "mode": "chose",
+                            "label": "Formatted string"
+                        }
+                    },
+                    "parameters": {
+                        "__IMTCONN__": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "google"
+                            },
+                            "label": "Aviv Blueprint (saadb@myoprocess.com)"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account:google",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "from",
+                        "type": "select",
+                        "label": "Search Method",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "drive",
+                                "share"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "valueRenderOption",
+                        "type": "select",
+                        "label": "Value render option",
+                        "validate": {
+                            "enum": [
+                                "FORMATTED_VALUE",
+                                "UNFORMATTED_VALUE",
+                                "FORMULA"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "dateTimeRenderOption",
+                        "type": "select",
+                        "label": "Date and time render option",
+                        "validate": {
+                            "enum": [
+                                "SERIAL_NUMBER",
+                                "FORMATTED_STRING"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "type": "uinteger",
+                        "label": "Limit"
+                    },
+                    {
+                        "name": "spreadsheetId",
+                        "type": "select",
+                        "label": "Spreadsheet ID",
+                        "required": true
+                    },
+                    {
+                        "name": "sheetId",
+                        "type": "select",
+                        "label": "Sheet Name",
+                        "required": true
+                    },
+                    {
+                        "name": "includesHeaders",
+                        "type": "select",
+                        "label": "Table contains headers",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                true,
+                                false
+                            ]
+                        }
+                    },
+                    {
+                        "name": "tableFirstRow",
+                        "type": "select",
+                        "label": "Column range",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "A1:Z1",
+                                "A1:BZ1",
+                                "A1:CZ1",
+                                "A1:DZ1",
+                                "A1:MZ1",
+                                "A1:ZZ1",
+                                "A1:AZZ1",
+                                "A1:BZZ1",
+                                "A1:CZZ1",
+                                "A1:DZZ1",
+                                "A1:MZZ1",
+                                "A1:ZZZ1"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "filter",
+                        "type": "filter",
+                        "label": "Filter",
+                        "options": "rpc://google-sheets/2/rpcGetFilterKeys?includesHeaders=true"
+                    },
+                    {
+                        "name": "orderBy",
+                        "type": "select",
+                        "label": "Order by"
+                    },
+                    {
+                        "name": "sortOrder",
+                        "type": "select",
+                        "label": "Sort order",
+                        "validate": {
+                            "enum": [
+                                "asc",
+                                "desc"
+                            ]
+                        }
+                    }
+                ],
+                "interface": [
+                    {
+                        "name": "__ROW_NUMBER__",
+                        "type": "number",
+                        "label": "Row number"
+                    },
+                    {
+                        "name": "__SPREADSHEET_ID__",
+                        "type": "text",
+                        "label": "Spreadsheet ID"
+                    },
+                    {
+                        "name": "__SHEET__",
+                        "type": "text",
+                        "label": "Sheet"
+                    },
+                    {
+                        "name": "0",
+                        "type": "text",
+                        "label": "col-sm-8 (A)"
+                    },
+                    {
+                        "name": "1",
+                        "type": "text",
+                        "label": "city-state (B)"
+                    },
+                    {
+                        "name": "2",
+                        "type": "text",
+                        "label": "external (C)"
+                    },
+                    {
+                        "name": "3",
+                        "type": "text",
+                        "label": "external href (D)"
+                    },
+                    {
+                        "name": "4",
+                        "type": "text",
+                        "label": "address (E)"
+                    },
+                    {
+                        "name": "5",
+                        "type": "text",
+                        "label": "address href (F)"
+                    },
+                    {
+                        "name": "6",
+                        "type": "text",
+                        "label": "col-sm-4 (G)"
+                    },
+                    {
+                        "name": "7",
+                        "type": "text",
+                        "label": "col-sm-4 href 2 (H)"
+                    },
+                    {
+                        "name": "8",
+                        "type": "text",
+                        "label": "col-sm-6 3 (I)"
+                    },
+                    {
+                        "name": "9",
+                        "type": "text",
+                        "label": "col-sm-6 4 (J)"
+                    },
+                    {
+                        "name": "10",
+                        "type": "text",
+                        "label": "col-sm-6 5 (K)"
+                    },
+                    {
+                        "name": "11",
+                        "type": "text",
+                        "label": "col-sm-6 7 (L)"
+                    },
+                    {
+                        "name": "12",
+                        "type": "text",
+                        "label": "col-sm-6 8 (M)"
+                    },
+                    {
+                        "name": "13",
+                        "type": "text",
+                        "label": "col-sm-6 9 (N)"
+                    },
+                    {
+                        "name": "14",
+                        "type": "text",
+                        "label": "col-sm-6 10 (O)"
+                    },
+                    {
+                        "name": "15",
+                        "type": "text",
+                        "label": "col-sm-6 11 (P)"
+                    },
+                    {
+                        "name": "16",
+                        "type": "text",
+                        "label": "col-sm-6 12 (Q)"
+                    },
+                    {
+                        "name": "17",
+                        "type": "text",
+                        "label": "col-sm-6 13 (R)"
+                    },
+                    {
+                        "name": "18",
+                        "type": "text",
+                        "label": "listing-certifications src (S)"
+                    },
+                    {
+                        "name": "19",
+                        "type": "text",
+                        "label": "(T)"
+                    },
+                    {
+                        "name": "20",
+                        "type": "text",
+                        "label": "(U)"
+                    },
+                    {
+                        "name": "21",
+                        "type": "text",
+                        "label": "(V)"
+                    },
+                    {
+                        "name": "22",
+                        "type": "text",
+                        "label": "(W)"
+                    },
+                    {
+                        "name": "23",
+                        "type": "text",
+                        "label": "(X)"
+                    },
+                    {
+                        "name": "24",
+                        "type": "text",
+                        "label": "(Y)"
+                    },
+                    {
+                        "name": "25",
+                        "type": "text",
+                        "label": "(Z)"
+                    },
+                    {
+                        "name": "26",
+                        "type": "text",
+                        "label": "(AA)"
+                    },
+                    {
+                        "name": "27",
+                        "type": "text",
+                        "label": "(AB)"
+                    },
+                    {
+                        "name": "28",
+                        "type": "text",
+                        "label": "(AC)"
+                    },
+                    {
+                        "name": "29",
+                        "type": "text",
+                        "label": "(AD)"
+                    },
+                    {
+                        "name": "30",
+                        "type": "text",
+                        "label": "(AE)"
+                    },
+                    {
+                        "name": "31",
+                        "type": "text",
+                        "label": "(AF)"
+                    },
+                    {
+                        "name": "32",
+                        "type": "text",
+                        "label": "(AG)"
+                    },
+                    {
+                        "name": "33",
+                        "type": "text",
+                        "label": "(AH)"
+                    },
+                    {
+                        "name": "34",
+                        "type": "text",
+                        "label": "(AI)"
+                    },
+                    {
+                        "name": "35",
+                        "type": "text",
+                        "label": "(AJ)"
+                    },
+                    {
+                        "name": "36",
+                        "type": "text",
+                        "label": "(AK)"
+                    },
+                    {
+                        "name": "37",
+                        "type": "text",
+                        "label": "(AL)"
+                    },
+                    {
+                        "name": "38",
+                        "type": "text",
+                        "label": "(AM)"
+                    },
+                    {
+                        "name": "39",
+                        "type": "text",
+                        "label": "(AN)"
+                    },
+                    {
+                        "name": "40",
+                        "type": "text",
+                        "label": "(AO)"
+                    },
+                    {
+                        "name": "41",
+                        "type": "text",
+                        "label": "(AP)"
+                    },
+                    {
+                        "name": "42",
+                        "type": "text",
+                        "label": "(AQ)"
+                    },
+                    {
+                        "name": "43",
+                        "type": "text",
+                        "label": "(AR)"
+                    },
+                    {
+                        "name": "44",
+                        "type": "text",
+                        "label": "(AS)"
+                    },
+                    {
+                        "name": "45",
+                        "type": "text",
+                        "label": "(AT)"
+                    },
+                    {
+                        "name": "46",
+                        "type": "text",
+                        "label": "(AU)"
+                    },
+                    {
+                        "name": "47",
+                        "type": "text",
+                        "label": "(AV)"
+                    },
+                    {
+                        "name": "48",
+                        "type": "text",
+                        "label": "(AW)"
+                    },
+                    {
+                        "name": "49",
+                        "type": "text",
+                        "label": "(AX)"
+                    },
+                    {
+                        "name": "50",
+                        "type": "text",
+                        "label": "(AY)"
+                    },
+                    {
+                        "name": "51",
+                        "type": "text",
+                        "label": "(AZ)"
+                    },
+                    {
+                        "name": "52",
+                        "type": "text",
+                        "label": "(BA)"
+                    },
+                    {
+                        "name": "53",
+                        "type": "text",
+                        "label": "(BB)"
+                    },
+                    {
+                        "name": "54",
+                        "type": "text",
+                        "label": "(BC)"
+                    },
+                    {
+                        "name": "55",
+                        "type": "text",
+                        "label": "(BD)"
+                    },
+                    {
+                        "name": "56",
+                        "type": "text",
+                        "label": "(BE)"
+                    },
+                    {
+                        "name": "57",
+                        "type": "text",
+                        "label": "(BF)"
+                    },
+                    {
+                        "name": "58",
+                        "type": "text",
+                        "label": "(BG)"
+                    },
+                    {
+                        "name": "59",
+                        "type": "text",
+                        "label": "(BH)"
+                    },
+                    {
+                        "name": "60",
+                        "type": "text",
+                        "label": "(BI)"
+                    },
+                    {
+                        "name": "61",
+                        "type": "text",
+                        "label": "(BJ)"
+                    },
+                    {
+                        "name": "62",
+                        "type": "text",
+                        "label": "(BK)"
+                    },
+                    {
+                        "name": "63",
+                        "type": "text",
+                        "label": "(BL)"
+                    },
+                    {
+                        "name": "64",
+                        "type": "text",
+                        "label": "(BM)"
+                    },
+                    {
+                        "name": "65",
+                        "type": "text",
+                        "label": "(BN)"
+                    },
+                    {
+                        "name": "66",
+                        "type": "text",
+                        "label": "(BO)"
+                    },
+                    {
+                        "name": "67",
+                        "type": "text",
+                        "label": "(BP)"
+                    },
+                    {
+                        "name": "68",
+                        "type": "text",
+                        "label": "(BQ)"
+                    },
+                    {
+                        "name": "69",
+                        "type": "text",
+                        "label": "(BR)"
+                    },
+                    {
+                        "name": "70",
+                        "type": "text",
+                        "label": "(BS)"
+                    },
+                    {
+                        "name": "71",
+                        "type": "text",
+                        "label": "(BT)"
+                    },
+                    {
+                        "name": "72",
+                        "type": "text",
+                        "label": "(BU)"
+                    },
+                    {
+                        "name": "73",
+                        "type": "text",
+                        "label": "(BV)"
+                    },
+                    {
+                        "name": "74",
+                        "type": "text",
+                        "label": "(BW)"
+                    },
+                    {
+                        "name": "75",
+                        "type": "text",
+                        "label": "(BX)"
+                    },
+                    {
+                        "name": "76",
+                        "type": "text",
+                        "label": "(BY)"
+                    },
+                    {
+                        "name": "77",
+                        "type": "text",
+                        "label": "(BZ)"
+                    },
+                    {
+                        "name": "78",
+                        "type": "text",
+                        "label": "(CA)"
+                    },
+                    {
+                        "name": "79",
+                        "type": "text",
+                        "label": "(CB)"
+                    },
+                    {
+                        "name": "80",
+                        "type": "text",
+                        "label": "(CC)"
+                    },
+                    {
+                        "name": "81",
+                        "type": "text",
+                        "label": "(CD)"
+                    },
+                    {
+                        "name": "82",
+                        "type": "text",
+                        "label": "(CE)"
+                    },
+                    {
+                        "name": "83",
+                        "type": "text",
+                        "label": "(CF)"
+                    },
+                    {
+                        "name": "84",
+                        "type": "text",
+                        "label": "(CG)"
+                    },
+                    {
+                        "name": "85",
+                        "type": "text",
+                        "label": "(CH)"
+                    },
+                    {
+                        "name": "86",
+                        "type": "text",
+                        "label": "(CI)"
+                    },
+                    {
+                        "name": "87",
+                        "type": "text",
+                        "label": "(CJ)"
+                    },
+                    {
+                        "name": "88",
+                        "type": "text",
+                        "label": "(CK)"
+                    },
+                    {
+                        "name": "89",
+                        "type": "text",
+                        "label": "(CL)"
+                    },
+                    {
+                        "name": "90",
+                        "type": "text",
+                        "label": "(CM)"
+                    },
+                    {
+                        "name": "91",
+                        "type": "text",
+                        "label": "(CN)"
+                    },
+                    {
+                        "name": "92",
+                        "type": "text",
+                        "label": "(CO)"
+                    },
+                    {
+                        "name": "93",
+                        "type": "text",
+                        "label": "(CP)"
+                    },
+                    {
+                        "name": "94",
+                        "type": "text",
+                        "label": "(CQ)"
+                    },
+                    {
+                        "name": "95",
+                        "type": "text",
+                        "label": "(CR)"
+                    },
+                    {
+                        "name": "96",
+                        "type": "text",
+                        "label": "(CS)"
+                    },
+                    {
+                        "name": "97",
+                        "type": "text",
+                        "label": "(CT)"
+                    },
+                    {
+                        "name": "98",
+                        "type": "text",
+                        "label": "(CU)"
+                    },
+                    {
+                        "name": "99",
+                        "type": "text",
+                        "label": "(CV)"
+                    },
+                    {
+                        "name": "100",
+                        "type": "text",
+                        "label": "(CW)"
+                    },
+                    {
+                        "name": "101",
+                        "type": "text",
+                        "label": "(CX)"
+                    },
+                    {
+                        "name": "102",
+                        "type": "text",
+                        "label": "(CY)"
+                    },
+                    {
+                        "name": "103",
+                        "type": "text",
+                        "label": "(CZ)"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "module": "http:ActionSendData",
+            "version": 3,
+            "parameters": {
+                "handleErrors": true,
+                "useNewZLibDeCompress": true
+            },
+            "mapper": {
+                "ca": "",
+                "qs": [],
+                "url": "https://api.peopledatalabs.com/v5/person/search",
+                "data": "{\r\n  \"sql\": \"SELECT * FROM person WHERE job_company_website = '{{1.`2`}}' AND (job_title LIKE '%owner%' OR job_title LIKE '%founder%' OR job_title LIKE '%ceo%' OR job_title_levels IN ('director', 'vp', 'cxo', 'owner')) LIMIT 10\"\r\n}",
+                "gzip": true,
+                "method": "get",
+                "headers": [
+                    {
+                        "name": "X-Api-Key",
+                        "value": "55c74364e86d6cda2c024879298d326373b7fd05ce75dcbf5edeaac00178dd19"
+                    }
+                ],
+                "timeout": "",
+                "useMtls": false,
+                "authPass": "",
+                "authUser": "",
+                "bodyType": "raw",
+                "contentType": "application/json",
+                "serializeUrl": false,
+                "shareCookies": false,
+                "parseResponse": true,
+                "followRedirect": true,
+                "useQuerystring": false,
+                "followAllRedirects": false,
+                "rejectUnauthorized": true
+            },
+            "metadata": {
+                "designer": {
+                    "x": -200,
+                    "y": -111,
+                    "name": "Get Decision Maker"
+                },
+                "restore": {
+                    "expect": {
+                        "qs": {
+                            "mode": "chose"
+                        },
+                        "method": {
+                            "mode": "chose",
+                            "label": "GET"
+                        },
+                        "headers": {
+                            "mode": "chose",
+                            "items": [
+                                null
+                            ]
+                        },
+                        "bodyType": {
+                            "label": "Raw"
+                        },
+                        "contentType": {
+                            "label": "JSON (application/json)"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "handleErrors",
+                        "type": "boolean",
+                        "label": "Evaluate all states as errors (except for 2xx and 3xx )",
+                        "required": true
+                    },
+                    {
+                        "name": "useNewZLibDeCompress",
+                        "type": "hidden"
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "url",
+                        "type": "url",
+                        "label": "URL",
+                        "required": true
+                    },
+                    {
+                        "name": "serializeUrl",
+                        "type": "boolean",
+                        "label": "Serialize URL",
+                        "required": true
+                    },
+                    {
+                        "name": "method",
+                        "type": "select",
+                        "label": "Method",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "get",
+                                "head",
+                                "post",
+                                "put",
+                                "patch",
+                                "delete",
+                                "options"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "headers",
+                        "spec": [
+                            {
+                                "name": "name",
+                                "type": "text",
+                                "label": "Name",
+                                "required": true
+                            },
+                            {
+                                "name": "value",
+                                "type": "text",
+                                "label": "Value"
+                            }
+                        ],
+                        "type": "array",
+                        "label": "Headers"
+                    },
+                    {
+                        "name": "qs",
+                        "spec": [
+                            {
+                                "name": "name",
+                                "type": "text",
+                                "label": "Name",
+                                "required": true
+                            },
+                            {
+                                "name": "value",
+                                "type": "text",
+                                "label": "Value"
+                            }
+                        ],
+                        "type": "array",
+                        "label": "Query String"
+                    },
+                    {
+                        "name": "bodyType",
+                        "type": "select",
+                        "label": "Body type",
+                        "validate": {
+                            "enum": [
+                                "raw",
+                                "x_www_form_urlencoded",
+                                "multipart_form_data"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "parseResponse",
+                        "type": "boolean",
+                        "label": "Parse response",
+                        "required": true
+                    },
+                    {
+                        "name": "authUser",
+                        "type": "text",
+                        "label": "User name"
+                    },
+                    {
+                        "name": "authPass",
+                        "type": "password",
+                        "label": "Password"
+                    },
+                    {
+                        "name": "timeout",
+                        "type": "uinteger",
+                        "label": "Timeout",
+                        "validate": {
+                            "max": 300,
+                            "min": 1
+                        }
+                    },
+                    {
+                        "name": "shareCookies",
+                        "type": "boolean",
+                        "label": "Share cookies with other HTTP modules",
+                        "required": true
+                    },
+                    {
+                        "name": "ca",
+                        "type": "cert",
+                        "label": "Self-signed certificate"
+                    },
+                    {
+                        "name": "rejectUnauthorized",
+                        "type": "boolean",
+                        "label": "Reject connections that are using unverified (self-signed) certificates",
+                        "required": true
+                    },
+                    {
+                        "name": "followRedirect",
+                        "type": "boolean",
+                        "label": "Follow redirect",
+                        "required": true
+                    },
+                    {
+                        "name": "useQuerystring",
+                        "type": "boolean",
+                        "label": "Disable serialization of multiple same query string keys as arrays",
+                        "required": true
+                    },
+                    {
+                        "name": "gzip",
+                        "type": "boolean",
+                        "label": "Request compressed content",
+                        "required": true
+                    },
+                    {
+                        "name": "useMtls",
+                        "type": "boolean",
+                        "label": "Use Mutual TLS",
+                        "required": true
+                    },
+                    {
+                        "name": "contentType",
+                        "type": "select",
+                        "label": "Content type",
+                        "validate": {
+                            "enum": [
+                                "text/plain",
+                                "application/json",
+                                "application/xml",
+                                "text/xml",
+                                "text/html",
+                                "custom"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "data",
+                        "type": "buffer",
+                        "label": "Request content"
+                    },
+                    {
+                        "name": "followAllRedirects",
+                        "type": "boolean",
+                        "label": "Follow all redirect",
+                        "required": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "module": "anymailfinder:emailSearchPerson",
+            "version": 1,
+            "parameters": {
+                "__IMTCONN__": 4555586
+            },
+            "mapper": {
+                "domain": "{{1.`3`}}",
+                "full_name": "{{startcase(2.data.data[].full_name)}}",
+                "searchCriteria": "domain",
+                "not_found_error": false,
+                "fully_verified_only": true
+            },
+            "metadata": {
+                "designer": {
+                    "x": 100,
+                    "y": -111,
+                    "name": "Find Email"
+                },
+                "restore": {
+                    "expect": {
+                        "searchCriteria": {
+                            "label": "Domain"
+                        },
+                        "fully_verified_only": {
+                            "mode": "chose",
+                            "label": "Use only Fully Verified Emails (97%+ delivery rate)"
+                        }
+                    },
+                    "parameters": {
+                        "__IMTCONN__": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "anymailfinder"
+                            },
+                            "label": "My Anymail finder connection"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account:anymailfinder",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "not_found_error",
+                        "type": "hidden"
+                    },
+                    {
+                        "name": "searchCriteria",
+                        "type": "select",
+                        "label": "Search by",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "domain",
+                                "companyName"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "full_name",
+                        "type": "text",
+                        "label": "Full Name"
+                    },
+                    {
+                        "name": "first_name",
+                        "type": "text",
+                        "label": "First Name"
+                    },
+                    {
+                        "name": "last_name",
+                        "type": "text",
+                        "label": "Last Name"
+                    },
+                    {
+                        "name": "fully_verified_only",
+                        "type": "select",
+                        "label": "Email Verification Filter",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                true,
+                                false
+                            ]
+                        }
+                    },
+                    {
+                        "name": "domain",
+                        "type": "text",
+                        "label": "Domain",
+                        "required": true
+                    },
+                    {
+                        "name": "not_found_error",
+                        "type": "hidden"
+                    },
+                    {
+                        "name": "searchCriteria",
+                        "type": "select",
+                        "label": "Search by",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "domain",
+                                "companyName"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "full_name",
+                        "type": "text",
+                        "label": "Full Name"
+                    },
+                    {
+                        "name": "first_name",
+                        "type": "text",
+                        "label": "First Name"
+                    },
+                    {
+                        "name": "last_name",
+                        "type": "text",
+                        "label": "Last Name"
+                    },
+                    {
+                        "name": "fully_verified_only",
+                        "type": "select",
+                        "label": "Email Verification Filter",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                true,
+                                false
+                            ]
+                        }
+                    },
+                    {
+                        "name": "domain",
+                        "type": "text",
+                        "label": "Domain",
+                        "required": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "module": "azure-openai:createAChatCompletion",
+            "version": 1,
+            "parameters": {
+                "__IMTCONN__": 4299534
+            },
+            "filter": {
+                "name": "Exist?",
+                "conditions": [
+                    [
+                        {
+                            "a": "{{3.results.email}}",
+                            "o": "exist"
+                        }
+                    ]
+                ]
+            },
+            "mapper": {
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": [
+                            {
+                                "text": "You must return exactly this format:\n\nSaw you've been [Job Title] at [Company Name] since [Start Year] - kudos for leading [responsibility] at a [Company Age]-year-old company with [Company Size] employees.\n\nQuick question - with [Company Name] covering [Service Lines], are your workers' comp and benefits costs where you want them, or is there room to put more money back in your pocket?\nRules:\n\n[Job Title] = use \n{{2.data.data[].job_title}}\nbut trim to 3 words max\n[Company Name] = \n{{2.data.data[].job_company_name}}\n[Start Year] = extract year from \n{{2.data.data[].job_start_date}}\n[responsibility] = if title has \"vision/strategy\" = \"strategy\", if \"operations\" = \"operations\", else = \"growth\"\n[Company Age] = 2025 minus \n{{2.data.data[].job_company_founded}}\n[Company Size] = \n\nconvert size (1001-5000 = \"1,000+\", 51-200 = \"200+\")\n[Service Lines] = \n{{2.data.data[].experience[].company.size}}\nUse shortened like (IT, etc)\n{{1.`13`}}\n{{1.`12`}}\n{{1.`11`}}\n\nPerfect example:\nSaw you've been CVO at Equiliem since 2022 - kudos for leading strategy at a 52-year-old company with 1,000+ employees.\n\nQuick question - with Equiliem covering Industrial, IT, Health Care & Engineering placements, are your workers' comp and benefits costs where you want them, or is there room to put more money back in your pocket?\"",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "temperature": "1",
+                "deploymentName": "gpt-4o"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 400,
+                    "y": -111,
+                    "name": "1:1 Dream Outreach"
+                },
+                "restore": {
+                    "expect": {
+                        "stop": {
+                            "mode": "chose"
+                        },
+                        "messages": {
+                            "mode": "chose",
+                            "items": [
+                                {
+                                    "role": {
+                                        "mode": "chose",
+                                        "label": "User"
+                                    },
+                                    "content": {
+                                        "mode": "chose",
+                                        "items": [
+                                            {
+                                                "type": {
+                                                    "mode": "chose",
+                                                    "label": "Text"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        "logit_bias": {
+                            "mode": "chose"
+                        }
+                    },
+                    "parameters": {
+                        "__IMTCONN__": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "azure-openai3"
+                            },
+                            "label": "My Azure OpenAI API Key (advanced) connection"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account:azure-openai2,azure-openai3",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "deploymentName",
+                        "type": "text",
+                        "label": "OpenAI Deployment Name",
+                        "required": true
+                    },
+                    {
+                        "name": "messages",
+                        "spec": {
+                            "name": "value",
+                            "spec": [
+                                {
+                                    "name": "role",
+                                    "type": "select",
+                                    "label": "Role",
+                                    "options": [
+                                        {
+                                            "label": "System",
+                                            "value": "system",
+                                            "nested": [
+                                                {
+                                                    "help": "The contents of the message. This parameter is required except for `Assistant` role with function calls.",
+                                                    "name": "content",
+                                                    "type": "text",
+                                                    "label": "Message Content",
+                                                    "required": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "label": "User",
+                                            "value": "user",
+                                            "nested": [
+                                                {
+                                                    "name": "content",
+                                                    "spec": {
+                                                        "spec": [
+                                                            {
+                                                                "help": "`Image` is supported by only GPT-4 Turbo with Vision model.",
+                                                                "name": "type",
+                                                                "type": "select",
+                                                                "label": "Type",
+                                                                "options": [
+                                                                    {
+                                                                        "label": "Text",
+                                                                        "value": "text",
+                                                                        "nested": [
+                                                                            {
+                                                                                "name": "text",
+                                                                                "type": "text",
+                                                                                "label": "Text",
+                                                                                "required": true
+                                                                            }
+                                                                        ],
+                                                                        "default": true
+                                                                    },
+                                                                    {
+                                                                        "label": "Image",
+                                                                        "value": "image_url",
+                                                                        "nested": [
+                                                                            {
+                                                                                "name": "image_url",
+                                                                                "spec": [
+                                                                                    {
+                                                                                        "name": "url",
+                                                                                        "type": "text",
+                                                                                        "label": "URL",
+                                                                                        "required": true
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "detail",
+                                                                                        "type": "select",
+                                                                                        "label": "Detail",
+                                                                                        "options": [
+                                                                                            {
+                                                                                                "label": "High",
+                                                                                                "value": "high"
+                                                                                            },
+                                                                                            {
+                                                                                                "label": "Low",
+                                                                                                "value": "low"
+                                                                                            },
+                                                                                            {
+                                                                                                "label": "Auto",
+                                                                                                "value": "auto"
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ],
+                                                                                "type": "collection",
+                                                                                "label": "Image URL"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ],
+                                                                "mappable": false,
+                                                                "required": true
+                                                            }
+                                                        ],
+                                                        "type": "collection",
+                                                        "label": "Content"
+                                                    },
+                                                    "type": "array",
+                                                    "label": "Content",
+                                                    "labels": {
+                                                        "add": "Add content"
+                                                    },
+                                                    "required": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "label": "Assistant",
+                                            "value": "assistant",
+                                            "nested": [
+                                                {
+                                                    "help": "The contents of the message. This parameter is required except for `Assistant` role with function calls.",
+                                                    "name": "content",
+                                                    "type": "text",
+                                                    "label": "Message Content",
+                                                    "required": true
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "required": true
+                                }
+                            ],
+                            "type": "collection",
+                            "label": "Message"
+                        },
+                        "type": "array",
+                        "label": "Messages",
+                        "required": true
+                    },
+                    {
+                        "name": "max_tokens",
+                        "type": "number",
+                        "label": "Max Tokens",
+                        "validate": {
+                            "min": 0
+                        }
+                    },
+                    {
+                        "name": "temperature",
+                        "type": "number",
+                        "label": "Temperature",
+                        "validate": {
+                            "max": 2,
+                            "min": 0
+                        }
+                    },
+                    {
+                        "name": "top_p",
+                        "type": "number",
+                        "label": "Top P",
+                        "validate": {
+                            "max": 1,
+                            "min": 0
+                        }
+                    },
+                    {
+                        "name": "n",
+                        "type": "number",
+                        "label": "Number of Completions"
+                    },
+                    {
+                        "name": "frequency_penalty",
+                        "type": "number",
+                        "label": "Frequency Penalty",
+                        "validate": {
+                            "max": 2,
+                            "min": -2
+                        }
+                    },
+                    {
+                        "name": "presence_penalty",
+                        "type": "number",
+                        "label": "Presence Penalty",
+                        "validate": {
+                            "max": 2,
+                            "min": -2
+                        }
+                    },
+                    {
+                        "name": "logit_bias",
+                        "spec": {
+                            "name": "value",
+                            "spec": [
+                                {
+                                    "name": "token",
+                                    "type": "text",
+                                    "label": "Token",
+                                    "required": true
+                                },
+                                {
+                                    "name": "probability",
+                                    "type": "number",
+                                    "label": "Probability",
+                                    "required": true,
+                                    "validate": {
+                                        "max": 100,
+                                        "min": -100
+                                    }
+                                }
+                            ],
+                            "type": "collection",
+                            "label": "Token Probability"
+                        },
+                        "type": "array",
+                        "label": "Token Probability"
+                    },
+                    {
+                        "name": "stop",
+                        "spec": {
+                            "name": "value",
+                            "spec": [
+                                {
+                                    "type": "text"
+                                }
+                            ],
+                            "type": "text",
+                            "label": "Sequence"
+                        },
+                        "type": "array",
+                        "label": "Stop Sequences",
+                        "validate": {
+                            "maxItems": 4
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "module": "util:SetVariable2",
+            "version": 1,
+            "parameters": {},
+            "mapper": {
+                "name": "Dream Email",
+                "scope": "roundtrip",
+                "value": "Hey {{get(split(3.input.full_name; space); 1)}}—\n\n{{4.result}}\n\nReason I ask is because I built a system that can connect you w/ a PEO specialist that just saved another multi-state agency $1.3 million by getting rid of all their separate brokers & Putting everything under one roof!\n\nWould it be helpful if I make the intro?"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 700,
+                    "y": -111,
+                    "name": "Dream Email"
+                },
+                "restore": {
+                    "expect": {
+                        "scope": {
+                            "label": "One cycle"
+                        }
+                    }
+                },
+                "expect": [
+                    {
+                        "name": "name",
+                        "type": "text",
+                        "label": "Variable name",
+                        "required": true
+                    },
+                    {
+                        "name": "scope",
+                        "type": "select",
+                        "label": "Variable lifetime",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "roundtrip",
+                                "execution"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "value",
+                        "type": "any",
+                        "label": "Variable value"
+                    }
+                ],
+                "interface": [
+                    {
+                        "name": "Dream Email",
+                        "type": "any",
+                        "label": "Dream Email"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "module": "instantly:CreateLead",
+            "version": 2,
+            "parameters": {
+                "__IMTCONN__": 4533634
+            },
+            "mapper": {
+                "email": "{{3.results.email}}",
+                "website": "{{3.input.domain}}",
+                "campaign": "ac529d6f-c82c-4346-8b49-6fcb00d76f87",
+                "last_name": "{{get(split(3.input.full_name; space); 2)}}",
+                "first_name": "{{get(split(3.input.full_name; space); 1)}}",
+                "company_name": "{{1.`0`}}",
+                "personalization": "{{5.`Dream Email`}}"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 1000,
+                    "y": -111,
+                    "name": "Add to Instantly"
+                },
+                "restore": {
+                    "expect": {
+                        "list_id": {
+                            "mode": "chose",
+                            "label": "Empty"
+                        },
+                        "campaign": {
+                            "mode": "chose",
+                            "label": "4K FCR"
+                        },
+                        "skip_if_in_list": {
+                            "mode": "chose"
+                        },
+                        "lt_interest_status": {
+                            "mode": "chose",
+                            "label": "Empty"
+                        },
+                        "skip_if_in_campaign": {
+                            "mode": "chose"
+                        },
+                        "skip_if_in_workspace": {
+                            "mode": "chose"
+                        },
+                        "verify_leads_on_import": {
+                            "mode": "chose"
+                        },
+                        "verify_leads_for_lead_finder": {
+                            "mode": "chose"
+                        }
+                    },
+                    "parameters": {
+                        "__IMTCONN__": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "instantly3"
+                            },
+                            "label": "Apollo System"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account:instantly3",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "campaign",
+                        "type": "select",
+                        "label": "Campaign ID",
+                        "required": true
+                    },
+                    {
+                        "name": "email",
+                        "type": "text",
+                        "label": "Email",
+                        "required": true
+                    },
+                    {
+                        "name": "personalization",
+                        "type": "text",
+                        "label": "Personalization"
+                    },
+                    {
+                        "name": "website",
+                        "type": "text",
+                        "label": "Website"
+                    },
+                    {
+                        "name": "last_name",
+                        "type": "text",
+                        "label": "Last Name"
+                    },
+                    {
+                        "name": "first_name",
+                        "type": "text",
+                        "label": "First Name"
+                    },
+                    {
+                        "name": "company_name",
+                        "type": "text",
+                        "label": "Company Name"
+                    },
+                    {
+                        "name": "phone",
+                        "type": "text",
+                        "label": "Phone"
+                    },
+                    {
+                        "name": "lt_interest_status",
+                        "type": "select",
+                        "label": "Lead Interest Status",
+                        "validate": {
+                            "enum": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                -1,
+                                -2,
+                                -3
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pl_value_lead",
+                        "type": "text",
+                        "label": "Potential Value of the Lead"
+                    },
+                    {
+                        "name": "list_id",
+                        "type": "select",
+                        "label": "List ID"
+                    },
+                    {
+                        "name": "assigned_to",
+                        "type": "uuid",
+                        "label": "Assigned To"
+                    },
+                    {
+                        "name": "skip_if_in_workspace",
+                        "type": "boolean",
+                        "label": "Skip If In Workspace"
+                    },
+                    {
+                        "name": "skip_if_in_campaign",
+                        "type": "boolean",
+                        "label": "Skip If In Campaign"
+                    },
+                    {
+                        "name": "skip_if_in_list",
+                        "type": "boolean",
+                        "label": "Skip If In List"
+                    },
+                    {
+                        "name": "blocklist_id",
+                        "type": "uuid",
+                        "label": "Blocklist ID"
+                    },
+                    {
+                        "name": "verify_leads_for_lead_finder",
+                        "type": "boolean",
+                        "label": "Verify Leads For Lead Finder"
+                    },
+                    {
+                        "name": "verify_leads_on_import",
+                        "type": "boolean",
+                        "label": "Verify Leads On Import"
+                    },
+                    {
+                        "name": "custom_variables",
+                        "type": "any",
+                        "label": "Custom Variables"
+                    }
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "instant": false,
+        "version": 1,
+        "scenario": {
+            "roundtrips": 1,
+            "maxErrors": 3,
+            "autoCommit": true,
+            "autoCommitTriggerLast": true,
+            "sequential": false,
+            "slots": null,
+            "confidential": false,
+            "dataloss": false,
+            "dlq": false,
+            "freshVariables": false
+        },
+        "designer": {
+            "orphans": []
+        },
+        "zone": "us1.make.com",
+        "notes": []
+    }
+}

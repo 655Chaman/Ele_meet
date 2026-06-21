@@ -1,0 +1,317 @@
+Extracting Prompts, Subjects, and Copy...
+
+--- First Client Reward ($2K Deal).blueprint.json ---
+[text]: From the text below, extract only the clinic or business name.
+
+Return the cleaned name only, with no punctuation before or after it
+
+{{1.title}}...
+
+--- myoSignal Flow (Enrich & Find).blueprint.json ---
+[text]: Retrieve this person's full name from {{2.data.results[].title}}and their description L {{2.data.results[].description}}typically reflected in the URL and the person's profile information. The goal is...
+
+--- Internal- myoProcess Central (Onboarding).blueprint.json ---
+[subject]: Welcome to myoProcess...
+[subject]: {{1.token_values.`Client.FirstName`}}, next steps...
+
+--- SS EXA COMPANIES RUNNING ADS → push to instantly.json ---
+[text]: Given the following input, generate a brief statement similar to this:Target Outcome: Generate an outreach message similar to:Saw you’re promoting [Product/Offer] [context, e.g., “post-[Event/Launch]”...
+
+--- High Intent Based Targeting Formula.blueprint.json ---
+[text]: Generate a statement similar to:
+
+Noticed you joined [Company] as [Title] about [X] weeks after their $[amount] [Series A/B] round. Congrats on the role.
+
+Example perfect output:
+
+Noticed you jo...
+[text]: Generate a statement similar to:
+
+I know someone who helped a new [Industry] CMO get 22 sales-ready leads in their first month - before their first board review.
+
+Example perfect output:
+
+
+I know...
+
+--- FCR ($2,8K).json ---
+[text]: =Normalize the company name by {{ $('G Sheets Reader').item.json.organization_name }} focusing on its most distinctive and memorable element, as it may be reflected in the company's domain {{ $('G She...
+[text]: =Generate a statement similar to:
+ Saw [companyName] is growing in [location] — exciting to see that momentum 👏
+I’m connected with an IT team based locally in [state] — they’ve helped a few firms like...
+[text]: Saw LAAPIP is growing in Miami — exciting to see that momentum 👏
+I'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure systems, and ful...
+[text]: Saw Zinzow is growing in Tampa — exciting to see that momentum 👏
+I'm connected with an IT team based locally in Florida — they've helped a few firms like Zinzow reduce downtime, secure systems, and fu...
+[text]: Noticed [companyName] is expanding operations in [location] — thrilled to watch your progress 👏
+I'm linked with a tech support group headquartered in [state] — they've assisted several businesses simi...
+[text]: Saw JetStream Digital is growing in Tampa — exciting to see that momentum 👏
+I'm connected with an IT team based locally in Florida — they've helped a few firms like yours reduce downtime, secure syste...
+... (more found)
+
+--- Recruitment FCR.json ---
+[text]: Retrieve this person's full name from {{2.data.results[].title}} and their LinkedIn URL {{2.data.results[].url}} typically reflected in the URL and the person's profile information. The goal is to ext...
+
+--- High Ticket SS ApolloFlow.json ---
+[jsonBody]: ={
+  "cleanOutput": true,
+  "totalRecords": {{ $json["*How many leads are we scraping? *"] }},
+  "url": "{{ $json['*Search URL input*'] }}"
+}
+...
+[jsonBody]: ={"email": "{{ $json.email }}"}...
+[text]: =Normalize the company name {{ $json.organization_name }}
+by keeping only its most distinctive, memorable element. Use hints from the domain {{ $json.organization_website_url }} and the company’s Link...
+[text]: =Generate output exactly in the following two-sentence format:
+
+Saw [companyName] helps [targetAudience] with [coreBenefit].
+
+Think warm intros to [idealProspectTitles] could help?
+
+Example:
+
+Saw The ...
+
+--- Training Playground.json ---
+[text]: Summarize the the most relevant events, achievements, or news mentioned in the {{2.text}}in 6-8 words max only with a spartan tone, providing no details. Simplify large numbers (e.g., $10,000,000 or s...
+[text]: You are a conversational, concise writing assistant. Fill in the email template below using the data provided. Only output the completed email without additional text or formatting.
+
+Template
+
+Hey Saa...
+
+--- $5,5 K FCR (recruitment for construction).blueprint.json ---
+[text]: Return the full name from {{2.data.results[].title}}, output the full name only with no additional text....
+[text]: Generate a short, friendly outreach message in two parts using the following format:
+
+Opener (max 8 words):
+Start with:
+“Noticed [Company] is hiring for a [PositionName] —”
+Then add a casual, non...
+
+--- 2) Get Data, Enrich & Finish Flow.blueprint.json ---
+[text]: You must return the cleaned company name from {{2.name}}, strip away LLC, LTD, or any long naming conventions the company uses, output the finalized clean company name, an employee might use within th...
+[text]: Return ONLY this format:
+Saw [company_name]’s been in [industry/niche] since [year] — clearly [conversational_inference].
+
+How to fill each part:
+
+[industry/niche]
+
+Use the simplest, real-world...
+
+--- FCR £2380.json ---
+[text]: Generate a statement similar to:
+
+Saw [Company] [specific recent announcement/achievement] - [brief positive comment]
+
+Quick question: are you [current hiring situation] or [handling internally]?
+
+...
+
+--- Investment System 101 (Apify → FindyMail → Azure → Instantly.json ---
+[text]: You must return exactly this format:
+Noticed [clean_company_name] helps [job_titles] at [company_type] — I know a few who [pain_description].
+
+Rules:
+- [clean_company_name] = company name WITHOUT ...
+
+--- 1-Click Apollo System To Get Contacts & Generate High Quality 1-1 Connector Copy.blueprint.json ---
+[text]: Strip suffixes like “LLC,” “LTD,” “Inc.,” “Construction,” “Builders,” or “Group.” Use short internal names employees would actually say — e.g., “BCR” instead of “Baker Concrete Construction,” “Turner”...
+[text]: Prompt (Strict Format, No Jargon, No Fluff, Clean Company Name):
+You must return a single sentence in this exact format:
+Noticed [companyName] helps [DreamClient] at [company type/size] — built a co...
+
+--- myoProcess Internal.json ---
+[text]: Given the following input, generate a brief statement similar to this:
+
+‍Happy to see that [company_name] looks a bit different from all the generic/gimmicky [company_category]] companies out there....
+[text]: Hey {{get(split(1.payload.responses.name.value; space); 1)}},
+
+{{8.result}}- should make for an interesting conversation.
+
+Thanks for booking & looking forward to meeting you. Here is our meeting URL ...
+[subject]: {{get(split(1.payload.responses.name.value; space); 1)}}...
+
+--- $4,000 FCR (ASD → PDL → AnymailFinder).blueprint.json ---
+[text]: You must return exactly this format:
+
+Saw you've been [Job Title] at [Company Name] since [Start Year] - kudos for leading [responsibility] at a [Company Age]-year-old company with [Company Size] empl...
+
+--- Getting Recently Funded Clients (using Crunchbase).blueprint.json ---
+[text]: TASK: Fill in funding details
+TEMPLATE: "Saw you guys just closed your [funding round]- congrats on the [funding_amount]."
+
+PERFECT EXAMPLE: Saw you guys just closed your Series A - congrats on the...
+[text]: TASK: Fill in business problem and industry
+TEMPLATE: Looks like you're solving [business_insight] - that's a huge pain point in [industry_space].
+PERFECT EXAMPLE: "Looks like you're solving the inf...
+[text]: TASK: Fill in who they're trying to sell to
+TEMPLATE: Guessing the plan is to use that funding to get in front of more [target_customers]?
+PERFECT EXAMPLE: Guessing the plan is to use that funding t...
+
+--- Arun's System For Client.json ---
+[text]: Normalize the company name {{1.organization_name}} by focusing on its most distinctive and memorable element, as it may be reflected in the company's domain {{1.organization_primary_domain}}, and the ...
+[text]: Follow these rules exactly:
+
+1. Format: congrats on [achievement] with a non-surface level observation.
+2. Main message must be a one line max
+3. "Congrats" must be lower case every single time.
+...
+
+--- High Ticket Sales System.json ---
+[content]: You are a helpful intelligent writing assistant....
+[content]: Normalize the company name {{12.`2`}} by focusing on its most distinctive and memorable element, as it may be reflected in the company's domain {{get(split(12.`6`; "@"); 2)}}, and the person's bio {{1...
+[content]: You are a helpful intelligent writing assistant...
+[content]: Craft a personalized, 2-line outreach icebreaker for a high-achieving CEO, COO, or CFO of a growing B2B company with revenue between $10M–$200M, specifically in the healthcare, legal, accounting, medi...
+[content]: {"firstName":"{{12.`0`}}",
+    "websiteScrapedData":"{{18.text}}",
+    "headline":"{{12.`4`}}",
+    "title":"{{12.`3`}}"
+    "companyName":"{{19.result}}"
+}...
+[content]: {"firstName":"{{12.`0`}}",
+    "headline":"{{12.`4`}}",
+    "title":"{{12.`3`}}"
+    "companyName":"{{23.result}}"
+}...
+... (more found)
+
+--- Sales System (Verify & Enrich).json ---
+[text]: =Normalize the company name  {{ $json.organization_name }} by focusing on its most distinctive and memorable element, as it may be reflected in the company's domain {{ $json.organization_website_url }...
+
+--- myoProcess Intake Call Payment.blueprint.json ---
+[subject]: Next Step: Intake Call & Routing Mandate...
+
+--- FCR $3K Retainer Flow.json ---
+[jsonBody]: ={
+  "campaign": "64a29a43-ffb2-4031-ae7c-2626b07469e3",
+  "email": " {{ $json.email }}",
+  "last_name": "{{ $json.input.full_name.split(' ')[0] }} }}",
+  "first_name": "{{ $json.input.full_name.split...
+
+--- Getting Clients LIVE System.blueprint.json ---
+[text]: Generate a statement similar to:
+
+Got several {ideal_client_type} looking for {their_solution}.
+
+Just connected {similar_company_type} with one and they moved forward quickly.
+
+Worth an intro if {comp...
+
+--- Tech Recruitment FC $3,5K Retainer (Scrape Wellfound & Enrich w-FindyMail).blueprint.json ---
+[text]: You must return exactly this format:
+Saw [company_name] just posted for a [job_title] [timing] - [growth_signal].
+
+Are you handling all the [department] recruitment internally, or open to specialis...
+
+--- SS  Recruitment Industry.json ---
+[text]: Follow these rules exactly:
+
+1. Format: congrats on [achievement] with a non-surface level observation.
+2. Main message must be a one line max
+3. "Congrats" must be lower case every single time.
+...
+[text]: Follow these rules exactly:
+
+1. Format: congrats on [achievement] with a non-surface level observation.
+2. Main message must be a one line max
+3. "Congrats" must be lower case every single time.
+...
+
+--- SS - Web Dev & Companies Hiring.json ---
+[text]: Retrieve the website URL from {{1.website}}, output the finalized result only in the correct JSON:
+
+{"result":website.com"}
+
+Example:
+https://appzoro.com/contact-us
+{"result":appzoro.com"}...
+[text]: Retrieve this person's full name from {{4.data.results[].title}} and their LinkedIn URL {{4.data.results[].url}} typically reflected in the URL and the person's profile information. The goal is to ext...
+[text]: Given the following input, generate a brief statement similar to this
+
+Came across [Company Name] — saw your recent work and thought it made a lot of sense for the kind of [startups/scale-ups/etc.] ...
+[text]: Given the following input, generate a brief statement similar to this
+
+Checking in to see if connecting with companies looking for [AI talent / mobile devs / React developers / web developers / etc....
+[text]: Given the following input, generate a brief statement similar to this
+
+Quick recap — we scrape job boards to find companies hiring for [AI talent / mobile devs / React developers / web developers / ...
+
+--- Watch Instantly → Add to CRM & Reply.json ---
+[text]: You are tasked with categorizing a lead's reply to a sales or marketing communication. Your goal is to determine the lead's level of interest based solely on their response. You will categorize the re...
+[text]: Follow these rules exactly:1. Format: congrats on [achievement] with a non-surface level observation.2. Main message must be a one line max3. "Congrats" must be lower case every single time.4. Numbers...
+[text]: {{27.`Pricing Request`}}...
+[subject]: Hey {{13.lead_data.lastName}}...
+[text]: We are a sales systems agency that builds systems to connect companies with their ideal clients and partners through outbound strategies. We land meetings by finding leads who actually want what they’...
+
+--- SS - E2E Campaign.json ---
+[text]: Normalize the company name {{1.organization.name}} by focusing on its most distinctive and memorable element, as it may be reflected in the company's domain {{2.domain}}, and the person's bio {{1.head...
+[text]: Create a brief, casual congratulatory message that references a specific achievement and adds a personal connection point. Use this format:Congrats on [recent achievement] ([brief industry insight  th...
+[text]: You are a specialized assistant that creates authentic-sounding professional observations that highlight how a company stands out from competitors.Output RequirementsEach message must start with Happy...
+[text]: You are a specialized assistant that creates authentic-sounding professional observations that demonstrate clear understanding of this company's pain points. Each message must be a single sentenceNo e...
+[text]: Generate a P.S. line that mentions if the company would like to connect with their ideal clients more efficiently in the future, you’re always ready to help when the time is right. Keep the tone sligh...
+
+--- FCR $4,4955 System (Biotech Industry, Crunchbase → Anymail Finder & 1-1 Q+1-1 Message.blueprint.json ---
+[text]: You must return a single sentence in this exact format:
+
+Do you need more sensitive biomarker detection for your [research_type]?
+
+Rules:
+- Write like you're talking to a friend
+- Keep it simple ...
+[text]: You must return a single sentence in this exact format:
+Reason I ask - I built a system that connects [company_type] with ultra-sensitive detection platforms for [validation_purpose]. Think [regulato...
+
+--- 1) Get Form Responses ~ Launch System.blueprint.json ---
+[inputBodytaHaRcqil3scbchuI]: {
+    "companySize": [
+        "{{1.fieldsById.question_K1N2jM}}"
+    ],
+    "locations": [
+        "{{1.fieldsById.question_Lpqx2G}}"
+    ],
+    "maxItems": {{1.fieldsById.question_1VgQJM}},
+...
+
+--- FCR €1500.blueprint.json ---
+[text]: Return the website URL as in website.co.uk or .com
+
+Don't include www. or http
+
+Here's an example:
+
+https://www.mirror.co.uk/
+
+You return:
+mirror.co.uk
+
+Don't include anything else but the end result....
+[text]: "Generate a brief compliment for {{3.data.data[].job_company_name}}, a digital publisher in {{3.data.data[].job_company_location_name}}. Start with 'congrats on' and keep it under 10 words. Examples: ...
+
+--- $2,K Project SS (Lead Generation Project).json ---
+[text]: Normalize the company name  {{1.investor_identifiers[].value}} by focusing on its most distinctive and memorable element, 
+The goal is to identify the standout part of the name, typically the first no...
+[text]: Normalize the company name  {{2.contact.company}} by focusing on its most distinctive and memorable element, 
+The goal is to identify the standout part of the name, typically the first noun, while dis...
+[text]: Given the following input, generate a brief statement similar to this:Target Outcome: Generate an outreach message similar to:
+‍Happy to see that [company_name] looks a bit different from all the gene...
+[text]: Create a P.S. line that:1. Starts with "Really impressed by how [company_name]"2. References their core mission using their own words3. Includes 1 example of their impact
+ Maximum 1 line total- No mul...
+[text]: Generate one subject line that feels like they could be the subject lines of an internal email—this helps them feel natural in the inbox. For example, “Quick question”, or “Idea for better outbound” a...
+[text]: Generate one subject line that feels like they could be the subject lines of an internal email—this helps them feel natural in the inbox. For example, “Quick question”, or “Idea for better outbound” a...
+... (more found)
+
+--- FCR $6,000 (PIF Fulfilment).blueprint.json ---
+[text]: Classify this financial advisory firm as either "independent" or "big_firm".
+
+BIG FIRMS include major wirehouses and large national firms like:
+- Wells Fargo Advisors, Merrill Lynch, Edward Jones, ...
+[text]: Strip suffixes like “LLC,” “LTD,” “Inc.,” “Construction,” “Builders,” or “Group.” Use short internal names employees would actually say — e.g., “BCR” instead of “Baker Concrete Construction,” “Turner”...
+[text]: Generate a statement within the brackets similar to:
+
+[Saw you've been building your firm in [state] for [yearsExperience]+ years - that's solid market knowledge.]
+
+
+End result example:
+Saw you've bee...

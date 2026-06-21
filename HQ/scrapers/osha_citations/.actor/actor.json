@@ -1,0 +1,9 @@
+{
+  "actorSpecification": 1,
+  "name": "osha_citations-scraper",
+  "title": "osha_citations Scraper",
+  "version": "1.0",
+  "buildTag": "latest",
+  "environmentVariables": {},
+  "dockerfile": "./Dockerfile"
+}

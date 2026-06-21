@@ -1,0 +1,31 @@
+YOUR API KEYS — fill these in locally. NONE are shipped in this folder.
+============================================================
+Keep this file private. Never commit real keys to git or share them.
+
+INSTANTLY
+- API key:  <YOUR_INSTANTLY_API_KEY>
+- Used for: Super Search enrichment, campaigns, leads, follow-ups, email verification.
+- Connect the Instantly MCP in Claude Code with this key (see playbooks/instantly-mcp.md).
+- Scripts read it from:  ~/.config/instantly/api_key   (or env INSTANTLY_KEY)
+
+EMAIL VERIFIER / FINDER (optional fallback for demand)
+- AnyMail Finder API key:  <YOUR_AMF_KEY>
+- Verify endpoint: POST https://api.anymailfinder.com/v5.1/verify-email
+  header: Authorization: <YOUR_AMF_KEY>   body: {"email":"..."}
+
+B2B ENRICHMENT (optional, mainly for supply — Instantly native usually covers it)
+- Apollo API key:  <YOUR_APOLLO_KEY>
+- Note: send a real browser User-Agent on Apollo people/match calls or you'll get 403.
+
+PUBLIC DATA SOURCES (no key needed for most)
+- FMCSA / DOT:  data.transportation.gov  (SODA API) + safer.fmcsa.dot.gov
+- EPA:          echo.epa.gov
+- DOL:          enforcedata.dol.gov
+- Cross-agency: violationtracker.goodjobsfirst.org
+- Signals (optional): PredictLeads, etc.
+
+SETUP
+1) Put your Instantly key at ~/.config/instantly/api_key
+2) Fill any optional keys above.
+3) Connect the Instantly MCP in Claude Code.
+4) Open this folder in Claude Code and say what you want to build.

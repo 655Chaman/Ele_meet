@@ -1,0 +1,712 @@
+{
+  "name": "High Ticket SS ApolloFlow",
+  "nodes": [
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/code_crafter~apollo-io-scraper/runs?token=YOUR_APIFY_TOKEN",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "webhooks",
+              "value": "W3siZXZlbnRUeXBlcyI6WyJBQ1RPUi5SVU4uU1VDQ0VFREVEIl0sInJlcXVlc3RVcmwiOiJodHRwczovL3g0NDQuYXBwLm44bi5jbG91ZC93ZWJob29rL2UyM2Y3OWFmLTdkYzMtNGE3OC1hZjkzLTMzNmEwYWZjNDU4NCJ9XQ0K"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"cleanOutput\": true,\n  \"totalRecords\": {{ $json[\"*How many leads are we scraping? *\"] }},\n  \"url\": \"{{ $json['*Search URL input*'] }}\"\n}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -16,
+        -400
+      ],
+      "id": "5fe4f0a8-3b33-4da1-bb90-f5b423a17457",
+      "name": "Run Scraper"
+    },
+    {
+      "parameters": {
+        "formId": "KnT9K8sh"
+      },
+      "type": "n8n-nodes-base.typeformTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        -400,
+        -400
+      ],
+      "id": "c55d421b-a548-400c-8632-e57a527f24b1",
+      "name": "Wait for Data",
+      "webhookId": "c5e2cdbf-6ffa-4074-9360-1f06cd36dc51",
+      "credentials": {
+        "typeformApi": {
+          "id": "GqgKuWizD3630QiI",
+          "name": "Typeform account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "e23f79af-7dc3-4a78-af93-336a0afc4584",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -416,
+        -16
+      ],
+      "id": "5fb34355-acc1-4b90-b972-558246fb5b5a",
+      "name": "Webhook",
+      "webhookId": "e23f79af-7dc3-4a78-af93-336a0afc4584"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.apify.com/v2/datasets/{{ $json.body.resource.defaultDatasetId }}/items",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -224,
+        -16
+      ],
+      "id": "cfa2a0b9-5f00-46b6-8b12-01079da14558",
+      "name": "Get Data from Apify"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "bcc3b495-89c4-4646-b36c-c3b4c7c5c1c5",
+              "leftValue": "={{ $json.email }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "exists",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [
+        -16,
+        -16
+      ],
+      "id": "94ab2415-1ad9-43e7-be7e-0a672abb1f62",
+      "name": "Filter Missing Emails"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anymailfinder.com/v5.1/verify-email",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "CsFrpuMDKgA0IZwMr5nVVWb7"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\"email\": \"{{ $json.email }}\"}",
+        "options": {
+          "batching": {
+            "batch": {
+              "batchInterval": 300
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        240,
+        96
+      ],
+      "id": "df6804c2-617b-42f4-90b2-d05e34eb5fbb",
+      "name": "Verify Email"
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "advanced": true,
+        "mergeByFields": {
+          "values": [
+            {
+              "field1": "email",
+              "field2": "input.email"
+            }
+          ]
+        },
+        "options": {
+          "multipleMatches": "all"
+        }
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        464,
+        0
+      ],
+      "id": "632bcf1a-624b-4577-8311-5af6eb2351c2",
+      "name": "Combine Data"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "49d4bbc4-6960-4dbb-bb06-293218739f57",
+              "leftValue": "={{ $('Verify Email').item.json.email_status }}",
+              "rightValue": "valid",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [
+        672,
+        0
+      ],
+      "id": "f8ded481-b419-4032-b35e-bda15f43e610",
+      "name": "Remove Invalid"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Normalize the company name {{ $json.organization_name }}\nby keeping only its most distinctive, memorable element. Use hints from the domain {{ $json.organization_website_url }} and the company’s LinkedIn  {{ $json.organization_linkedin_url }} to guide your choice.\n\nFocus on the first distinctive noun and remove generic terms.\nPreserve original capitalization and spacing.\n\nOutput only the final casual abbreviation employees might actually use. No explanations.",
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        912,
+        0
+      ],
+      "id": "40cd9dcd-7b18-4acf-bc33-4fef5065d7ed",
+      "name": "Basic LLM Chain"
+    },
+    {
+      "parameters": {
+        "model": "gpt-4o",
+        "options": {
+          "maxTokens": 3060
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatAzureOpenAi",
+      "typeVersion": 1,
+      "position": [
+        816,
+        208
+      ],
+      "id": "7b9ec55b-d373-444e-bc90-118c5ae9411d",
+      "name": "Azure OpenAI Chat Model",
+      "credentials": {
+        "azureOpenAiApi": {
+          "id": "Ccd7TzBLFd9rbqhw",
+          "name": "Azure Open AI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "gpt-4o",
+        "options": {
+          "maxTokens": 3060
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatAzureOpenAi",
+      "typeVersion": 1,
+      "position": [
+        1376,
+        208
+      ],
+      "id": "157522ca-e489-4dd9-990a-c593ec0f7271",
+      "name": "Azure OpenAI Chat Model1",
+      "credentials": {
+        "azureOpenAiApi": {
+          "id": "Ccd7TzBLFd9rbqhw",
+          "name": "Azure Open AI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Generate output exactly in the following two-sentence format:\n\nSaw [companyName] helps [targetAudience] with [coreBenefit].\n\nThink warm intros to [idealProspectTitles] could help?\n\nExample:\n\nSaw The Curve helps police leaders bring in fresh ideas.\n\nThink warm intros to police chiefs and department heads could help?\n\nRules:\n\nOnly replace placeholders with plain terms from the provided company data.\n\nDo not add adjectives.\n\nDo not reword or expand.\n\nDo not change sentence structure.\n\nOutput must match the format exactly — two sentences, line break in between.\n\nCompany data: \n{{ $('Combine Data').item.json.organization_short_description }}\n{{ $('Combine Data').item.json.organization_seo_description }}",
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        1312,
+        0
+      ],
+      "id": "0bae04aa-2394-4770-b135-4e5144754c47",
+      "name": "Copy"
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "1W-veHrb1g6gnh5uzX4Q6YbRmjBl43w4A6Ht7AlN6RMM",
+          "mode": "list",
+          "cachedResultName": "Standalone Apify Sheet",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1W-veHrb1g6gnh5uzX4Q6YbRmjBl43w4A6Ht7AlN6RMM/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1W-veHrb1g6gnh5uzX4Q6YbRmjBl43w4A6Ht7AlN6RMM/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Email": "={{ $('Combine Data').item.json.email }}",
+            "First Name": "={{ $('Combine Data').item.json.first_name }}",
+            "Last Name": "={{ $('Combine Data').item.json.last_name }}",
+            "Company Name": "={{ $('Basic LLM Chain').item.json.text }}",
+            "Personal LinkedIn": "={{ $('Combine Data').item.json.linkedin_url }}",
+            "Person Headline": "={{ $('Combine Data').item.json.headline }}",
+            "Person Title": "={{ $('Combine Data').item.json.title }}",
+            "Website URL": "={{ $('Combine Data').item.json.organization_primary_domain }}",
+            "Company LinkedIn": "={{ $('Combine Data').item.json.organization_linkedin_url }}",
+            "AF Method": "={{ $json.text }}"
+          },
+          "matchingColumns": [
+            "Email"
+          ],
+          "schema": [
+            {
+              "id": "Email",
+              "displayName": "Email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "First Name",
+              "displayName": "First Name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Last Name",
+              "displayName": "Last Name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Company Name",
+              "displayName": "Company Name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Personal LinkedIn",
+              "displayName": "Personal LinkedIn",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Person Headline",
+              "displayName": "Person Headline",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Person Title",
+              "displayName": "Person Title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Website URL",
+              "displayName": "Website URL",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Company LinkedIn",
+              "displayName": "Company LinkedIn",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "AF Method",
+              "displayName": "AF Method",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.6,
+      "position": [
+        1664,
+        0
+      ],
+      "id": "d235b3a3-72b9-4969-9eca-4f846853c3f4",
+      "name": "Append or update row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "exTaeN0I9tojCmeJ",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "return items.map(item => {\n  const data = item.json;\n\n  return {\n    json: {\n      campaign: \"7cd8b358-b9f8-4ad3-b407-d10738b4bb8f\",\n      email: data.Email,\n      first_name: data[\"First Name\"],\n      last_name: data[\"Last Name\"],\n      company_name: data[\"Company Name\"],\n      website: data[\"Website URL\"] || \"\",\n      personalization: data[\"AF Method\"], // <-- keep line breaks\n      skip_if_in_campaign: true\n    }\n  };\n});\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1872,
+        0
+      ],
+      "id": "b9294259-49c1-4247-9ede-a9afcd481e57",
+      "name": "Code"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.instantly.ai/api/v2/leads",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2448,
+        16
+      ],
+      "id": "14239a14-6fd2-4f74-9547-e135d1fa5331",
+      "name": "Add to Instantly",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "W5XLBTmJNV2RXLhC",
+          "name": "Instantly Lead Gen"
+        }
+      },
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "batchSize": 300,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        2128,
+        0
+      ],
+      "id": "17069572-895b-44e7-938c-6ec03e8e7ec7",
+      "name": "Loop Over Items"
+    },
+    {
+      "parameters": {
+        "content": "## STEP 1",
+        "height": 224,
+        "width": 624
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -448,
+        -448
+      ],
+      "typeVersion": 1,
+      "id": "38b8f7d6-82f8-4d05-affe-da866f8d404e",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "## STEP 2",
+        "height": 608,
+        "width": 3136
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -432,
+        -128
+      ],
+      "typeVersion": 1,
+      "id": "c3c70686-cd35-4d28-923f-ea09711231cd",
+      "name": "Sticky Note1"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Wait for Data": {
+      "main": [
+        [
+          {
+            "node": "Run Scraper",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Get Data from Apify",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Data from Apify": {
+      "main": [
+        [
+          {
+            "node": "Filter Missing Emails",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter Missing Emails": {
+      "main": [
+        [
+          {
+            "node": "Verify Email",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Combine Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Verify Email": {
+      "main": [
+        [
+          {
+            "node": "Combine Data",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Combine Data": {
+      "main": [
+        [
+          {
+            "node": "Remove Invalid",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Remove Invalid": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Azure OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Basic LLM Chain": {
+      "main": [
+        [
+          {
+            "node": "Copy",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Azure OpenAI Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Copy",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Copy": {
+      "main": [
+        [
+          {
+            "node": "Append or update row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Append or update row in sheet": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Add to Instantly",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Add to Instantly": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "20775884-cce2-49b0-809f-83391202734e",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "0d842ccb9a0d18286728c9c2585bafe463a9bfd32a73cc76b2c70c5126df0a45"
+  },
+  "id": "ZuNQ7avOj1v7Jx08",
+  "tags": [
+    {
+      "createdAt": "2025-08-19T08:02:01.176Z",
+      "updatedAt": "2025-08-19T08:02:01.176Z",
+      "id": "Txyp8LexL689Eorg",
+      "name": "Power"
+    }
+  ]
+}
